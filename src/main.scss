@@ -1,0 +1,57 @@
+/**************COLORS**********************************/
+//NAVBAR
+$navbar-gray:#3a3a3a;
+//BACKGROUND
+$background-dark-beige: #DEC7B0;
+$background-light-beige-: rgba(222,199,176,0.6);
+$background-white: #f1f1f1;
+//FONT
+$h1-black: #1a1a1a;
+$h2-black: #1a1a1a;
+$h3-black: #1a1a1a;
+$p-black:#2a2a2a;
+$b-red: #F55065;
+$p-white: #f1f1f1;
+//CARD
+$card-yellow: #EEBA4C;
+$card-red: #E3493B;
+$card-grayBlue: rgba(88, 103, 133, 1);
+$card-turquoise: #A9DDD9;
+$card-white: #f8f8f8;
+//BUTTON
+$button-red: #F55065;
+//FOOTER
+$footer-black: #1a1a1a;
+
+/**************RADIUS**********************************/
+//CARD
+$card-radius:2px;
+
+/**************SHADOWS**********************************/
+//CARD
+$card-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+/************* FONTS *****************************************************/
+//$h1-size: 2.8em;
+//$h2-size: 1.5em;
+$p-size: 16px;
+$h3-size: 1.17em;
+$h-font-family: Raleway, sans-serif;
+$h-font-weight: 500;
+$p-font-family: Raleway, sans-serif;
+
+h1{
+  font-family: $h-font-family;
+  font-weight: $h-font-weight;
+}
+h2{
+  font-family: $h-font-family;
+  font-weight: $h-font-weight;
+}
+h3{
+  font-family: $h-font-family;
+  font-weight: $h-font-weight;
+}
+p{
+  font-family: $p-font-family;
+}

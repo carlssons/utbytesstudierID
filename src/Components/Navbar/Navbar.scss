@@ -1,0 +1,18 @@
+@import '../../main.scss';
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: $p-size;
+  color: $p-black;
+
+    &:hover{
+      color: $b-red;
+    }
+}
