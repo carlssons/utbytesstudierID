@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.scss';
 
+
 class Navbar extends Component{
   constructor(props){
     super(props);
@@ -10,14 +11,17 @@ class Navbar extends Component{
   }
 
   render(){
-    return(
-      <nav className="Navigation">
-        <Link to="/">HOME</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/contact">CONTACT</Link>
-      </nav>
-    );
+
+      return(
+        <nav className="desktopNavigation">
+          <Link class="navLink" to="/">Hem</Link>
+          <Link class="navLink" to="/about">Intervjuer</Link>
+          <Link class="navLink" to="/avtal">Avtal</Link>
+          <Link class="navLink" to="/efterResan">Efter resan</Link>
+          <Link class="navLink" to="/faq">FAQ</Link>
+        </nav>
+      );
   }
 }
-
+//export default Navbar;
 export default Navbar;

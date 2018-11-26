@@ -1,18 +1,10 @@
 @import '../../main.scss';
 
-nav{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.navLink{
+  @include font-nav-link;
 }
-a{
-  text-decoration: none;
-  padding: 20px;
-  font-size: $p-size;
-  color: $p-black;
+.desktopNavigation{
+  background-color: $color-blue;
+  height: 50%;
 
-    &:hover{
-      color: $b-red;
-    }
 }
