@@ -15,7 +15,7 @@ class Navbar extends Component{
       return(
         <nav className="desktopNavigation">
           <Link class="navLink" to="/">Hem</Link>
-          <Link class="navLink" to="/about">Intervjuer</Link>
+          <Link class="navLink" to="/intervjuer">Intervjuer</Link>
           <Link class="navLink" to="/avtal">Avtal</Link>
           <Link class="navLink" to="/efterResan">Efter resan</Link>
           <Link class="navLink" to="/faq">FAQ</Link>

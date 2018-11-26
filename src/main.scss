@@ -144,7 +144,7 @@ $font-nav-link-text-align: left;
 $font-nav-link-color: #ffffff;
 $font-nav-link-letter-spacing: 0.64px;
 $font-nav-link-font-style: normal;
-$font-nav-link-font-weight: bold;
+//$font-nav-link-font-weight: bold;
 $font-nav-link-font-family: Roboto;
 
 @mixin font-nav-link () {
@@ -154,7 +154,7 @@ $font-nav-link-font-family: Roboto;
   color: $font-nav-link-color;
   letter-spacing: $font-nav-link-letter-spacing;
   font-style: $font-nav-link-font-style;
-  font-weight: $font-nav-link-font-weight;
+  //font-weight: $font-nav-link-font-weight;
   font-family: $font-nav-link-font-family;
   text-decoration: none;
 }
