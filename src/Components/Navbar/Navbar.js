@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './Navbar.scss';
 
 
+
 class Navbar extends Component{
   constructor(props){
     super(props);
@@ -14,11 +15,23 @@ class Navbar extends Component{
 
       return(
         <nav className="desktopNavigation">
-          <Link class="navLink" to="/">Hem</Link>
-          <Link class="navLink" to="/intervjuer">Intervjuer</Link>
-          <Link class="navLink" to="/avtal">Avtal</Link>
-          <Link class="navLink" to="/efterResan">Efter resan</Link>
-          <Link class="navLink" to="/faq">FAQ</Link>
+          <Link className="navLink" to="/">Hem</Link>
+          <div className="dropDown">
+            <div className="navLink" id="intervjuerLink">
+              <Link to="/intervjuer">Intervjuer</Link>
+              <img id="arrowDown" src="./icons/arrowDown.svg" alt="arrow"></img>
+            </div>
+            <div id="dropDownContent">
+              <Link to="/">Afrika</Link>
+              <Link to="/">Asien</Link>
+              <Link to="/">Europa</Link>
+              <Link to="/">Nordamerika</Link>
+              <Link to="/">Oceanien</Link>
+            </div>
+          </div>
+          <Link className="navLink" to="/avtal">Avtal</Link>
+          <Link className="navLink" to="/efterResan">Efter resan</Link>
+          <Link className="navLink" to="/faq">FAQ</Link>
         </nav>
       );
   }
