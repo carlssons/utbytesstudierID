@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import './App.scss';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar.js';
-import Avtal from './Components/Avtal/Avtal.js';
-import EfterResa from './Components/EfterResa/EfterResa.js';
-import Intervjuer from './Components/Intervjuer/Intervjuer.js';
-import FAQ from './Components/FAQ/FAQ.js';
-import Home from './Components/Home/Home.js';
-import './main.scss';
+import React, { Component } from "react";
+import "./App.scss";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar.js";
+import Avtal from "./Components/Avtal/Avtal.js";
+import EfterResa from "./Components/EfterResa/EfterResa.js";
+import Intervjuer from "./Components/Intervjuer/Intervjuer.js";
+import FAQ from "./Components/FAQ/FAQ.js";
+import Home from "./Components/Home/Home.js";
+import Footer from "./Components/Footer/Footer.js";
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <Navbar/>
+            <Navbar />
           </header>
           <div>
             <Route exact path="/" component={Home} />
@@ -24,6 +24,7 @@ class App extends Component {
             <Route exact path="/efterResa" component={EfterResa} />
             <Route exact path="/faq" component={FAQ} />
           </div>
+          <Footer />
         </div>
       </Router>
     );
