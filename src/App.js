@@ -8,7 +8,6 @@ import Intervjuer from './Components/Intervjuer/Intervjuer.js';
 import InforResa from './Components/InforResa/InforResa.js';
 import FAQ from './Components/FAQ/FAQ.js';
 import Home from './Components/Home/Home.js';
-import './main.scss';
 import SideDrawer from './Components/SideDrawer/SideDrawer.js';
 import Backdrop from './Components/Backdrop/Backdrop.js';
 import Footer from "./Components/Footer/Footer.js";
@@ -51,7 +50,7 @@ class App extends Component {
         <header className="App-header">
           {/* The navbar will always be visible */}
           <Navbar drawerClickHandler={this.drawerToggleClickHandler}/> {/*Side drawer for mobile menu. Will open when DrawerToggleButton
-              is clicked.*/
+                is clicked.*/
           }
           <SideDrawer show={this.state.sideDrawerOpen}/> {/* if the side drawer is open the backdrop will show. */}
           {backdrop}
