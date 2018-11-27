@@ -1,0 +1,12 @@
+@import "../../main";
+
+footer {
+  background-color: $color-blue;
+  display: flex;
+  justify-content: center;
+}
+.p-footer {
+  @include font-footer-text;
+  padding: 20px;
+  margin: 0;
+}

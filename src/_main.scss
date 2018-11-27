@@ -23,7 +23,7 @@ $font-button-text-font-style: normal;
 $font-button-text-font-weight: bold;
 $font-button-text-font-family: Roboto;
 
-@mixin font-button-text () {
+@mixin font-button-text() {
   font-size: $font-button-text-font-size;
   line-height: $font-button-text-line-height;
   text-align: $font-button-text-text-align;
@@ -43,7 +43,7 @@ $font-footer-text-font-style: normal;
 $font-footer-text-font-weight: 400;
 $font-footer-text-font-family: Helvetica;
 
-@mixin font-footer-text () {
+@mixin font-footer-text() {
   font-size: $font-footer-text-font-size;
   line-height: $font-footer-text-line-height;
   text-align: $font-footer-text-text-align;
@@ -63,7 +63,7 @@ $font-h-1-font-style: normal;
 $font-h-1-font-weight: bold;
 $font-h-1-font-family: Raleway;
 
-@mixin font-h-1 () {
+@mixin font-h-1() {
   font-size: $font-h-1-font-size;
   line-height: $font-h-1-line-height;
   text-align: $font-h-1-text-align;
@@ -84,7 +84,7 @@ $font-h-2-font-style: normal;
 $font-h-2-font-weight: 600;
 $font-h-2-font-family: Raleway;
 
-@mixin font-h-2 () {
+@mixin font-h-2() {
   font-size: $font-h-2-font-size;
   line-height: $font-h-2-line-height;
   text-align: $font-h-2-text-align;
@@ -105,7 +105,7 @@ $font-h-3-font-style: normal;
 $font-h-3-font-weight: 500;
 $font-h-3-font-family: Roboto;
 
-@mixin font-h-3 () {
+@mixin font-h-3() {
   font-size: $font-h-3-font-size;
   line-height: $font-h-3-line-height;
   text-align: $font-h-3-text-align;
@@ -126,7 +126,7 @@ $font-icon-text-font-style: normal;
 $font-icon-text-font-weight: 400;
 $font-icon-text-font-family: Roboto;
 
-@mixin font-icon-text () {
+@mixin font-icon-text() {
   font-size: $font-icon-text-font-size;
   line-height: $font-icon-text-line-height;
   text-align: $font-icon-text-text-align;
@@ -147,7 +147,7 @@ $font-nav-link-font-style: normal;
 //$font-nav-link-font-weight: bold;
 $font-nav-link-font-family: Roboto;
 
-@mixin font-nav-link () {
+@mixin font-nav-link() {
   font-size: $font-nav-link-font-size;
   line-height: $font-nav-link-line-height;
   text-align: $font-nav-link-text-align;
@@ -169,7 +169,7 @@ $font-nav-link-active-font-style: normal;
 $font-nav-link-active-font-weight: bold;
 $font-nav-link-active-font-family: Roboto;
 
-@mixin font-nav-link-active () {
+@mixin font-nav-link-active() {
   font-size: $font-nav-link-active-font-size;
   line-height: $font-nav-link-active-line-height;
   text-align: $font-nav-link-active-text-align;
@@ -190,7 +190,7 @@ $font-quote-text-font-style: italic;
 $font-quote-text-font-weight: 400;
 $font-quote-text-font-family: Roboto;
 
-@mixin font-quote-text () {
+@mixin font-quote-text() {
   font-size: $font-quote-text-font-size;
   line-height: $font-quote-text-line-height;
   text-align: $font-quote-text-text-align;
@@ -211,7 +211,7 @@ $font-subtitle-font-style: normal;
 $font-subtitle-font-weight: 400;
 $font-subtitle-font-family: Roboto;
 
-@mixin font-subtitle () {
+@mixin font-subtitle() {
   font-size: $font-subtitle-font-size;
   line-height: $font-subtitle-line-height;
   text-align: $font-subtitle-text-align;
@@ -232,7 +232,7 @@ $font-text-link-font-style: normal;
 $font-text-link-font-weight: bold;
 $font-text-link-font-family: Roboto;
 
-@mixin font-text-link () {
+@mixin font-text-link() {
   font-size: $font-text-link-font-size;
   line-height: $font-text-link-line-height;
   text-align: $font-text-link-text-align;

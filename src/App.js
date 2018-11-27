@@ -11,6 +11,7 @@ import Home from './Components/Home/Home.js';
 import './main.scss';
 import SideDrawer from './Components/SideDrawer/SideDrawer.js';
 import Backdrop from './Components/Backdrop/Backdrop.js';
+import Footer from "./Components/Footer/Footer.js";
 
 class App extends Component {
   state = {
@@ -63,6 +64,7 @@ class App extends Component {
           <Route exact="exact" path="/tillgodoraknande" component={Tillgodoraknande}/>
           <Route exact="exact" path="/faq" component={FAQ}/>
         </div>
+        <Footer/>
       </div>
     </Router>);
   }
