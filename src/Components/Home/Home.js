@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Home.scss";
+import HeroSection from "../HeroSection/HeroSection.js";
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -7,7 +9,11 @@ class Home extends Component {
   }
 
   render() {
-    return <div />;
+    return (
+      <div>
+        <HeroSection />
+      </div>
+    );
   }
 }
 
