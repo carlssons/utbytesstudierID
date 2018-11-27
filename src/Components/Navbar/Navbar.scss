@@ -1,11 +1,19 @@
 @import '../../main.scss';
 
-.desktopNavigation{
+.Navbar{
   background-color: $color-blue;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  @media screen and(min-width: $break-medium){
+    justify-content: flex-end;
+  }
+
+.DesktopMenuOptions{
+  @media screen and(max-width: $break-medium){
+    display: none;
+  }
   .navLink{
     @include font-nav-link;
     a{
@@ -45,7 +53,6 @@
         }
       }
     }
-
     &:hover{
       #dropDownContent{
         display: block;
@@ -54,4 +61,5 @@
       }
     }
   }
+}
 }

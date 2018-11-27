@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
+import './Tillgodoraknande.scss';
 
-import './EfterResa.scss';
-
-class EfterResa extends Component{
+class Tillgodoraknande extends Component{
   constructor(props){
     super(props);
     this.state = {};
@@ -12,10 +11,10 @@ class EfterResa extends Component{
   render(){
     return(
       <div>
-        <h1>Efter resa</h1>
+        <h1>Tillgodoräknande</h1>
       </div>
     );
   }
 }
 
-export default EfterResa;
+export default Tillgodoraknande;
