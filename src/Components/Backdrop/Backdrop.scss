@@ -7,7 +7,7 @@
   z-index: 120;
   top:0;
   left:0;
-  @media screen and(min-width: $break-medium){
+  @media screen and(min-width: $break-medium + 1){
     display: none;
   }
 }

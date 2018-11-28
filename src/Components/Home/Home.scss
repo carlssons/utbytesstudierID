@@ -1,15 +1,22 @@
 @import "../../main";
 
-.quote-container {
-  background-color: $color-blue;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  .quote-box {
+.home {
+  .quote-container {
+    background-color: $color-blue;
+    width: 100%;
     display: flex;
-    width: 90%;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    .quote-box {
+      display: flex;
+      width: 90%;
+      flex-wrap: wrap;
+    }
+
+    .instagram-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }

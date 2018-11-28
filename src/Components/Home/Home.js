@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Home.scss";
 import HeroSection from "../HeroSection/HeroSection.js";
 import HeroQuotes from "../HeroQuotes/HeroQuotes.js";
+import InstagramSection from "../InstagramSection/InstagramSection.js";
 
 class Home extends Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="home">
         <HeroSection />
         <div className="quote-container">
           <div className="quote-box">
@@ -45,6 +46,9 @@ class Home extends Component {
               return <HeroQuotes key={index} content={element} />;
             })}
           </div>
+        </div>
+        <div className="instagram-box">
+          <InstagramSection />
         </div>
       </div>
     );
