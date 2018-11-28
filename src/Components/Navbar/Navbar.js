@@ -8,7 +8,7 @@ const Navbar = props => (
 
           <nav className="Navbar">
             {/*The mobile menu. Is only displayed on mobile screen*/}
-            <DrawerToggleButton click={props.drawerClickHandler}/>
+            <DrawerToggleButton className="MobileMenuOptions" click={props.drawerClickHandler}/>
 
             {/*The desktop menu. Is only displayed screens larger then mobile*/}
             <div className="DesktopMenuOptions">

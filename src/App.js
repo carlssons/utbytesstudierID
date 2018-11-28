@@ -41,16 +41,14 @@ class App extends Component {
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
-
     return (
       <Router>
         <div className="App">
           <header className="App-header">
             {/* The navbar will always be visible */}
-            <Navbar drawerClickHandler={this.drawerToggleClickHandler} />{" "}
-            {/*Side drawer for mobile menu. Will open when DrawerToggleButton
-                is clicked.*/}
-            <SideDrawer show={this.state.sideDrawerOpen} />{" "}
+            <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
+            {/*Side drawer for mobile menu. Will open when DrawerToggleButton is clicked.*/}
+            <SideDrawer show={this.state.sideDrawerOpen} />
             {/* if the side drawer is open the backdrop will show. */}
             {backdrop}
           </header>
