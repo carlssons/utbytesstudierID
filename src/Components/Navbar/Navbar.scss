@@ -1,6 +1,6 @@
-@import '../../main.scss';
+@import "../../main.scss";
 
-.Navbar{
+.Navbar {
   background-color: $color-blue;
   display: flex;
   flex-direction: row;
@@ -10,66 +10,65 @@
   top: 0;
   width: 100%;
   z-index: 150;
-  @media screen and(min-width: $break-medium){
+  @media screen and(min-width: $break-medium) {
     justify-content: flex-end;
   }
-  @media screen and(max-width: $break-medium){
+  @media screen and(max-width: $break-medium) {
     justify-content: flex-start;
   }
-.MobileMenuOptions{
-
-}
-
-.DesktopMenuOptions{
-  @media screen and(max-width: $break-medium){
-    display: none;
+  .MobileMenuOptions {
   }
-  .navLink{
-    @include font-nav-link;
-    a{
-      @include font-nav-link;
-    }
-    padding: 20px;
-  }
-  #intervjuerLink{
-    display: flex;
-    align-items: center;
-    #arrowDown{
-      width: 12px;
-      padding:3px 0 0 6px;
-    }
-  }
-  .dropDown{
-    position: relative;
-    display: inline-block;
 
-    #dropDownContent{
+  .DesktopMenuOptions {
+    @media screen and(max-width: $break-medium) {
       display: none;
-      position: absolute;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      min-width: 160px;
-      z-index: 1;
-      background-color: $color-blue;
-      border-top: 1px solid white;
-      //padding: 10px 0;
-      //margin-top: 17px;
-
-      a{
+    }
+    .navLink {
+      @include font-nav-link;
+      a {
         @include font-nav-link;
-        padding: 15px 20px;
-        &:hover{
-          opacity:1;
-          background-color: rgba(255, 255, 255, 0.3);
+      }
+      padding: 20px;
+    }
+    #intervjuerLink {
+      display: flex;
+      align-items: center;
+      #arrowDown {
+        width: 12px;
+        padding: 3px 0 0 6px;
+      }
+    }
+    .dropDown {
+      position: relative;
+      display: inline-block;
+
+      #dropDownContent {
+        display: none;
+        position: absolute;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        min-width: 160px;
+        z-index: 1;
+        background-color: $color-blue;
+        border-top: 1px solid white;
+        //padding: 10px 0;
+        //margin-top: 17px;
+
+        a {
+          @include font-nav-link;
+          padding: 15px 20px;
+          &:hover {
+            opacity: 1;
+            background-color: rgba(255, 255, 255, 0.3);
+          }
+        }
+      }
+      &:hover {
+        #dropDownContent {
+          display: block;
+          display: flex;
+          flex-direction: column;
         }
       }
     }
-    &:hover{
-      #dropDownContent{
-        display: block;
-        display: flex;
-        flex-direction: column;
-      }
-    }
   }
-}
 }
