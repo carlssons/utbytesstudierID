@@ -1,0 +1,15 @@
+@import "../../main";
+
+.quote-container {
+  background-color: $color-blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .quote-box {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

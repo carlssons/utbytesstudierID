@@ -1,0 +1,39 @@
+@import "../../main";
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  margin: 50px 20px;
+  .quote-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+  }
+  .quote-text {
+    padding: 0 30px;
+    #quote {
+      margin-top: 0;
+      @include font-quote-text;
+    }
+    #quote-info {
+      @include font-regular-text;
+    }
+    #interview-link {
+      @include font-text-link;
+    }
+    @media screen and(max-width: $break-small) {
+      padding: 0;
+      text-align: center;
+    }
+  }
+  @media screen and(max-width: $break-medium + 122) {
+    width: 90%;
+  }
+  @media screen and(max-width: $break-small) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}

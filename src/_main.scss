@@ -7,7 +7,7 @@ $color-background-white: #f8f8f8;
 $color-black: #11120e;
 $color-blue: #0f1833;
 $color-peach: #ff9e7b;
-$color-text-white: #ffffff;
+$color-text-white: #dbdbdb;
 
 /*
     Font Styles:
@@ -17,7 +17,7 @@ $color-text-white: #ffffff;
 $font-button-text-font-size: 16px;
 $font-button-text-line-height: normal;
 $font-button-text-text-align: center;
-$font-button-text-color: #ffffff;
+$font-button-text-color: #ffff;
 $font-button-text-letter-spacing: 1.6px;
 $font-button-text-font-style: normal;
 $font-button-text-font-weight: bold;
@@ -38,7 +38,7 @@ $font-button-text-font-family: Roboto;
 $font-footer-text-font-size: 16px;
 $font-footer-text-line-height: normal;
 $font-footer-text-text-align: center;
-$font-footer-text-color: #ffffff;
+$font-footer-text-color: $color-text-white;
 $font-footer-text-font-style: normal;
 $font-footer-text-font-weight: 400;
 $font-footer-text-font-family: Helvetica;
@@ -57,7 +57,7 @@ $font-footer-text-font-family: Helvetica;
 $font-h-1-font-size: 45px;
 $font-h-1-line-height: 43px;
 $font-h-1-text-align: center;
-$font-h-1-color: #ffffff;
+$font-h-1-color: #ffff;
 $font-h-1-letter-spacing: 4.5px;
 $font-h-1-font-style: normal;
 $font-h-1-font-weight: bold;
@@ -73,9 +73,9 @@ $font-h-1-font-family: Raleway;
   font-weight: $font-h-1-font-weight;
   font-family: $font-h-1-font-family;
 
-  @media screen and(max-width: $break-small){
+  @media screen and(max-width: $break-small) {
     font-size: 26px;
-    max-width:98%;
+    max-width: 98%;
   }
 }
 
@@ -146,7 +146,8 @@ $font-icon-text-font-family: Roboto;
 $font-nav-link-font-size: 18px;
 $font-nav-link-line-height: normal;
 $font-nav-link-text-align: left;
-$font-nav-link-color: #ffffff;
+$font-nav-link-color: $color-text-white;
+$font-nav-link-color-hover: $color-peach;
 $font-nav-link-letter-spacing: 0.64px;
 $font-nav-link-font-style: normal;
 //$font-nav-link-font-weight: bold;
@@ -162,13 +163,19 @@ $font-nav-link-font-family: Roboto;
   //font-weight: $font-nav-link-font-weight;
   font-family: $font-nav-link-font-family;
   text-decoration: none;
+  &:hover {
+    color: $font-nav-link-color-hover;
+  }
+  &:focus {
+    color: $font-nav-link-color-hover;
+  }
 }
 
 /* navLinkActive font style */
 $font-nav-link-active-font-size: 18px;
 $font-nav-link-active-line-height: normal;
 $font-nav-link-active-text-align: left;
-$font-nav-link-active-color: #ffffff;
+$font-nav-link-active-color: $color-text-white;
 $font-nav-link-active-letter-spacing: 0.64px;
 $font-nav-link-active-font-style: normal;
 $font-nav-link-active-font-weight: bold;
@@ -188,8 +195,7 @@ $font-nav-link-active-font-family: Roboto;
 /* quoteText font style */
 $font-quote-text-font-size: 16px;
 $font-quote-text-line-height: normal;
-$font-quote-text-text-align: left;
-$font-quote-text-color: #ffffff;
+$font-quote-text-color: $color-text-white;
 $font-quote-text-letter-spacing: 1.6px;
 $font-quote-text-font-style: italic;
 $font-quote-text-font-weight: 400;
@@ -198,7 +204,6 @@ $font-quote-text-font-family: Roboto;
 @mixin font-quote-text() {
   font-size: $font-quote-text-font-size;
   line-height: $font-quote-text-line-height;
-  text-align: $font-quote-text-text-align;
   color: $font-quote-text-color;
   letter-spacing: $font-quote-text-letter-spacing;
   font-style: $font-quote-text-font-style;
@@ -210,7 +215,7 @@ $font-quote-text-font-family: Roboto;
 $font-subtitle-font-size: 16px;
 $font-subtitle-line-height: 23px;
 $font-subtitle-text-align: center;
-$font-subtitle-color: #ffffff;
+$font-subtitle-color: $color-text-white;
 $font-subtitle-letter-spacing: 1.9px;
 $font-subtitle-font-style: normal;
 $font-subtitle-font-weight: 400;
@@ -225,22 +230,41 @@ $font-subtitle-font-family: Roboto;
   font-style: $font-subtitle-font-style;
   font-weight: $font-subtitle-font-weight;
   font-family: $font-subtitle-font-family;
-  @media screen and(max-width: $break-small){
-    max-width:90%;
+  @media screen and(max-width: $break-small) {
+    max-width: 90%;
   }
+}
+
+/* regular font style */
+$font-subtitle-font-size: 16px;
+$font-subtitle-color: $color-text-white;
+$font-subtitle-letter-spacing: 1.6px;
+$font-subtitle-font-style: normal;
+$font-subtitle-font-weight: 400;
+$font-subtitle-font-family: Roboto;
+
+@mixin font-regular-text() {
+  font-size: $font-subtitle-font-size;
+  color: $font-subtitle-color;
+  letter-spacing: $font-subtitle-letter-spacing;
+  font-style: $font-subtitle-font-style;
+  font-weight: $font-subtitle-font-weight;
+  font-family: $font-subtitle-font-family;
 }
 
 /* textLink font style */
 $font-text-link-font-size: 16px;
 $font-text-link-line-height: normal;
 $font-text-link-text-align: left;
-$font-text-link-color: #ffffff;
+$font-text-link-color: $color-peach;
 $font-text-link-letter-spacing: 1.6px;
 $font-text-link-font-style: normal;
 $font-text-link-font-weight: bold;
 $font-text-link-font-family: Roboto;
+$font-text-link-font-decoration: none;
 
 @mixin font-text-link() {
+  text-decoration: $font-text-link-font-decoration;
   font-size: $font-text-link-font-size;
   line-height: $font-text-link-line-height;
   text-align: $font-text-link-text-align;
