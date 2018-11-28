@@ -5,7 +5,7 @@ class Footer extends Component {
   state = {};
   render() {
     return (
-      <footer>
+      <footer className="footer">
         <p className="p-footer">
           Copyright © 2018 Interaktion & Design @ Umeå Universitet.
         </p>

@@ -1,15 +1,6 @@
 @import '../../main.scss';
 .toggle-button{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 15px;
-  height: 30px;
-  width:36px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  box-sizing: border-box;
+  display: none;
 
   &:focus{
     outline: none;
@@ -19,7 +10,17 @@
     height: 2px;
     background: $color-text-white;
   }
-  @media screen and (min-width: $break-medium) {
-    display: none;
+
+  @media screen and(max-width: $break-medium){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px;
+    height: 30px;
+    width:36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
   }
 }
