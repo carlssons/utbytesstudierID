@@ -77,6 +77,10 @@ $font-h-1-font-family: Raleway;
     font-size: 26px;
     max-width:98%;
   }
+  @media only screen and (min-width: $break-small) and (max-width: $break-medium +1) {
+    font-size: 34px;
+    max-width:100%;
+  }
 }
 
 /* h2 font style */
@@ -227,6 +231,12 @@ $font-subtitle-font-family: Roboto;
   font-family: $font-subtitle-font-family;
   @media screen and(max-width: $break-small){
     max-width:90%;
+  }
+  @media screen and(min-width: $break-medium + 1){
+    max-width:45%;
+  }
+  @media only screen and (min-width: $break-small) and (max-width: $break-medium +1) {
+    max-width:60%;
   }
 }
 
