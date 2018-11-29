@@ -6,20 +6,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 0 0 150px 0;
+    padding-bottom: 150px;
 
     .quote-box {
       display: flex;
       justify-content: center;
       width: 90%;
       flex-wrap: wrap;
-    }
-
-    .instagram-box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
     }
   }
 
@@ -28,6 +21,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+    background-color: $color-background-white;
+    padding-bottom: 150px;
 
     &:before {
       content: "";
@@ -43,7 +38,7 @@
       z-index: 100;
       display: flex;
       flex-direction: column;
-      background-color: white;
+      background-color: $color-background-white;
       border: solid 4px #0f1833;
       border-radius: 10px;
       width: 80%;
@@ -58,6 +53,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
+      margin-top: 20px;
     }
   }
 }
