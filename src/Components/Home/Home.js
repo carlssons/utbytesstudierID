@@ -13,12 +13,11 @@ class Home extends Component {
           img: "Linus.jpg",
           quote:
             "“Många spännande och intressanta kurser man inte får möjlighet att läsa i Umeå”",
-          info: "- Linus Lagerhjelm, Tjeckien"
+          info: "- Linus Lagerhjelm, Prag Tjeckien"
         },
         {
-          img: "Amine.jpg",
-          quote:
-            "“Många spännande och intressanta kurser man inte får möjlighet att läsa i Umeå”",
+          img: "Hanna.jpg",
+          quote: "“Utlandsstudier är väldigt meriterande för framtida karriär”",
           info: "- Hanna Andersson, Singapore"
         },
         {
