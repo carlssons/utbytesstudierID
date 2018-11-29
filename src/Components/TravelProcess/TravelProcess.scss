@@ -1,0 +1,26 @@
+@import "../../main";
+
+.travelProcess {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 210px;
+  height: 250px;
+  padding: 0 20px;
+
+  #process-icon {
+    height: 70px;
+    width: auto;
+  }
+
+  #process-header {
+    @include font-h-3;
+    text-align: center;
+  }
+  #process-info {
+    @include font-regular-text;
+    color: black;
+    text-align: center;
+  }
+}

@@ -3,6 +3,7 @@ import "./Home.scss";
 import HeroSection from "../HeroSection/HeroSection.js";
 import HeroQuotes from "../HeroQuotes/HeroQuotes.js";
 import InstagramSection from "../InstagramSection/InstagramSection.js";
+import TravelProcess from "../TravelProcess/TravelProcess.js";
 
 class Home extends Component {
   constructor(props) {
@@ -31,6 +32,31 @@ class Home extends Component {
             "”Att uppleva nya kulturer är så berikande i både erfarenheter och perspektivet man har på livet”",
           info: "- Amine Balta, Seoul Sydkorea"
         }
+      ],
+
+      process: [
+        {
+          icon: "pin.png",
+          processHead: "1. Välj destination",
+          info: "Umeå universitet erbjuder utbytesstudier runt om i världen."
+        },
+        {
+          icon: "pin.png",
+          processHead: "2. Bli nominerad",
+          info: "Ansök till Umeå universitet om att bli tilldelad en plats."
+        },
+        {
+          icon: "pin.png",
+          processHead: "3. Bli antagen",
+          info:
+            "Gör du en ansökan till värduniversitetet för ett slutgiltigt besked."
+        },
+        {
+          icon: "pin.png",
+          processHead: "4. Res",
+          info:
+            "Förbered dig och fixa allt praktiskt inför resan. Åk iväg och njut!"
+        }
       ]
     };
   }
@@ -46,6 +72,18 @@ class Home extends Component {
             })}
           </div>
         </div>
+
+        <div className="process-container">
+          <div className="process-wraper">
+            <p id="h2-process">Process</p>
+            <div className="process-box">
+              {this.state.process.map((element, index) => {
+                return <TravelProcess key={index} steps={element} />;
+              })}
+            </div>
+          </div>
+        </div>
+
         <div className="instagram-box">
           <InstagramSection />
         </div>
