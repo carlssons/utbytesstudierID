@@ -7,21 +7,31 @@ class InstagramSection extends Component {
 
 
   render() {
+    let instagramLink = "https://www.instagram.com/explore/tags/idabroad/";
+    let imgArray = ["instagram_img1","instagram_img2","instagram_img3","instagram_img4"];
+
+    let images = imgArray.map(image => {
+      return(
+            <a key={image} className="instagram-img" href={instagramLink} target="blank_">
+                <img src={require(`../../../public/images/instagram-images/${image}.jpg`)}/>
+             </a>
+           );
+    });
+
     return (
       <div className="instagramSection">
-        <h2>hejhej</h2>
-        {/*<div className="instagram-img-box">
-          <img className="instagram-img" src="./instagram_img1.jpg" />
-          <img className="instagram-img" src="./instagram_img2.jpg" />
-          <img className="instagram-img" src="./instagram_img3.jpg" />
-        </div>*/}
-        <svg className="svg">
-          <line className="line" x1="0" y1="0" x2="20%" y2="0"/>
-          <line className="line" x1="0" y1="0" x2="0" y2="100%"/>
-          <line className="line" x1="0" y1="100%" x2="100%" y2="100%"/>
-          <line className="line" x1="100%" y1="0" x2="100%" y2="100%"/>
-          <line className="line" x1="100%" y1="0" x2="80%" y2="0"/>
-        </svg>
+        <div className="instagram-box">
+          <h2 className="instagramHeading">INSTAGRAM</h2>
+          <div className="instagramHashtagBox">
+            <a href={instagramLink} target="blank_">
+              <img src="./images/instagram-images/instagram_logo_color.png" className="instagramLogo"/>
+              <h3 className="instagramHashtag">#idabroad</h3>
+            </a>
+          </div>
+          <div className="instagram-image-box">
+              {images}
+          </div>
+        </div>
       </div>
     );
   }
