@@ -19,7 +19,7 @@
     border: 4px solid $color-blue;
     border-radius: 10px;
     background-color: $color-background-white;
-    margin-bottom: 150px;
+    margin: 150px 0;
 
     .instagramHeading {
       @include font-h-2;
