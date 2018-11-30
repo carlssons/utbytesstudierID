@@ -18,7 +18,8 @@ class Home extends Component {
         },
         {
           img: "Hanna.jpg",
-          quote: "“Utlandsstudier är väldigt meriterande för framtida karriär”",
+          quote:
+            "“Under utlandsstudierna får man många nya kontakter och får prata engelska dagligen vilket är väldigt meriterande”",
           info: "- Hanna Andersson, Singapore"
         },
         {
@@ -36,23 +37,23 @@ class Home extends Component {
 
       process: [
         {
-          icon: "pin.png",
+          icon: "pin.svg",
           processHead: "1. Välj destination",
           info: "Umeå universitet erbjuder utbytesstudier runt om i världen."
         },
         {
-          icon: "pin.png",
+          icon: "diploma.svg",
           processHead: "2. Bli nominerad",
           info: "Ansök till Umeå universitet om att bli tilldelad en plats."
         },
         {
-          icon: "pin.png",
+          icon: "letter.svg",
           processHead: "3. Bli antagen",
           info:
             "Gör du en ansökan till värduniversitetet för ett slutgiltigt besked."
         },
         {
-          icon: "pin.png",
+          icon: "plane.svg",
           processHead: "4. Res",
           info:
             "Förbered dig och fixa allt praktiskt inför resan. Åk iväg och njut!"

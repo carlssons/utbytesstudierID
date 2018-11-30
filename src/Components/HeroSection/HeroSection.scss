@@ -24,7 +24,7 @@
     #hero-h2 {
       @include font-subtitle;
       color: white;
-      ffilter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
+      filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
     }
   }
   &:before {
@@ -41,7 +41,7 @@
     #hero-button {
       width: 150px;
       height: 50px;
-      margin: 30px 0;
+      margin-top: 30px;
       background-color: rgba(255, 255, 255, 0.3);
       @include font-button-text;
       border-radius: 7px;
