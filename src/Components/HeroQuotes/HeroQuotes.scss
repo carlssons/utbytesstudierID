@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   width: 40%;
-  margin: 50px 30px;
+  margin: 50px 40px;
   .quote-image {
     border-radius: 50%;
     height: 80px;
@@ -12,7 +12,7 @@
     margin-bottom: 30px;
   }
   .quote-text {
-    padding: 0 0 0 30px;
+    padding-left: 30px;
     #quote {
       margin-top: 0;
       @include font-quote-text;
@@ -28,8 +28,12 @@
       text-align: center;
     }
   }
+  @media screen and(max-width: $break-medium + 432) {
+    margin: 50px 20px;
+  }
   @media screen and(max-width: $break-medium + 122) {
     width: 90%;
+    margin: 50px 0;
   }
   @media screen and(max-width: $break-small) {
     width: 100%;

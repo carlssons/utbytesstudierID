@@ -3,6 +3,7 @@ import "./Home.scss";
 import HeroSection from "../HeroSection/HeroSection.js";
 import HeroQuotes from "../HeroQuotes/HeroQuotes.js";
 import InstagramSection from "../InstagramSection/InstagramSection.js";
+import TravelProcess from "../TravelProcess/TravelProcess.js";
 
 class Home extends Component {
   constructor(props) {
@@ -17,7 +18,8 @@ class Home extends Component {
         },
         {
           img: "Hanna.jpg",
-          quote: "“Utlandsstudier är väldigt meriterande för framtida karriär”",
+          quote:
+            "“Under utlandsstudierna får man många nya kontakter och får prata engelska dagligen vilket är väldigt meriterande”",
           info: "- Hanna Andersson, Singapore"
         },
         {
@@ -30,6 +32,31 @@ class Home extends Component {
           quote:
             "”Att uppleva nya kulturer är så berikande i både erfarenheter och perspektivet man har på livet”",
           info: "- Amine Balta, Seoul Sydkorea"
+        }
+      ],
+
+      process: [
+        {
+          icon: "pin.svg",
+          processHead: "1. Välj destination",
+          info: "Umeå universitet erbjuder utbytesstudier runt om i världen."
+        },
+        {
+          icon: "diploma.svg",
+          processHead: "2. Bli nominerad",
+          info: "Ansök till Umeå universitet om att bli tilldelad en plats."
+        },
+        {
+          icon: "letter.svg",
+          processHead: "3. Bli antagen",
+          info:
+            "Gör du en ansökan till värduniversitetet för ett slutgiltigt besked."
+        },
+        {
+          icon: "plane.svg",
+          processHead: "4. Res",
+          info:
+            "Förbered dig och fixa allt praktiskt inför resan. Åk iväg och njut!"
         }
       ]
     };
@@ -46,6 +73,18 @@ class Home extends Component {
             })}
           </div>
         </div>
+
+        <div className="process-container">
+          <div className="process-wraper">
+            <p id="h2-process">PROCESS</p>
+            <div className="process-box">
+              {this.state.process.map((element, index) => {
+                return <TravelProcess key={index} steps={element} />;
+              })}
+            </div>
+          </div>
+        </div>
+
         <div className="instagram-box">
           <InstagramSection />
         </div>

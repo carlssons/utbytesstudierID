@@ -9,7 +9,7 @@
   background-image: url("../../images/heroImage.jpg");
   height: 100%;
   background-size: cover;
-  height: 600px;
+  height: 580px;
 
   .hero-text {
     display: flex;
@@ -19,10 +19,12 @@
     z-index: 100;
     #hero-h1 {
       @include font-h-1;
-
+      filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
     }
     #hero-h2 {
       @include font-subtitle;
+      color: white;
+      filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
     }
   }
   &:before {
@@ -32,17 +34,14 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(
-      rgba(15, 24, 51, 0.2),
-      rgba(15, 24, 51, 1)
-    );
+    background-image: linear-gradient(rgba(15, 24, 51, 0), rgba(15, 24, 51, 1));
   }
   #hero-form {
     z-index: 100;
     #hero-button {
       width: 150px;
       height: 50px;
-      margin: 30px 0;
+      margin-top: 30px;
       background-color: rgba(255, 255, 255, 0.3);
       @include font-button-text;
       border-radius: 7px;
