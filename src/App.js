@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "./App.scss";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar.js";
 import Avtal from "./Components/Avtal/Avtal.js";
 import Tillgodoraknande from "./Components/Tillgodoraknande/Tillgodoraknande.js";
@@ -14,7 +14,8 @@ import Footer from "./Components/Footer/Footer.js";
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
+    dropdownOpen: false
   };
 
   /*When the DrawerToggleButton is clicked the state of sideDrawerOpen will
@@ -29,45 +30,64 @@ class App extends Component {
     });
   };
 
-  /*Function that sets the state of sideDrawerOpen to false when backrop
-  is cliced.*/
+  /*This function sets the state of dropdownOpen to true if it was false and
+  vice versa.*/
+  toggle = () => {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
+
+  /*This function sets the state of sideDrawerOpen to false.
+  ie the side drawer close when this function is called.
+  Function is called when the backdrop component is clicked.
+  */
   backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
+    this.setState({sideDrawerOpen: false});
   };
+
+  /*This function sets the state of dropDownOpen and sideDrawerOpen to false.
+  ie the dropdown and SideDrawer will close when this function is called.
+  Function is called when a link in the SideDrawer component is clicked.
+  */
+  linkClickHandler = () =>{
+    this.setState({dropdownOpen: false});
+    this.setState({sideDrawerOpen: false});
+  }
+
 
   render() {
     let backdrop;
 
+    /*if the state of sideDrawerOpen is true a Backdrop component will be visable.*/
     if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />;
+      /*when Backdrop component is clicked backdropClickHandler function is called.*/
+      backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
-    return (
-      <Router>
-        <div className="App">
-          <header className="App-header">
-            {/* The navbar will always be visible */}
-            <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
-            {/*Side drawer for mobile menu. Will open when DrawerToggleButton is clicked.*/}
-            <SideDrawer show={this.state.sideDrawerOpen} />
-            {/* if the side drawer is open the backdrop will show. */}
-            {backdrop}
-          </header>
-          <div>
-            <Route exact="exact" path="/" component={Home} />
-            <Route exact="exact" path="/intervjuer" component={Intervjuer} />
-            <Route exact="exact" path="/avtal" component={Avtal} />
-            <Route exact="exact" path="/inforResa" component={InforResa} />
-            <Route
-              exact="exact"
-              path="/tillgodoraknande"
-              component={Tillgodoraknande}
-            />
-            <Route exact="exact" path="/faq" component={FAQ} />
-          </div>
-          <Footer />
+
+    return (<Router>
+      <div className="App">
+        <header className="App-header">
+          {/* The navbar will always be visible */}
+          {/* SideDrawer component will open when DrawerToggleButton is clicked. */}
+          <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
+
+          {/*SideDrawer will close when a Link in SIdeDrawer is clicked.
+            The dropdown will open when the toggle function is called.*/}
+          <SideDrawer linkClickHandler={this.linkClickHandler} toggle={this.toggle} dropdownOpen={this.state.dropdownOpen} sideDrawerOpen={this.state.sideDrawerOpen}/>
+          {backdrop}
+        </header>
+        <div>
+          <Route exact="exact" path="/" component={Home}/>
+          <Route exact="exact" path="/intervjuer" component={Intervjuer}/>
+          <Route exact="exact" path="/avtal" component={Avtal}/>
+          <Route exact="exact" path="/inforResa" component={InforResa}/>
+          <Route exact="exact" path="/tillgodoraknande" component={Tillgodoraknande}/>
+          <Route exact="exact" path="/faq" component={FAQ}/>
         </div>
-      </Router>
-    );
+        <Footer/>
+      </div>
+    </Router>);
   }
 }
 export default App;
