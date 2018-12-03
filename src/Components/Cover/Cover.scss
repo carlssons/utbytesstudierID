@@ -1,0 +1,18 @@
+@import "../../main";
+
+.cover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  #cover-title {
+    @include font-h-1;
+    filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
+  }
+  #cover-subtitle {
+    @include font-subtitle;
+    color: white;
+    filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
+  }
+}

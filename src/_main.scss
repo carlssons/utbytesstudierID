@@ -224,6 +224,7 @@ $font-subtitle-letter-spacing: 1.9px;
 $font-subtitle-font-style: normal;
 $font-subtitle-font-weight: 400;
 $font-subtitle-font-family: Roboto;
+$font-subtitle-margin-bottom: 50px;
 
 @mixin font-subtitle() {
   font-size: $font-subtitle-font-size;
@@ -234,6 +235,7 @@ $font-subtitle-font-family: Roboto;
   font-style: $font-subtitle-font-style;
   font-weight: $font-subtitle-font-weight;
   font-family: $font-subtitle-font-family;
+  margin-bottom: $font-subtitle-margin-bottom;
   @media screen and(max-width: $break-small) {
     max-width: 90%;
   }
