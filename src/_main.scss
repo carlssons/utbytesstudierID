@@ -125,6 +125,29 @@ $font-h-3-font-family: Roboto;
   font-family: $font-h-3-font-family;
 }
 
+/* profile-cover heading */
+$profile-cover-h1-size: 20px;
+$profile-cover-h1-height: normal;
+$profile-cover-h1-text-align: left;
+$profile-cover-h1-color: #0f1833;
+$profile-cover-h1-letter-spacing: 1.6px;
+$profile-cover-h1-font-style: normal;
+$profile-cover-h1-font-weight: 500;
+$profile-cover-h1-font-family: Roboto;
+$profile-cover-h1-margin: 0;
+
+@mixin profile-cover-h1() {
+  font-size: $profile-cover-h1-size;
+  line-height: $profile-cover-h1-height;
+  text-align: $profile-cover-h1-text-align;
+  color: $profile-cover-h1-color;
+  letter-spacing: $profile-cover-h1-letter-spacing;
+  font-style: $profile-cover-h1-font-style;
+  font-weight: $profile-cover-h1-font-weight;
+  font-family: $profile-cover-h1-font-family;
+  margin: $profile-cover-h1-margin;
+}
+
 /* IconText font style */
 $font-icon-text-font-size: 12px;
 $font-icon-text-line-height: normal;
@@ -173,7 +196,7 @@ $font-nav-link-font-family: Roboto;
   &:focus {
     color: $font-nav-link-color-hover;
   }
-  @media screen and(max-width: $break-small){
+  @media screen and(max-width: $break-small) {
     font-size: 16px;
   }
 }
