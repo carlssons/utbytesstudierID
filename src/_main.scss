@@ -173,6 +173,9 @@ $font-nav-link-font-family: Roboto;
   &:focus {
     color: $font-nav-link-color-hover;
   }
+  @media screen and(max-width: $break-small){
+    font-size: 16px;
+  }
 }
 
 /* navLinkActive font style */

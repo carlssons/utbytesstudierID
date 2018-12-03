@@ -3,69 +3,49 @@ import './SideDrawer.scss';
 import {Link} from 'react-router-dom';
 
 class SideDrawer extends Component {
-
-  constructor() {
-    super();
-    this.state = {};
-  }
-
   render() {
-    let drawerClasses = 'side-drawer';
+    const {toggleDrawer, toggleDropDown} = this.props
 
-    {/*sets styling classes for SideDrawer*/}
-    if (this.props.sideDrawerOpen) {
-      drawerClasses = 'side-drawer side-drawer-open';
-    }
-
-    let dropdownClasses = 'dropdown';
-
-    {/*sets styling classes for dropdown*/}
-    if(this.props.dropdownOpen)
-    {
-      dropdownClasses = 'dropdown dropdown-open';
-    }
-
-    return (<nav className={drawerClasses}>
-      <ul>
+    return (<nav className="side-drawer">
+      <ul className="mainOptions">
         <li>
-          <Link onClick={this.props.linkClickHandler} className="navLink" to="/">Hem</Link>
+          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/">Hem</Link>
         </li>
         <li className="navbar-tags">
-          <a onClick={this.props.toggle} className="navLink">Intervjuer</a>
-          <ul className={dropdownClasses}>
+          <p href="" onClick={toggleDropDown} className="navLink">Intervjuer</p>
+          <ul className="dropdown">
             <li>
-              <Link onClick={this.props.linkClickHandler} className="navLink" to="/intervjuer">Afrika</Link>
+              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Afrika</Link>
             </li>
             <li>
-              <Link onClick={this.props.linkClickHandler} className="navLink" to="/intervjuer">Asien</Link>
+              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Asien</Link>
             </li>
             <li>
-              <Link onClick={this.props.linkClickHandler} className="navLink" to="/intervjuer">Europa</Link>
+              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Europa</Link>
             </li>
             <li>
-              <Link onClick={this.props.linkClickHandler} className="navLink" to="/intervjuer">Nordamerika</Link>
+              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Nordamerika</Link>
             </li>
             <li>
-              <Link onClick={this.props.linkClickHandler} className="navLink" to="/intervjuer">Oceanien</Link>
+              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Oceanien</Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link onClick={this.props.linkClickHandler} className="navLink" to="/avtal">Avtal</Link>
+          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/avtal">Avtal</Link>
         </li>
         <li>
-          <Link onClick={this.props.linkClickHandler} className="navLink" to="/inforResa">Inför resan</Link>
+          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/inforResa">Inför resan</Link>
         </li>
         <li>
-          <Link onClick={this.props.linkClickHandler} className="navLink" to="/tillgodoraknande">Tillgodoräknande</Link>
+          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/tillgodoraknande">Tillgodoräknande</Link>
         </li>
         <li>
-          <Link onClick={this.props.linkClickHandler} className="navLink" to="/faq">FAQ</Link>
+          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/faq">FAQ</Link>
         </li>
       </ul>
     </nav>);
   }
-
 };
 
 export default SideDrawer;
