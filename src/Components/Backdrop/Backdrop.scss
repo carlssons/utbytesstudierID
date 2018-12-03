@@ -10,4 +10,6 @@
   @media screen and(min-width: $break-medium + 1){
     display: none;
   }
+  //this is needed in order for the window.ontouchmove event to work in App.js
+  touch-action: none;
 }

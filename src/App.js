@@ -9,73 +9,142 @@ import InforResa from "./Components/InforResa/InforResa.js";
 import FAQ from "./Components/FAQ/FAQ.js";
 import Home from "./Components/Home/Home.js";
 import SideDrawer from "./Components/SideDrawer/SideDrawer.js";
+import "./Components/SideDrawer/SideDrawer.scss";
 import Backdrop from "./Components/Backdrop/Backdrop.js";
 import Footer from "./Components/Footer/Footer.js";
+import $ from 'jquery';
+
+let keys = {
+  37: 1,
+  38: 1,
+  39: 1,
+  40: 1
+};
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false,
-    dropdownOpen: false
+    drawerToggled: false,
+    dropdownToggled: false,
   };
 
-  /*When the DrawerToggleButton is clicked the state of sideDrawerOpen will
-  be set to true or false, depending on its previous state.*/
-  drawerToggleClickHandler = () => {
-    this.setState(prevState => {
-      /*if the previous state for sidebarDrawerOpen is false it will now be set
-      to true and vice versa*/
-      return {
-        sideDrawerOpen: !prevState.sideDrawerOpen
-      };
-    });
+  /*Change the state for the SideDrawer (only displayed on smaller screens).
+  If the menu button is clicked the state drawerToggled will be true.
+  If the SideDrawer is dropDownOpen the scrolling will be dissabled.*/
+  toggleDrawer = e => {
+    this.setState(prevState => ({
+      drawerToggled: !prevState.drawerToggled,
+      dropdownToggled: false,
+
+    }), () => {
+      const {drawerToggled} = this.state
+      if (drawerToggled) {
+        // this.preventDefault(e)
+        this.preventDefaultForScrollKeys(e)
+        this.disableScroll()
+        $('.side-drawer').addClass('side-drawer-open')
+      } else {
+        $('.side-drawer').removeClass('side-drawer-open')
+        this.enableScroll()
+      }
+    })
   };
 
-  /*This function sets the state of dropdownOpen to true if it was false and
-  vice versa.*/
-  toggle = () => {
-    this.setState({
-      dropdownOpen: !this.state.dropdownOpen
-    });
+  /*Change the state for the dropdown (only displayed on smaller screens).
+  If the "intervjuer" link is clicked the state drawerdownToggled will be true.
+  If the dropdown is open the scrolling will be enabled.*/
+  toggleDropDown = () => {
+    this.setState(prevState => ({
+      dropdownToggled: !prevState.dropdownToggled
+    }), () => {
+      const {dropdownToggled} = this.state
+      if (dropdownToggled) {
+        $('.dropdown').addClass('open')
+        this.enableScroll()
+      } else {
+        $('.dropdown').removeClass('open')
+      }
+    })
+  };
+
+  componentDidUpdate(prevProps, prevState) {
+  const {dropdownToggled} = this.state
+  if (prevState.dropdownToggled!==dropdownToggled) {
+    if (dropdownToggled) {
+      $('.dropdown').addClass('open')
+    } else {
+      $('.dropdown').removeClass('open')
+    }
+  }
+}
+
+  preventDefault = e => {
+    e = e || window.event;
+    if (e.preventDefault){
+      e.preventDefault();
+    e.returnValue = false;
+    }
+  }
+
+  preventDefaultForScrollKeys = e => {
+    if (keys[e.keyCode]) {
+      this.preventDefault(e);
+      return false;
+    }
+  }
+
+  disableScroll = () => {
+    if (window.addEventListener){ // older FF
+        window.addEventListener('DOMMouseScroll', this.preventDefault, false);
+      window.onwheel = this.preventDefault; // modern standard
+      window.onmousewheel = document.onmousewheel = this.preventDefault; // older browsers, IE
+      //In order for ontouchmove to work "tou"
+      window.ontouchmove = this.preventDefault; // mobile
+      document.onkeydown = this.preventDefaultForScrollKeys;
+    }
+  }
+
+  enableScroll = () => {
+    if (window.removeEventListener){
+      window.removeEventListener('DOMMouseScroll', this.preventDefault, false);
+    window.onmousewheel = document.onmousewheel = null;
+    window.onwheel = null;
+    window.ontouchmove = null;
+    document.onkeydown = null;
+    }
   }
 
   /*This function sets the state of sideDrawerOpen to false.
   ie the side drawer close when this function is called.
   Function is called when the backdrop component is clicked.
-  */
+
   backdropClickHandler = () => {
+    this.setState({dropdownOpen: false});
     this.setState({sideDrawerOpen: false});
-  };
+  };*/
 
   /*This function sets the state of dropDownOpen and sideDrawerOpen to false.
   ie the dropdown and SideDrawer will close when this function is called.
   Function is called when a link in the SideDrawer component is clicked.
-  */
-  linkClickHandler = () =>{
+
+  linkClickHandler = () => {
     this.setState({dropdownOpen: false});
     this.setState({sideDrawerOpen: false});
-  }
-
+  }*/
 
   render() {
-    let backdrop;
-
-    /*if the state of sideDrawerOpen is true a Backdrop component will be visable.*/
-    if (this.state.sideDrawerOpen) {
-      /*when Backdrop component is clicked backdropClickHandler function is called.*/
-      backdrop = <Backdrop click={this.backdropClickHandler}/>;
-    }
-
+    const {drawerToggled} = this.state
     return (<Router>
-      <div className="App">
+      <div>
         <header className="App-header">
-          {/* The navbar will always be visible */}
-          {/* SideDrawer component will open when DrawerToggleButton is clicked. */}
-          <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
-
-          {/*SideDrawer will close when a Link in SIdeDrawer is clicked.
-            The dropdown will open when the toggle function is called.*/}
-          <SideDrawer linkClickHandler={this.linkClickHandler} toggle={this.toggle} dropdownOpen={this.state.dropdownOpen} sideDrawerOpen={this.state.sideDrawerOpen}/>
-          {backdrop}
+          <Navbar toggleDrawer={this.toggleDrawer}/>
+          <SideDrawer
+            toggleDrawer={this.toggleDrawer}
+            toggleDropDown={this.toggleDropDown}/>
+          {
+            drawerToggled
+              ? <Backdrop toggleDrawer={this.toggleDrawer}/>
+              : []
+          }
         </header>
         <div>
           <Route exact="exact" path="/" component={Home}/>
