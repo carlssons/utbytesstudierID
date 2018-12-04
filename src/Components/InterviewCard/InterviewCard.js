@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./InterviewCard.scss";
 //{`card-middle ${ this.props.content.imgBanner }`
 class InterviewCard extends Component {
@@ -25,12 +25,12 @@ class InterviewCard extends Component {
           <div className="card-bottom">
             <p className="school">{this.props.content.school}</p>
             <p className="semester">{this.props.content.semester}</p>
-            <Link to={this.props.content.link}
-                  className="button">Läs intervju</Link>
+              <Link to={"/intervjuer/" + this.props.content.id} className="button">
+                Läs intervju
+              </Link>
           </div>
         </div>
-
-      );
+    );
   }
 }
 

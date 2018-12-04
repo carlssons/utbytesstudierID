@@ -19,15 +19,17 @@ class Interviews extends Component {
 
       interviewCardsAsia: [
         {
+          id: "amine",
           avatar: "amine.jpg",
           title: "Seoul Sydkorea",
           subtitle: "Amine Balta",
-          imgBanner:"amineCardBanner",
-          school:"Sogang University",
-          semester:"HT-18",
-          link:"/intervjuer"
+          imgBanner: "amineCardBanner",
+          school: "Sogang University",
+          semester: "HT-18",
+          link: "/intervjuer"
         },
         {
+          id: "alfred",
           avatar: "alfred.jpg",
           title: "Macau",
           subtitle: "Alfred Ödling",
@@ -37,134 +39,147 @@ class Interviews extends Component {
           link:"/intervjuer"
         },
         {
+          id: "charlotte",
           avatar: "charlotte.jpg",
           title: "Seoul Sydkorea",
           subtitle: "Charlotte Ristiniemi",
-          imgBanner:"charlotteCardBanner",
-          school:"Hanyang University",
-          semester:"HT-17",
-          link:"/intervjuer"
+          imgBanner: "charlotteCardBanner",
+          school: "Hanyang University",
+          semester: "HT-17",
+          link: "/intervjuer"
         },
         {
+          id: "david",
           avatar: "david.jpg",
           title: "Tokyo Japan",
           subtitle: "David Hellman",
-          imgBanner:"davidCardBanner",
-          school:"Metropolitan University",
-          semester:"HT-17",
-          link:"/intervjuer"
+          imgBanner: "davidCardBanner",
+          school: "Metropolitan University",
+          semester: "HT-17",
+          link: "/intervjuer"
         }
       ],
 
-      interviewCardsAustralia:[
+      interviewCardsAustralia: [
         {
+          id: "emma",
           avatar: "emma.jpg",
           title: "Wollongong Australien",
           subtitle: "Emma Fahlman",
-          imgBanner:"emmaCardBanner",
-          school:"University of Wollongong (UOW)",
-          semester:"VT-17",
-          link:"/intervjuer"
+          imgBanner: "emmaCardBanner",
+          school: "University of Wollongong (UOW)",
+          semester: "VT-17",
+          link: "/intervjuer"
         }
       ],
 
-      interviewCardsEuropa:[
+      interviewCardsEuropa: [
         {
+          id: "linus",
           avatar: "Linus.jpg",
           title: "Prag Tjeckien",
           subtitle: "Linus Lagerhjelm",
-          imgBanner:"linusCardBanner",
-          school:"Karlsuniversitetet",
-          semester:"HT-17",
-          link:"/intervjuer"
+          imgBanner: "linusCardBanner",
+          school: "Karlsuniversitetet",
+          semester: "HT-17",
+          link: "/intervjuer"
         },
         {
+          id: "magnus",
           avatar: "magnus.jpg",
           title: "München Tyskland",
           subtitle: "Magnus Emanuelsson",
-          imgBanner:"magnusCardBanner",
-          school:"Tekniska universitet i München (TUM)",
-          semester:"HT-18",
-          link:"/intervjuer"
+          imgBanner: "magnusCardBanner",
+          school: "Tekniska universitet i München (TUM)",
+          semester: "HT-18",
+          link: "/intervjuer"
         },
         {
+          id: "mans",
           avatar: "mans.jpg",
           title: "Twente Nederländerna",
           subtitle: "Måns Hellgren",
-          imgBanner:"mansCardBanner",
-          school:"University of Twente",
-          semester:"HT-18",
-          link:"/intervjuer"
+          imgBanner: "mansCardBanner",
+          school: "University of Twente",
+          semester: "HT-18",
+          link: "/intervjuer"
         },
         {
+          id: "matilda",
           avatar: "matilda.jpg",
           title: "Barcelona Spanien",
           subtitle: "Matilda Nilsson",
-          imgBanner:"matildaCardBanner",
-          school:"Universitat Politècnica de Catalunya",
-          semester:"HT-17",
-          link:"/intervjuer"
+          imgBanner: "matildaCardBanner",
+          school: "Universitat Politècnica de Catalunya",
+          semester: "HT-17",
+          link: "/intervjuer"
         },
         {
+          id: "oskar",
           avatar: "oskar.jpg",
           title: "Köpenhamn Danmark",
           subtitle: "Oskar Olausson",
-          imgBanner:"oskarCardBanner",
-          school:"Technical University of Denmark",
-          semester:"HT-18",
-          link:"/intervjuer"
+          imgBanner: "oskarCardBanner",
+          school: "Technical University of Denmark",
+          semester: "HT-18",
+          link: "/intervjuer"
         },
         {
+          id: "simon",
           avatar: "simon.jpg",
           title: "Köpenhamn Danmark",
           subtitle: "Simon Asp",
-          imgBanner:"simonCardBanner",
-          school:"Köpenhamns Universitet",
-          semester:"HT-18",
-          link:"/intervjuer"
-        },
-      ],
-
-      interviewCardsNorthAmerica:[
-        {
-          avatar: "aron.jpg",
-          title: "Edmonton Kanada",
-          subtitle: "Aron Nisbel",
-          imgBanner:"aronCardBanner",
-          school:"Grant MacEwan University",
-          semester:"HT-18",
-          link:"/intervjuer"
-        },
-        {
-          avatar: "tonje.jpg",
-          title: "London Kanada",
-          subtitle: "Tonje Lindmark",
-          imgBanner:"tonjeCardBanner",
-          school:"Western University",
-          semester:"HT-17",
-          link:"/intervjuer"
-        },
-        {
-          avatar: "Viktor.jpg",
-          title: "Winnipeg Kanada",
-          subtitle: "Viktor Åhlund",
-          imgBanner:"viktorCardBanner",
-          school:"University of Manitoba Winnipeg",
-          semester:"HT-17",
-          link:"/intervjuer"
+          imgBanner: "simonCardBanner",
+          school: "Köpenhamns Universitet",
+          semester: "HT-18",
+          link: "/intervjuer"
         }
       ],
 
-      interviewCardsSouthAfrica:[
+      interviewCardsNorthAmerica: [
         {
+          id: "aron",
+          avatar: "aron.jpg",
+          title: "Edmonton Kanada",
+          subtitle: "Aron Nisbel",
+          imgBanner: "aronCardBanner",
+          school: "Grant MacEwan University",
+          semester: "HT-18",
+          link: "/intervjuer"
+        },
+        {
+          id: "tonje",
+          avatar: "tonje.jpg",
+          title: "London Kanada",
+          subtitle: "Tonje Lindmark",
+          imgBanner: "tonjeCardBanner",
+          school: "Western University",
+          semester: "HT-17",
+          link: "/intervjuer"
+        },
+        {
+          id: "viktor",
+          avatar: "Viktor.jpg",
+          title: "Winnipeg Kanada",
+          subtitle: "Viktor Åhlund",
+          imgBanner: "viktorCardBanner",
+          school: "University of Manitoba Winnipeg",
+          semester: "HT-17",
+          link: "/intervju"
+        }
+      ],
+
+      interviewCardsSouthAfrica: [
+        {
+          id: "marc",
           avatar: "marc.jpg",
           title: "Stellenbosch Sydafrika",
           subtitle: "Marc Coquand",
-          imgBanner:"marcCardBanner",
-          school:"Stellenbosch university",
-          semester:"HT-17",
-          link:"/intervjuer"
-        },
+          imgBanner: "marcCardBanner",
+          school: "Stellenbosch university",
+          semester: "HT-17",
+          link: "/intervjuer"
+        }
       ]
     };
   }
