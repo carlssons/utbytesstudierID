@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
   z-index: 100;
   #cover-title {
     @include font-h-1;

@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar.js";
-import Avtal from "./Components/Avtal/Avtal.js";
-import Tillgodoraknande from "./Components/Tillgodoraknande/Tillgodoraknande.js";
+import Agreements from "./Components/Agreements/Agreements.js";
 import Interviews from "./Components/Interviews/Interviews.js";
-import InforResa from "./Components/InforResa/InforResa.js";
+import BeforeTrip from "./Components/BeforeTrip/BeforeTrip.js";
+import Crediting from "./Components/Crediting/Crediting.js";
 import FAQ from "./Components/FAQ/FAQ.js";
+import InterviewViktor from "./Components/InterviewViktor/InterviewViktor.js";
 import Home from "./Components/Home/Home.js";
 import SideDrawer from "./Components/SideDrawer/SideDrawer.js";
 import "./Components/SideDrawer/SideDrawer.scss";
@@ -134,14 +135,19 @@ class App extends Component {
           <div>
             <Route exact="exact" path="/" component={Home} />
             <Route exact="exact" path="/intervjuer" component={Interviews} />
-            <Route exact="exact" path="/avtal" component={Avtal} />
-            <Route exact="exact" path="/inforResa" component={InforResa} />
+            <Route exact="exact" path="/avtal" component={Agreements} />
+            <Route exact="exact" path="/inforResa" component={BeforeTrip} />
             <Route
               exact="exact"
               path="/tillgodoraknande"
-              component={Tillgodoraknande}
+              component={Crediting}
             />
             <Route exact="exact" path="/faq" component={FAQ} />
+            <Route
+              exact="exact"
+              path="/intervjuer/viktor"
+              component={InterviewViktor}
+            />
           </div>
           <Footer />
         </div>
