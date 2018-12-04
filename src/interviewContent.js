@@ -1,3 +1,5 @@
+import React from "react";
+
 export const getInterviewContent = id => {
   const alfred = {
     profileCover: {
@@ -16,9 +18,20 @@ export const getInterviewContent = id => {
     interviewText: [
       {
         text: {
-          question: "Vad var det bästa med att åka utomlands?",
-          answer:
-            "Att få nya erfarenheter, nya kontakter, bredda vyerna, få bättre bild hur världen ser ut, lära sig om andra kulturer. I grunden är de precis som vi med samma humor osv. Kommer verkligen att minnas alla FESTER på världens bästa klubbar i Macau och Hong Kong."
+          question: (
+            <p className="interview-question">
+              Vad var det bästa med att åka utomlands?
+            </p>
+          ),
+          answer: (
+            <p className="interview-answer">
+              Att få nya erfarenheter, nya kontakter, bredda vyerna, få bättre
+              bild hur världen ser ut och lära sig om andra kulturer. I grunden
+              är de precis som vi med samma humor osv. Kommer verkligen att
+              minnas alla FESTER på världens bästa klubbar i Macau och Hong
+              Kong.
+            </p>
+          )
         }
       },
       {

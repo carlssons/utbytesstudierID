@@ -6,8 +6,8 @@ class TextSection extends Component {
   render() {
     return (
       <div className="text-interview-box">
-        <p className="interview-question">{this.props.text.question}</p>
-        <p className="interview-answer">{this.props.text.answer}</p>
+        {this.props.text.question}
+        {this.props.text.answer}
       </div>
     );
   }

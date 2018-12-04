@@ -21,7 +21,7 @@ const Navbar = props => {
         <div className="dropDown">
           <div className="navLink" id="intervjuerLink">
             <Link to="/intervjuer">Intervjuer</Link>
-            <img id="arrowDown" src="./icons/arrowDown.svg" alt="arrow" />
+            <img id="arrowDown" src="/icons/arrowDown.svg" alt="arrow" />
           </div>
           <div id="dropDownContent">
             <Link to="/">Afrika</Link>
