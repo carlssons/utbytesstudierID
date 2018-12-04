@@ -64,7 +64,7 @@ class App extends Component {
         const { dropdownToggled } = this.state;
         if (dropdownToggled) {
           $(".dropdown").addClass("open");
-          this.enableScroll();
+          //this.enableScroll();
         } else {
           $(".dropdown").removeClass("open");
         }
@@ -104,7 +104,6 @@ class App extends Component {
       window.addEventListener("DOMMouseScroll", this.preventDefault, false);
       window.onwheel = this.preventDefault; // modern standard
       window.onmousewheel = document.onmousewheel = this.preventDefault; // older browsers, IE
-      //In order for ontouchmove to work "tou"
       window.ontouchmove = this.preventDefault; // mobile
       document.onkeydown = this.preventDefaultForScrollKeys;
     }
