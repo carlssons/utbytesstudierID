@@ -12,7 +12,7 @@ export default class Interview extends React.Component {
     this.state = {};
   }
   render() {
-    const interview = getInterviewContent("viktor");
+    const interview = getInterviewContent(this.props.params.id);
     return (
       <div className="interview">
         <div className="banner-interview">

@@ -135,11 +135,14 @@ class App extends Component {
           <div>
             <Route exact path="/" component={Home} />
             <Route exact path="/intervjuer" component={Interviews} />
-            <Route exact path="/avtal" component={Agreements} />
-            <Route exact path="/inforResa" component={BeforeTrip} />
-            <Route exact path="/tillgodoraknande" component={Crediting} />
-            <Route exact path="/faq" component={FAQ} />
-            <Route exact path="/intervju" component={Interview} />
+            <Route path="/avtal" component={Agreements} />
+            <Route path="/inforResa" component={BeforeTrip} />
+            <Route path="/tillgodoraknande" component={Crediting} />
+            <Route path="/faq" component={FAQ} />
+            <Route
+              path="/intervjuer/:id"
+              render={props => <Interview params={props.match.params} />}
+            />
           </div>
           <Footer />
         </div>
