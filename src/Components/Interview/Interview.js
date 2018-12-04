@@ -3,14 +3,17 @@ import { getInterviewContent } from "../../interviewContent";
 import ProfileCover from "../ProfileCover/ProfileCover.js";
 import InterviewImages from "../InterviewImages/InterviewImages.js";
 import TextSection from "../TextSection/TextSection.js";
+import { animateScroll as scroll } from "react-scroll";
 
 import "./Interview.scss";
 
 export default class Interview extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+  componentDidMount = () => {
+    scroll.scrollToTop({
+      duration: 0
+    });
+  };
+
   render() {
     const interview = getInterviewContent(this.props.params.id);
     return (
