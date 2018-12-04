@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./ProfileCover.scss";
 
-class ProfileCover extends Component {
+export default class ProfileCover extends React.Component {
   state = {};
   render() {
     return (
@@ -21,5 +21,3 @@ class ProfileCover extends Component {
     );
   }
 }
-
-export default ProfileCover;

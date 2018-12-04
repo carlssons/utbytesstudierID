@@ -7,7 +7,7 @@ import Interviews from "./Components/Interviews/Interviews.js";
 import BeforeTrip from "./Components/BeforeTrip/BeforeTrip.js";
 import Crediting from "./Components/Crediting/Crediting.js";
 import FAQ from "./Components/FAQ/FAQ.js";
-import InterviewViktor from "./Components/InterviewViktor/InterviewViktor.js";
+import Interview from "./Components/Interview/Interview.js";
 import Home from "./Components/Home/Home.js";
 import SideDrawer from "./Components/SideDrawer/SideDrawer.js";
 import "./Components/SideDrawer/SideDrawer.scss";
@@ -134,21 +134,13 @@ class App extends Component {
             {drawerToggled ? <Backdrop toggleDrawer={this.toggleDrawer} /> : []}
           </header>
           <div>
-            <Route exact="exact" path="/" component={Home} />
-            <Route exact="exact" path="/intervjuer" component={Interviews} />
-            <Route exact="exact" path="/avtal" component={Agreements} />
-            <Route exact="exact" path="/inforResa" component={BeforeTrip} />
-            <Route
-              exact="exact"
-              path="/tillgodoraknande"
-              component={Crediting}
-            />
-            <Route exact="exact" path="/faq" component={FAQ} />
-            <Route
-              exact="exact"
-              path="/intervjuer/viktor"
-              component={InterviewViktor}
-            />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/intervjuer" component={Interviews} />
+            <Route exact path="/avtal" component={Agreements} />
+            <Route exact path="/inforResa" component={BeforeTrip} />
+            <Route exact path="/tillgodoraknande" component={Crediting} />
+            <Route exact path="/faq" component={FAQ} />
+            <Route exact path="/intervju" component={Interview} />
           </div>
           <Footer />
         </div>
