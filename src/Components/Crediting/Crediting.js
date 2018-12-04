@@ -6,6 +6,14 @@ class Crediting extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      cover: [
+        {
+          backgroundImg: "heroImageCrediting",
+          title: "INTERVJUER",
+          subtitle:
+            "ID-studenter har varit på utbytesstudier på flera olika partneruniversitet runt om i världen. Intervjuerna innehåller  allt ifrån tips till praktiska grejer inför resan från några IDare som har varit iväg."
+        }
+      ],
       coverText: [
         {
           title: "TILLGODORÄKNANDE",
@@ -18,7 +26,7 @@ class Crediting extends Component {
   render() {
     return (
       <div className="cover-crediting">
-        {this.state.coverText.map((element, index) => {
+        {this.state.cover.map((element, index) => {
           return <Cover key={index} content={element} />;
         })}
       </div>

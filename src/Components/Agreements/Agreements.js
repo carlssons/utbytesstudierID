@@ -6,6 +6,14 @@ class Agreements extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      cover: [
+        {
+          backgroundImg: "heroImageAgreements",
+          title: "INTERVJUER",
+          subtitle:
+            "ID-studenter har varit på utbytesstudier på flera olika partneruniversitet runt om i världen. Intervjuerna innehåller  allt ifrån tips till praktiska grejer inför resan från några IDare som har varit iväg."
+        }
+      ],
       coverText: [
         {
           title: "AVTAL",
@@ -18,8 +26,8 @@ class Agreements extends Component {
 
   render() {
     return (
-      <div className="cover-agreements">
-        {this.state.coverText.map((element, index) => {
+      <div className="cover-interviews">
+        {this.state.cover.map((element, index) => {
           return <Cover key={index} content={element} />;
         })}
       </div>

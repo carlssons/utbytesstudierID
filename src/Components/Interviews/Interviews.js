@@ -8,8 +8,9 @@ class Interviews extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      coverText: [
+      cover: [
         {
+          backgroundImg: "heroImageInterviews",
           title: "INTERVJUER",
           subtitle:
             "ID-studenter har varit på utbytesstudier på flera olika partneruniversitet runt om i världen. Intervjuerna innehåller  allt ifrån tips till praktiska grejer inför resan från några IDare som har varit iväg."
@@ -31,7 +32,7 @@ class Interviews extends Component {
           title: "Macau",
           subtitle: "Alfred Ödling",
           imgBanner:"alfredCardBanner",
-          school:"Macau University of Science and Technology",
+          school:"University of Science and Technology",
           semester:"HT-17",
           link:"/intervjuer"
         },
@@ -172,51 +173,52 @@ class Interviews extends Component {
     return (
       <div>
         <div className="cover-interviews">
-          {this.state.coverText.map((element, index) => {
+          {this.state.cover.map((element, index) => {
             return <Cover key={index} content={element} />;
           })}
         </div>
-
-        <section className="cardSection">
-          <h2>Asien</h2>
-          <div className="cardContainer">
-            {this.state.interviewCardsAsia.map((element, index) => {
+        <div className="content">
+          <section className="cardSection">
+            <h2>ASIEN</h2>
+            <div className="cardContainer">
+              {this.state.interviewCardsAsia.map((element, index) => {
+                return <InterviewCard key={index} content={element} />;
+              })}
+            </div>
+          </section>
+          <section className="cardSection">
+          <h2>AUSTRALIEN</h2>
+          <div className="cardContainer australia">
+            {this.state.interviewCardsAustralia.map((element, index) => {
               return <InterviewCard key={index} content={element} />;
             })}
           </div>
-        </section>
-        <section className="cardSection">
-        <h2>Australien</h2>
-        <div className="cardContainer">
-          {this.state.interviewCardsAustralia.map((element, index) => {
-            return <InterviewCard key={index} content={element} />;
-          })}
+          </section>
+          <section className="cardSection">
+          <h2>EUROPA</h2>
+            <div className="cardContainer">
+              {this.state.interviewCardsEuropa.map((element, index) => {
+                return <InterviewCard key={index} content={element} />;
+              })}
+            </div>
+          </section>
+          <section className="cardSection">
+          <h2>NORDAMERIKA</h2>
+            <div className="cardContainer">
+              {this.state.interviewCardsNorthAmerica.map((element, index) => {
+                return <InterviewCard key={index} content={element} />;
+              })}
+            </div>
+          </section>
+          <section className="cardSection">
+          <h2>SYDAFRIKA</h2>
+            <div className="cardContainer southAfrica">
+              {this.state.interviewCardsSouthAfrica.map((element, index) => {
+                return <InterviewCard key={index} content={element} />;
+              })}
+            </div>
+          </section>
         </div>
-        </section>
-        <section className="cardSection">
-        <h2>Europa</h2>
-          <div className="cardContainer">
-            {this.state.interviewCardsEuropa.map((element, index) => {
-              return <InterviewCard key={index} content={element} />;
-            })}
-          </div>
-        </section>
-        <section className="cardSection">
-        <h2>Nordamerika</h2>
-          <div className="cardContainer">
-            {this.state.interviewCardsNorthAmerica.map((element, index) => {
-              return <InterviewCard key={index} content={element} />;
-            })}
-          </div>
-        </section>
-        <section className="cardSection">
-        <h2>Sydafrika</h2>
-          <div className="cardContainer">
-            {this.state.interviewCardsSouthAfrica.map((element, index) => {
-              return <InterviewCard key={index} content={element} />;
-            })}
-          </div>
-        </section>
       </div>
     );
   }

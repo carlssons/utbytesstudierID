@@ -4,19 +4,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 360px;
+  width: 325px;
   height: auto;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5), 0px 1px 1px 0px rgba(0, 0, 0, 0.1), 0px 2px 1px -1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  margin: 10px;
+  margin: 8px 8px 8px 8px;
+  p{
+    @include font-regular-text;
+    color:black;
+  }
 
   .card-top{
     display: flex;
     width: 100%;
 
+
     .card-top-img{
-      width:15%;
-      height: 15%;
+      width:60px;
+      height: 60px;
       border-radius: 100%;
       margin:20px;
     }
@@ -41,51 +46,6 @@
     background-size: cover;
     width: 100%;
     height: 200px;
-  }
-  .amineCardBanner{
-    background-image: url("../../images/interviewCardImages/amineCardBanner.jpg");
-  }
-  .alfredCardBanner{
-    background-image: url("../../images/interviewCardImages/alfredCardBanner.jpg");
-  }
-  .davidCardBanner{
-    background-image: url("../../images/interviewCardImages/davidCardBanner.jpg");
-  }
-  .emmaCardBanner{
-    background-image: url("../../images/interviewCardImages/emmaCardBanner.jpg");
-  }
-  .oskarCardBanner{
-    background-image: url("../../images/interviewCardImages/oskarCardBanner.jpg");
-  }
-  .matildaCardBanner{
-    background-image: url("../../images/interviewCardImages/matildaCardBanner.jpg");
-  }
-  .charlotteCardBanner{
-    background-image: url("../../images/interviewCardImages/charlotteCardBanner.jpg");
-  }
-  .linusCardBanner{
-    background-image: url("../../images/interviewCardImages/linusCardBanner.jpg");
-  }
-  .magnusCardBanner{
-    background-image: url("../../images/interviewCardImages/magnusCardBanner.jpg");
-  }
-  .mansCardBanner{
-    background-image: url("../../images/interviewCardImages/mansCardBanner.jpg");
-  }
-  .simonCardBanner{
-    background-image: url("../../images/interviewCardImages/simonCardBanner.jpg");
-  }
-  .aronCardBanner{
-    background-image: url("../../images/interviewCardImages/aronCardBanner.jpg");
-  }
-  .marcCardBanner{
-    background-image: url("../../images/interviewCardImages/marcCardBanner.jpg");
-  }
-  .viktorCardBanner{
-    background-image: url("../../images/interviewCardImages/viktorCardBanner.jpg");
-  }
-  .tonjeCardBanner{
-    background-image: url("../../images/interviewCardImages/tonjeCardBanner.jpg");
   }
 
   .card-bottom{

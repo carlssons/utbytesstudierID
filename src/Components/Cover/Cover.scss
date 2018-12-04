@@ -1,5 +1,27 @@
 @import "../../main";
 
+.cover{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  height: 550px;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(15, 24, 51, 0), rgba(15, 24, 51, 1));
+    //background-color: rgba(15, 24, 51, 0.5);
+    /*background-image: linear-gradient(rgba(248,248,248,0.0),
+    rgba(248,248,248,0.0),rgba(248,248,248,0),rgba(248,248,248,0),
+    rgba(248,248,248,1));*/
+  }
+
 .cover-text {
   display: flex;
   flex-direction: column;
@@ -16,4 +38,5 @@
     color: white;
     filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
   }
+}
 }
