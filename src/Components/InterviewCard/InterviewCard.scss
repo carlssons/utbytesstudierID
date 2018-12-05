@@ -13,10 +13,25 @@
     @include font-regular-text;
     color:black;
   }
+  @media screen and(max-width: $break-small){
+    margin: 8px 8px 30px 8px;
+  }
+
+  @media screen and(max-width: $break-small - 100){
+    margin: 8px 8px 30px 8px;
+    width: 300px;
+  }
+
+  @media screen and(max-width: $break-small - 100){
+    width: 300px;
+  }
 
   .card-top{
     @include flexbox;
-    width: 100%;
+    width: 325px;
+    @media screen and(max-width: $break-small - 100){
+      width: 300px;
+    }
 
 
     .card-top-img{
@@ -44,14 +59,21 @@
   .card-middle{
 
     background-size: cover;
-    width: 100%;
+    width: 325px;
     height: 200px;
+
+    @media screen and(max-width: $break-small - 100){
+      width: 300px;
+    }
   }
 
   .card-bottom{
     @include flexbox;
     @include flex-direction(column);
-    width: 100%;
+    width: 325px;
+    @media screen and(max-width: $break-small - 100){
+      width: 300px;
+    }
     p{
       margin-left: 20px;
     }

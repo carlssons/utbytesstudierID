@@ -10,7 +10,7 @@ class Crediting extends Component {
         backgroundImg: "heroImageCrediting",
         title: "TILLGODORÄKNANDE",
         subtitle:
-          "ID-studenter har varit på utbytesstudier på flera olika partneruniversitet runt om i världen. Intervjuerna innehåller  allt ifrån tips till praktiska grejer inför resan från några IDare som har varit iväg."
+          "De kurser som du läser utomlands behöver tillgodoräknas in i dina studier på ID-programmet. På den här sidan finner du en lista på kurser som ID-studenter har läst vid olika partneruniversitet under deras utlandsstudier. Du finner även information om vilka kategorier kurserna har tillgodoräknats i."
       }
     };
   }

@@ -26,6 +26,9 @@ body{
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
+      @media screen and(max-width: $break-medium){
+        width: 90%;
+      }
     }
 
 
