@@ -1,22 +1,69 @@
+@import "../../main";
+
 .interview-images {
+  margin: 100px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 90%;
+
   .image-1 {
-    height: 200px;
+    height: 380px;
     width: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+
+    @media screen and( max-width: $break-medium + 203 ) {
+      height: auto;
+      width: 500px;
+    }
+    @media screen and( max-width: $break-small + 145 ) {
+      height: auto;
+      width: 290px;
+    }
   }
-  .image-2-3 {
+
+  .image-box-right {
     display: flex;
     flex-direction: column;
+
     .image-2 {
-      height: 100px;
+      height: 190px;
       width: auto;
+      box-sizing: border-box;
+      padding: 10px;
+      border-radius: 20px;
+
+      @media screen and( max-width: $break-medium + 203 ) {
+        height: auto;
+        width: 500px;
+      }
+      @media screen and( max-width: $break-small + 145 ) {
+        height: auto;
+        width: 290px;
+      }
     }
     .image-3 {
-      height: 100px;
+      height: 190px;
       width: auto;
+      box-sizing: border-box;
+      padding: 10px;
+      border-radius: 20px;
+
+      @media screen and( max-width: $break-medium + 203 ) {
+        height: auto;
+        width: 500px;
+      }
+      @media screen and( max-width: $break-small + 145 ) {
+        height: auto;
+        width: 290px;
+      }
     }
+  }
+  @media screen and( max-width: $break-medium ) {
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 }

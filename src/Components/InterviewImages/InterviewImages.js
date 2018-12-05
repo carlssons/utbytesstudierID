@@ -11,7 +11,8 @@ class InterviewImages extends Component {
           src={"/images/interview-images/" + this.props.content.img1}
           alt="interviewImage"
         />
-        <div className="image-2-3">
+
+        <div className="image-box-right">
           <img
             className="image-2"
             src={"/images/interview-images/" + this.props.content.img2}

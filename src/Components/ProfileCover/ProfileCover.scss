@@ -2,39 +2,65 @@
 
 .profile-cover {
   display: flex;
+  flex-wrap: wrap;
   z-index: 100;
-  margin-top: 50px;
   max-width: 80%;
+  margin-top: 50px;
+  background-color: $color-background-white;
+  border-radius: 10px;
   .profile-cover-img {
     height: 220px;
-    width: auto;
+    width: 220px;
     border-radius: 10px 0 0 10px;
+    @media screen and( max-width: $break-medium ) {
+      border-radius: 100px;
+      height: 100px;
+      width: auto;
+      margin-top: 30px;
+    }
   }
   .profile-cover-text {
-    width: 100%;
+    height: 220px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     border-radius: 0 10px 10px 0;
-    height: 220px;
     box-sizing: border-box;
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.6);
+
     #profile-title {
-      @include profile-cover-h1;
+      @include profile-cover-h1();
+
+      @media screen and( max-width: $break-medium ) {
+        @include font-h-3();
+        text-align: center;
+      }
     }
     #profile-subtitle {
       @include font-regular-text;
       color: $color-blue;
       font-weight: bold;
+
+      @media screen and( max-width: $break-medium ) {
+        font-weight: normal;
+      }
     }
-    #profile-quote {
-      @include font-quote-text;
-      color: black;
+    @media screen and( max-width: $break-medium + 69px ) {
+      width: 350px;
     }
-    #profile-name {
-      @include font-regular-text;
-      color: black;
+    @media screen and( max-width: $break-medium ) {
+      width: 100%;
+      padding: 0 20px;
+      justify-content: initial;
+      margin-top: 30px;
     }
+  }
+  @media screen and( max-width: $break-medium ) {
+    width: 280px;
+    height: 300px;
+    justify-content: center;
   }
 }

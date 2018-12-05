@@ -14,8 +14,6 @@ export default class ProfileCover extends React.Component {
         <div className="profile-cover-text">
           <p id="profile-title">{this.props.content.title}</p>
           <p id="profile-subtitle">{this.props.content.subtitle}</p>
-          <p id="profile-quote">{this.props.content.quote}</p>
-          <p id="profile-name">{this.props.content.name}</p>
         </div>
       </div>
     );

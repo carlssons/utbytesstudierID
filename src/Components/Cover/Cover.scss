@@ -1,11 +1,10 @@
 @import "../../main";
 
-.cover{
+.cover {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-
   background-size: cover;
   height: 550px;
   &:before {
@@ -22,21 +21,21 @@
     rgba(248,248,248,1));*/
   }
 
-.cover-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-  z-index: 100;
-  #cover-title {
-    @include font-h-1;
-    filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
+  .cover-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    z-index: 100;
+    #cover-title {
+      @include font-h-1;
+      filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
+    }
+    #cover-subtitle {
+      @include font-subtitle;
+      color: white;
+      filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
+    }
   }
-  #cover-subtitle {
-    @include font-subtitle;
-    color: white;
-    filter: drop-shadow(1px 1px 1px rgb(95, 95, 95));
-  }
-}
 }
