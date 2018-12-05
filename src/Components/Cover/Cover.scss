@@ -2,9 +2,10 @@
 
 .cover{
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+
 
   background-size: cover;
   height: 550px;
@@ -23,10 +24,10 @@
   }
 
 .cover-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexbox;
+  @include justify-content(center);
+  @include align-items(center);
+  @include flex-direction(column);
   margin-top: 60px;
   z-index: 100;
   #cover-title {

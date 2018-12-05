@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Cover from "../Cover/Cover.js";
 import InterviewCard from "../InterviewCard/InterviewCard.js";
-
 import "./Interviews.scss";
+import {animateScroll as scroll} from 'react-scroll'
 
 class Interviews extends Component {
   constructor(props) {
@@ -14,6 +14,19 @@ class Interviews extends Component {
           title: "INTERVJUER",
           subtitle:
             "ID-studenter har varit på utbytesstudier på flera olika partneruniversitet runt om i världen. Intervjuerna innehåller  allt ifrån tips till praktiska grejer inför resan från några IDare som har varit iväg."
+        }
+      ],
+
+      interviewCardsAfrica: [
+        {
+          id: "marc",
+          avatar: "marc.jpg",
+          title: "Stellenbosch Sydafrika",
+          subtitle: "Marc Coquand",
+          imgBanner: "marcBanner",
+          school: "Stellenbosch university",
+          semester: "HT-17",
+          link: "/intervjuer"
         }
       ],
 
@@ -167,23 +180,14 @@ class Interviews extends Component {
           semester: "HT-17",
           link: "/intervju"
         }
-      ],
-
-      interviewCardsSouthAfrica: [
-        {
-          id: "marc",
-          avatar: "marc.jpg",
-          title: "Stellenbosch Sydafrika",
-          subtitle: "Marc Coquand",
-          imgBanner: "marcBanner",
-          school: "Stellenbosch university",
-          semester: "HT-17",
-          link: "/intervjuer"
-        }
       ]
     };
   }
-
+  componentDidMount = () => {
+    scroll.scrollToTop({
+      duration: 0
+    });
+  };
   render() {
     return (
       <div>
@@ -193,42 +197,42 @@ class Interviews extends Component {
           })}
         </div>
         <div className="content">
-          <section className="cardSection">
+          <section className="card-section">
+            <h2>AFRIKA</h2>
+            <div className="card-container">
+              {this.state.interviewCardsAfrica.map((element, index) => {
+                return <InterviewCard key={index} content={element} />;
+              })}
+            </div>
+          </section>
+          <section className="card-section" id="asia">
             <h2>ASIEN</h2>
-            <div className="cardContainer">
+            <div className="card-container">
               {this.state.interviewCardsAsia.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
               })}
             </div>
           </section>
-          <section className="cardSection">
+          <section className="card-section">
           <h2>AUSTRALIEN</h2>
-          <div className="cardContainer australia">
+          <div className="card-container">
             {this.state.interviewCardsAustralia.map((element, index) => {
               return <InterviewCard key={index} content={element} />;
             })}
           </div>
           </section>
-          <section className="cardSection">
+          <section className="card-section">
           <h2>EUROPA</h2>
-            <div className="cardContainer">
+            <div className="card-container">
               {this.state.interviewCardsEuropa.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
               })}
             </div>
           </section>
-          <section className="cardSection">
+          <section className="card-section">
           <h2>NORDAMERIKA</h2>
-            <div className="cardContainer">
+            <div className="card-container">
               {this.state.interviewCardsNorthAmerica.map((element, index) => {
-                return <InterviewCard key={index} content={element} />;
-              })}
-            </div>
-          </section>
-          <section className="cardSection">
-          <h2>SYDAFRIKA</h2>
-            <div className="cardContainer southAfrica">
-              {this.state.interviewCardsSouthAfrica.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
               })}
             </div>

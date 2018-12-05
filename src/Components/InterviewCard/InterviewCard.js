@@ -6,6 +6,7 @@ class InterviewCard extends Component {
   state = {};
 
   render() {
+    
 
       return (
         <div className="card">

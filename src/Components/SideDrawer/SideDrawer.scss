@@ -12,11 +12,11 @@
   transition: transform 0.4s ease-out;
   overflow: auto;
   touch-action: none;
-  .navLink{
+  .nav-link{
     text-decoration: none;
     @include font-nav-link;
   }
-  .mainOptions{
+  .main-options{
     list-style-type: none;
     padding-left: 30px;
     padding-top: 25px;

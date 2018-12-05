@@ -1,9 +1,9 @@
 @import "../../main";
 .card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(center);
+  @include align-items(center);
   width: 325px;
   height: auto;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5), 0px 1px 1px 0px rgba(0, 0, 0, 0.1), 0px 2px 1px -1px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
   }
 
   .card-top{
-    display: flex;
+    @include flexbox;
     width: 100%;
 
 
@@ -27,10 +27,10 @@
     }
 
     .card-top-text{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
+      @include flexbox;
+      @include flex-direction(column);
+      @include align-items(start);
+      @include justify-content(center);
       h3{
         margin: 0;
         padding-bottom: 8px;
@@ -49,8 +49,8 @@
   }
 
   .card-bottom{
-    display: flex;
-    flex-direction: column;
+    @include flexbox;
+    @include flex-direction(column);
     width: 100%;
     p{
       margin-left: 20px;

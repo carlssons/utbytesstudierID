@@ -7,41 +7,41 @@ class SideDrawer extends Component {
     const {toggleDrawer, toggleDropDown} = this.props
 
     return (<nav className="side-drawer">
-      <ul className="mainOptions">
+      <ul className="main-options">
         <li>
-          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/">Hem</Link>
+          <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/">Hem</Link>
         </li>
         <li className="navbar-tags">
-          <p href="" onClick={toggleDropDown} className="navLink">Intervjuer</p>
+          <p href="" onClick={toggleDropDown} className="nav-link">Intervjuer</p>
           <ul className="dropdown">
             <li>
-              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Afrika</Link>
+              <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Afrika</Link>
             </li>
             <li>
-              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Asien</Link>
+              <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Asien</Link>
             </li>
             <li>
-              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Europa</Link>
+              <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Europa</Link>
             </li>
             <li>
-              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Nordamerika</Link>
+              <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Nordamerika</Link>
             </li>
             <li>
-              <Link onClick={e => toggleDrawer(e)} className="navLink" to="/intervjuer">Oceanien</Link>
+              <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Oceanien</Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/avtal">Avtal</Link>
+          <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/avtal">Avtal</Link>
         </li>
         <li>
-          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/inforResa">Inför resan</Link>
+          <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/inforResa">Inför resan</Link>
         </li>
         <li>
-          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/tillgodoraknande">Tillgodoräknande</Link>
+          <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/tillgodoraknande">Tillgodoräknande</Link>
         </li>
         <li>
-          <Link onClick={e => toggleDrawer(e)} className="navLink" to="/faq">FAQ</Link>
+          <Link onClick={e => toggleDrawer(e)} className="nav-link" to="/faq">FAQ</Link>
         </li>
       </ul>
     </nav>);

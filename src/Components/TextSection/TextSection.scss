@@ -1,8 +1,8 @@
 @import "../../main";
 
 .text-interview-box {
-  display: flex;
-  justify-content: space-between;
+  @include flexbox;
+  @include justify-content(space-between);
   width: 80%;
   margin: 30px;
 

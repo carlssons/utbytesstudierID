@@ -4,8 +4,6 @@ import "./HeroSection.scss";
 class HeroSection extends Component {
   state = {};
   render() {
-    
-    //let imageUrl = require(`../../../public/images/heroImage.jpg`)
     return (
       
       <div className="hero-page" style={{ backgroundImage: `url(/images/heroImage.jpg)` }}>
