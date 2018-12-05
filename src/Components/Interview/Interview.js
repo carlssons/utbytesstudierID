@@ -18,7 +18,7 @@ export default class Interview extends React.Component {
     const interview = getInterviewContent(this.props.params.id);
     return (
       <div className="interview">
-        <div className="banner-interview">
+        <div className="banner-interview" style={{ backgroundImage: `url(/images/bannerImages/${interview.profileCover.backgroundImg}`}}>
           <ProfileCover content={interview.profileCover} />
         </div>
         <div className="images-interview">

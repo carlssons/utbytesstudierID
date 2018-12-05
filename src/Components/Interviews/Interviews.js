@@ -23,7 +23,7 @@ class Interviews extends Component {
           avatar: "amine.jpg",
           title: "Seoul Sydkorea",
           subtitle: "Amine Balta",
-          imgBanner: "amineCardBanner",
+          imgBanner: "amineBanner",
           school: "Sogang University",
           semester: "HT-18",
           link: "/intervjuer"
@@ -33,7 +33,7 @@ class Interviews extends Component {
           avatar: "alfred.jpg",
           title: "Macau",
           subtitle: "Alfred Ödling",
-          imgBanner:"alfredCardBanner",
+          imgBanner:"alfredBanner",
           school:"University of Science and Technology",
           semester:"HT-17",
           link:"/intervjuer"
@@ -43,7 +43,7 @@ class Interviews extends Component {
           avatar: "charlotte.jpg",
           title: "Seoul Sydkorea",
           subtitle: "Charlotte Ristiniemi",
-          imgBanner: "charlotteCardBanner",
+          imgBanner: "charlotteBanner",
           school: "Hanyang University",
           semester: "HT-17",
           link: "/intervjuer"
@@ -53,7 +53,7 @@ class Interviews extends Component {
           avatar: "david.jpg",
           title: "Tokyo Japan",
           subtitle: "David Hellman",
-          imgBanner: "davidCardBanner",
+          imgBanner: "davidBanner",
           school: "Metropolitan University",
           semester: "HT-17",
           link: "/intervjuer"
@@ -66,7 +66,7 @@ class Interviews extends Component {
           avatar: "emma.jpg",
           title: "Wollongong Australien",
           subtitle: "Emma Fahlman",
-          imgBanner: "emmaCardBanner",
+          imgBanner: "emmaBanner",
           school: "University of Wollongong (UOW)",
           semester: "VT-17",
           link: "/intervjuer"
@@ -79,7 +79,7 @@ class Interviews extends Component {
           avatar: "Linus.jpg",
           title: "Prag Tjeckien",
           subtitle: "Linus Lagerhjelm",
-          imgBanner: "linusCardBanner",
+          imgBanner: "linusBanner",
           school: "Karlsuniversitetet",
           semester: "HT-17",
           link: "/intervjuer"
@@ -89,7 +89,7 @@ class Interviews extends Component {
           avatar: "magnus.jpg",
           title: "München Tyskland",
           subtitle: "Magnus Emanuelsson",
-          imgBanner: "magnusCardBanner",
+          imgBanner: "magnusBanner",
           school: "Tekniska universitet i München (TUM)",
           semester: "HT-18",
           link: "/intervjuer"
@@ -99,7 +99,7 @@ class Interviews extends Component {
           avatar: "mans.jpg",
           title: "Twente Nederländerna",
           subtitle: "Måns Hellgren",
-          imgBanner: "mansCardBanner",
+          imgBanner: "mansBanner",
           school: "University of Twente",
           semester: "HT-18",
           link: "/intervjuer"
@@ -109,7 +109,7 @@ class Interviews extends Component {
           avatar: "matilda.jpg",
           title: "Barcelona Spanien",
           subtitle: "Matilda Nilsson",
-          imgBanner: "matildaCardBanner",
+          imgBanner: "matildaBanner",
           school: "Universitat Politècnica de Catalunya",
           semester: "HT-17",
           link: "/intervjuer"
@@ -119,7 +119,7 @@ class Interviews extends Component {
           avatar: "oskar.jpg",
           title: "Köpenhamn Danmark",
           subtitle: "Oskar Olausson",
-          imgBanner: "oskarCardBanner",
+          imgBanner: "oskarBanner",
           school: "Technical University of Denmark",
           semester: "HT-18",
           link: "/intervjuer"
@@ -129,7 +129,7 @@ class Interviews extends Component {
           avatar: "simon.jpg",
           title: "Köpenhamn Danmark",
           subtitle: "Simon Asp",
-          imgBanner: "simonCardBanner",
+          imgBanner: "simonBanner",
           school: "Köpenhamns Universitet",
           semester: "HT-18",
           link: "/intervjuer"
@@ -142,7 +142,7 @@ class Interviews extends Component {
           avatar: "aron.jpg",
           title: "Edmonton Kanada",
           subtitle: "Aron Nisbel",
-          imgBanner: "aronCardBanner",
+          imgBanner: "aronBanner",
           school: "Grant MacEwan University",
           semester: "HT-18",
           link: "/intervjuer"
@@ -152,7 +152,7 @@ class Interviews extends Component {
           avatar: "tonje.jpg",
           title: "London Kanada",
           subtitle: "Tonje Lindmark",
-          imgBanner: "tonjeCardBanner",
+          imgBanner: "tonjeBanner",
           school: "Western University",
           semester: "HT-17",
           link: "/intervjuer"
@@ -162,7 +162,7 @@ class Interviews extends Component {
           avatar: "Viktor.jpg",
           title: "Winnipeg Kanada",
           subtitle: "Viktor Åhlund",
-          imgBanner: "viktorCardBanner",
+          imgBanner: "viktorBanner",
           school: "University of Manitoba Winnipeg",
           semester: "HT-17",
           link: "/intervju"
@@ -175,7 +175,7 @@ class Interviews extends Component {
           avatar: "marc.jpg",
           title: "Stellenbosch Sydafrika",
           subtitle: "Marc Coquand",
-          imgBanner: "marcCardBanner",
+          imgBanner: "marcBanner",
           school: "Stellenbosch university",
           semester: "HT-17",
           link: "/intervjuer"

@@ -4,6 +4,7 @@ export const getInterviewContent = id => {
   const alfred = {
     profileCover: {
       img: "alfred.jpg",
+      backgroundImg: "alfredBanner.jpg",
       title: "University of Science and Technology, Macau",
       subtitle: "Alfred Ödling | HT-17 | Centrala avtalen",
       quote:
@@ -155,6 +156,7 @@ export const getInterviewContent = id => {
   const amine = {
     profileCover: {
       img: "amine.jpg",
+      backgroundImg: "amineBanner.jpg",
       title: "Sogang University, Seoul i Sydkorea ",
       subtitle: "Amine Balta | HT-18 | Centrala avtalen",
       quote:
@@ -384,6 +386,7 @@ export const getInterviewContent = id => {
   const aron = {
     profileCover: {
       img: "aron.jpg",
+      backgroundImg: "aronBanner.jpg",
       title: "Grant MacEwan University, Edmonton i Kanada",
       subtitle: "Aron Nisbel | HT-18 | Centrala avtalen",
       quote:
@@ -589,6 +592,7 @@ export const getInterviewContent = id => {
   const charlotte = {
     profileCover: {
       img: "charlotte.jpg",
+      backgroundImg: "charlotteBanner.jpg",
       title: "Hanyang University, Seoul i Sydkorea",
       subtitle: "Charlotte Ristiniemi | HT-17 | Centrala avtalen",
       quote:
@@ -814,6 +818,7 @@ export const getInterviewContent = id => {
   const david = {
     profileCover: {
       img: "david.jpg",
+      backgroundImg: "davidBanner.jpg",
       title: "Metropolitan University, Tokyo i Japan",
       subtitle: "David Hellman | HT-17 | Centrala avtalen",
       quote:
@@ -1096,6 +1101,7 @@ export const getInterviewContent = id => {
   const emma = {
     profileCover: {
       img: "emma.jpg",
+      backgroundImg: "emmaBanner.jpg",
       title: "University of Wollongong (UOW), Australien",
       subtitle: "Emma Fahlman | VT-17 | Centrala avtalen",
       quote:
@@ -1309,6 +1315,7 @@ export const getInterviewContent = id => {
   const linus = {
     profileCover: {
       img: "linus.jpg",
+      backgroundImg: "linusBanner.jpg",
       title: "University of Manitoba, Winnipeg i Kanada",
       subtitle: "Linus Lagerhjelm | HT-17 | Erasmus",
       quote:
@@ -1603,6 +1610,7 @@ export const getInterviewContent = id => {
   const magnus = {
     profileCover: {
       img: "magnus.jpg",
+      backgroundImg: "magnusBanner.jpg",
       title: " Tekniska universitet i München TUM, München i Tyskland",
       subtitle: "Magnus Emanuelsson | HT-18 | Erasmus",
       quote: "“Kulturen här och staden är fantastisk”",
@@ -1811,6 +1819,7 @@ export const getInterviewContent = id => {
   const marc = {
     profileCover: {
       img: "marc.jpg",
+      backgroundImg: "marcBanner.jpg",
       title: "Stellenbosch University, Sydafrika",
       subtitle: "Marc Conquand | HT-17 | Via CS sektionen",
       quote: "“Sydafrika är magiskt. Finns inget vackrare ställe på jorden”",
@@ -1969,6 +1978,7 @@ export const getInterviewContent = id => {
   const matilda = {
     profileCover: {
       img: "matilda.jpg",
+      backgroundImg: "matildaBanner.jpg",
       title: "Universitat Politècnica de Catalunya, Barcelona i Spanien",
       subtitle: "Matilda Nilsson | HT-17 | Erasmus+",
       quote:
@@ -2182,6 +2192,7 @@ export const getInterviewContent = id => {
   const mans = {
     profileCover: {
       img: "mans.jpg",
+      backgroundImg: "mansBanner.jpg",
       title: "University of Twente, Nederländerna",
       subtitle: "Måns Hellgren | HT-18 | Erasmus+",
       quote:
@@ -2420,6 +2431,7 @@ export const getInterviewContent = id => {
   const oskar = {
     profileCover: {
       img: "oskar.jpg",
+      backgroundImg: "oskarBanner.jpg",
       title: "DTU, Danmark",
       subtitle: "Oskar Olausson | HT-18 | Nordtek",
       quote:
@@ -2573,6 +2585,7 @@ export const getInterviewContent = id => {
   const simon = {
     profileCover: {
       img: "simon.jpg",
+      backgroundImg: "simonBanner.jpg",
       title: "Köpenhamns Universitet, Danmark",
       subtitle: "Simon Asp | HT-18 | Nordlys",
       quote:
@@ -2800,6 +2813,7 @@ export const getInterviewContent = id => {
   const tonje = {
     profileCover: {
       img: "tonje.jpg",
+      backgroundImg: "tonjeBanner.jpg",
       title: "Western University, London i Kanada",
       subtitle: "Tonje Lindmark | HT-17 | Centrala avtalen",
       quote:
@@ -3026,6 +3040,7 @@ export const getInterviewContent = id => {
   const viktor = {
     profileCover: {
       img: "Viktor.jpg",
+      backgroundImg: "viktorBanner.jpg",
       title: "University of Manitoba, Winnipeg i Kanada",
       subtitle: "Viktor Åhlund | HT-17 | Centrala avtalen",
       quote: "“Tiden i Kanada är nog den tid jag växt mest som person”",
