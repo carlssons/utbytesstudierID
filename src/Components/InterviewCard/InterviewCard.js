@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./InterviewCard.scss";
-//{`card-middle ${ this.props.content.imgBanner }`
+
 class InterviewCard extends Component {
   state = {};
 
   render() {
 
-    let imageUrl = require(`../../images/interviewCardImages/${this.props.content.imgBanner}.jpg`)
       return (
         <div className="card">
           <div className="card-top">
@@ -19,7 +18,7 @@ class InterviewCard extends Component {
               <p>{this.props.content.subtitle}</p>
             </div>
           </div>
-          <div className="card-middle" style={{ backgroundImage: `url(${imageUrl})` }}>
+          <div className="card-middle" style={{ backgroundImage: `url(/images/bannerImages/${this.props.content.imgBanner}.jpg)` }}>
 
           </div>
           <div className="card-bottom">

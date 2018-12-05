@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "./Cover.scss";
 
+
 class Cover extends Component {
   state = {};
   render() {
-    let imageUrl = require(`../../images/${this.props.content.backgroundImg}.jpg`)
+    console.log(this.props.content.backgroundImg);
     return (
-      <div className="cover" style={{ backgroundImage: `url(${imageUrl})` }}>
+      <div className="cover" style={{ backgroundImage: `url(/images/${this.props.content.backgroundImg}.jpg`}}>
         <div className="cover-text">
           <p id="cover-title">{this.props.content.title}</p>
           <p id="cover-subtitle">{this.props.content.subtitle}</p>
