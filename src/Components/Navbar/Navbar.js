@@ -3,49 +3,53 @@ import { Link } from "react-router-dom";
 import "./Navbar.scss";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton.js";
 
-const Navbar = props => {
-  const { toggleDrawer } = props;
+class Navbar extends React.Component {
+  state = {}
 
-  return (
+  render(){
+    const { toggleDrawer } = this.props;
+    let arrowIcon="/icons/arrowDown.svg";
+
+    return (
     <nav className="Navbar">
       {/* The mobile menu. Is only displayed on mobile screen */}
       <DrawerToggleButton
-        className="MobileMenuOptions"
         toggleDrawer={toggleDrawer}
       />{" "}
       {/* The desktop menu. Is only displayed screens larger then mobile */}
-      <div className="DesktopMenuOptions">
-        <Link className="navLink" to="/">
+      <div className="desktop-menu-options">
+        <Link className="nav-link" to="/">
           Hem
         </Link>
-        <div className="dropDown">
-          <div className="navLink" id="intervjuerLink">
+        <div className="drop-down">
+          <div className="nav-link" id="intervjuerLink">
             <Link to="/intervjuer">Intervjuer</Link>
-            <img id="arrowDown" src="/icons/arrowDown.svg" alt="arrow" />
+            <img id="arrow-down" src={arrowIcon} alt="arrow" />
           </div>
           <div id="dropDownContent">
-            <Link to="/">Afrika</Link>
-            <Link to="/">Asien</Link>
-            <Link to="/">Europa</Link>
-            <Link to="/">Nordamerika</Link>
-            <Link to="/">Oceanien</Link>
+            <Link to="/intervjuer">Afrika</Link>
+            <Link to="/intervjuer">Asien</Link>
+            <Link to="/intervjuer">Europa</Link>
+            <Link to="/intervjuer">Nordamerika</Link>
+            <Link to="/intervjuer">Oceanien</Link>
           </div>
         </div>
-        <Link className="navLink" to="/avtal">
+        <Link className="nav-link" to="/avtal">
           Avtal
         </Link>
-        <Link className="navLink" to="/inforResa">
+        <Link className="nav-link" to="/inforResa">
           Inför resan
         </Link>
-        <Link className="navLink" to="/tillgodoraknande">
+        <Link className="nav-link" to="/tillgodoraknande">
           Tillgodoräknande
         </Link>
-        <Link className="navLink" to="/faq">
+        <Link className="nav-link" to="/faq">
           FAQ
         </Link>
       </div>
     </nav>
   );
+  }
 };
 
 //export default Navbar;

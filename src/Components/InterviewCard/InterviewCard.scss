@@ -1,9 +1,9 @@
 @import "../../main";
 .card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(center);
+  @include align-items(center);
   width: 325px;
   height: auto;
   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.5), 0px 1px 1px 0px rgba(0, 0, 0, 0.1), 0px 2px 1px -1px rgba(0, 0, 0, 0.1);
@@ -13,10 +13,25 @@
     @include font-regular-text;
     color:black;
   }
+  @media screen and(max-width: $break-small){
+    margin: 8px 8px 30px 8px;
+  }
+
+  @media screen and(max-width: $break-small - 100){
+    margin: 8px 8px 30px 8px;
+    width: 300px;
+  }
+
+  @media screen and(max-width: $break-small - 100){
+    width: 300px;
+  }
 
   .card-top{
-    display: flex;
-    width: 100%;
+    @include flexbox;
+    width: 325px;
+    @media screen and(max-width: $break-small - 100){
+      width: 300px;
+    }
 
 
     .card-top-img{
@@ -27,10 +42,10 @@
     }
 
     .card-top-text{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center;
+      @include flexbox;
+      @include flex-direction(column);
+      @include align-items(start);
+      @include justify-content(center);
       h3{
         margin: 0;
         padding-bottom: 8px;
@@ -44,14 +59,21 @@
   .card-middle{
 
     background-size: cover;
-    width: 100%;
+    width: 325px;
     height: 200px;
+
+    @media screen and(max-width: $break-small - 100){
+      width: 300px;
+    }
   }
 
   .card-bottom{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    @include flexbox;
+    @include flex-direction(column);
+    width: 325px;
+    @media screen and(max-width: $break-small - 100){
+      width: 300px;
+    }
     p{
       margin-left: 20px;
     }

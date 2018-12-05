@@ -4,22 +4,22 @@
   .quote-container {
     background-color: $color-blue;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @include flexbox;
+    @include justify-content(center);
     padding-bottom: 150px;
 
     .quote-box {
-      display: flex;
-      justify-content: center;
+      @include flexbox;
+      @include justify-content(center);
       width: 80%;
-      flex-wrap: wrap;
+      @include flex-wrap(wrap);
     }
   }
 
   .process-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    @include flexbox;
+    @include justify-content(center);
     position: relative;
     background-color: $color-background-white;
 
@@ -35,22 +35,22 @@
 
     .process-wraper {
       z-index: 100;
-      display: flex;
-      flex-direction: column;
+      @include flexbox;
+      @include flex-direction(column);
       background-color: $color-background-white;
       border: solid 4px #0f1833;
       border-radius: 10px;
       width: 80%;
-      justify-content: center;
+      @include justify-content(center);
       align-items: center;
       #h2-process {
         @include font-h-2;
       }
     }
     .process-box {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      @include flexbox;
+      @include flex-wrap(wrap);
+      @include justify-content(center);
       align-items: center;
       margin-top: 20px;
     }

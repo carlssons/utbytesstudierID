@@ -2,19 +2,19 @@
 
 .hero-page {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(center);
+  @include align-items(center);
   //background-image: url("../../../public/images/heroImage.jpg");
   background-size: cover;
   height: 550px;
 
   .hero-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include align-items(center);
     z-index: 100;
     #hero-h1 {
       @include font-h-1;

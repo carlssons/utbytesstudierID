@@ -3,25 +3,24 @@
 .Navbar {
   max-width: 1400px;
   background-color: rgba(15, 24, 51, 0.8);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  @include flexbox;
+  @include align-items(center);
   //justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 150;
   @media screen and(min-width: $break-medium) {
-    justify-content: flex-end;
+    @include justify-content(flex-end);
   }
   @media screen and(max-width: $break-medium) {
-    justify-content: flex-start;
+    @include justify-content(flex-start);
   }
-  .DesktopMenuOptions {
+  .desktop-menu-options {
     @media screen and(max-width: $break-medium) {
       display: none;
     }
-    .navLink {
+    .nav-link {
       @include font-nav-link;
       a {
         @include font-nav-link;
@@ -29,14 +28,14 @@
       padding: 20px;
     }
     #intervjuerLink {
-      display: flex;
-      align-items: center;
-      #arrowDown {
+      @include flexbox;
+      @include align-items(center);
+      #arrow-down {
         width: 12px;
         padding: 3px 0 0 6px;
       }
     }
-    .dropDown {
+    .drop-down {
       position: relative;
       display: inline-block;
 
@@ -61,8 +60,8 @@
       &:hover {
         #dropDownContent {
           display: block;
-          display: flex;
-          flex-direction: column;
+          @include flexbox;
+          @include flex-direction(column);
         }
       }
     }

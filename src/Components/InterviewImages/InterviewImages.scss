@@ -2,10 +2,10 @@
 
 .interview-images {
   margin: 100px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+  @include align-items(center);
   width: 90%;
 
   .image-1 {
@@ -26,8 +26,8 @@
   }
 
   .image-box-right {
-    display: flex;
-    flex-direction: column;
+    @include flexbox;
+    @include flex-direction(column);
 
     .image-2 {
       height: 190px;
