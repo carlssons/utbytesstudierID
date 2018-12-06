@@ -1,37 +1,32 @@
 @import "../../main";
 
-body{
+body {
   background-color: $color-background-white;
 
+  .content {
+    margin-bottom: 70px;
 
-.content{
-  margin-bottom: 70px;
-  //margin-top: 70px;
+    .card-section {
+      margin-top: 80px;
+      @include flexbox;
+      @include flex-direction(column);
+      @include align-items(center);
+      width: 100%;
 
-  .card-section{
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    h2{
-      @include font-h-2;
-      margin-bottom: 50px;
-
-    }
-    .card-container{
-      width: 80%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      @media screen and(max-width: $break-medium){
-        width: 90%;
+      .card-h2 {
+        @include font-h-2;
+        margin-bottom: 50px;
+      }
+      .card-container {
+        width: 80%;
+        @include flexbox;
+        @include align-items(center);
+        @include justify-content(center);
+        @include flex-wrap(wrap);
+        @media screen and(max-width: $break-medium) {
+          width: 90%;
+        }
       }
     }
-
-
   }
-}
 }

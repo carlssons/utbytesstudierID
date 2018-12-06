@@ -1,19 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Cover.scss";
 
-
-class Cover extends Component {
-  state = {};
+export default class Cover extends React.Component {
   render() {
-    console.log(this.props.content.backgroundImg);
     return (
-      <div className="cover" style={{ backgroundImage: `url(/images/${this.props.content.backgroundImg}.jpg`}}>
+      <div
+        className="cover"
+        style={{
+          backgroundImage: `url(/images/${this.props.content.backgroundImg}.jpg`
+        }}
+      >
         <div className="cover-text">
-          <p id="cover-title">{this.props.content.title}</p>
-          <p id="cover-subtitle">{this.props.content.subtitle}</p>
+          {this.props.content.title}
+          {this.props.content.subtitle}
         </div>
       </div>
     );
   }
 }
-export default Cover;
