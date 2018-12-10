@@ -105,10 +105,67 @@ export const getProcessAgreementContent = id => {
     ]
 
   };
+  const erasmusAgreements = {
+    processText:[ 
+      {
+        text: {
+
+          heading: (
+            <p className="info-heading">
+              Steg 1
+            </p>
+          ),
+          info: (
+            <div className="info-body-text">
+              <p>
+                Hitta ett eller flera universitet som du vill åka till och som har avtal med Umeå universitet.
+              </p>
+            </div>
+          ),
+        }
+      },
+      {
+        text: {
+
+          heading: (
+            <p className="info-heading">
+              Steg 2
+            </p>
+          ),
+          info: (
+            <div className="info-body-text">
+              <p> 
+                Kolla upp att partneruniversitet erbjuder kurser som du vill och kan läsa. 
+              </p>
+            </div>
+          ),
+        }
+      },
+      {
+        text: {
+
+          heading: (
+            <p className="info-heading">
+              Steg 3
+            </p>
+          ),
+          info: (
+            <div className="info-body-text">
+              <p>
+                Ta kontakt med ansvarig för institutionsavtalet med det universitet du vill åka till. Skicka ett mejl där du motiverar varför du vill åka till just det partneruniversitet. 
+              </p>
+            </div>
+          ),
+        }
+      }
+    ]
+
+  };
   
 
   const content = {
-    centralAgreements
+    centralAgreements,
+    erasmusAgreements
   };
   return content[id];
 };

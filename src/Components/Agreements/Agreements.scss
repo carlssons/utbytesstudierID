@@ -2,6 +2,9 @@
 
 .agreements{
   background-color: $color-blue;
+  p{
+    @include font-regular-text;
+  }
   .info-content{
     @include flexbox;
     @include flex-direction(column); 
@@ -19,25 +22,27 @@
         
       }
       p{
-        @include font-regular-text;
         a{
           @include font-in-text-link;
         }
       }
-      ul{
-        list-style-type: none;
-        margin:0;
-        padding:0;
-        li{
-          margin:10px 0 10px 0;
-        }
-        a{
-          @include font-text-link;
-          text-decoration: none;
+      .link-box{
+        padding-bottom: 40px;
+        ul{
+          list-style-type: none;
+          margin:0;
+          padding:0;
+          li{
+            margin:10px 0 10px 0;
+          }
+          a{
+            @include font-text-link;
+            text-decoration: none;
+          }
+  
         }
 
       }
-
     }
     .open-button{
       @include flexbox;
@@ -55,8 +60,9 @@
       }
     }
     .content-process{
+      //width: 100%;
       display: none;
-      margin-top: 100px;
+      padding: 100px 0 20px 0;
       background-color: $color-background-light-blue;
       .close-button{
         width: 50px;
@@ -69,6 +75,14 @@
         @include align-items(center);
         
         
+      }
+      .text-process-container{
+        width: 100%;
+      @include flexbox;
+      @include flex-direction(column);
+      @include justify-content(column);
+      @include align-items(center);
+      margin-bottom: 100px;
       }
     }
   }
