@@ -8,6 +8,7 @@ $color-black: #11120e;
 $color-blue: #0f1833;
 $color-peach: #ff9e7b;
 $color-text-white: #dbdbdb;
+$color-background-light-blue: #1A365B;
 
 /*
     Font Styles:
@@ -313,6 +314,22 @@ $font-text-link-font-decoration: none;
   font-style: $font-text-link-font-style;
   font-weight: $font-text-link-font-weight;
   font-family: $font-text-link-font-family;
+}
+/* inTextLink font style */
+$font-in-text-link-font-size: 16px;
+$font-in-text-link-line-height: normal;
+$font-in-text-link-color: $color-peach;
+$font-in-text-link-letter-spacing: 1.6px;
+$font-in-text-link-font-style: normal;
+$font-in-text-link-font-family: Roboto;
+
+@mixin font-in-text-link() {
+  font-size: $font-in-text-link-font-size;
+  line-height: $font-in-text-link-line-height;
+  color: $font-in-text-link-color;
+  letter-spacing: $font-in-text-link-letter-spacing;
+  font-style: $font-in-text-link-font-style;
+  font-family: $font-in-text-link-font-family;
 }
 
 @mixin flexbox() {
