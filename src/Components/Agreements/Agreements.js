@@ -1,22 +1,13 @@
 import React, { Component } from "react";
 import Cover from "../Cover/Cover.js";
+import { getCoverContent } from "../../coverContent";
 import "./Agreements.scss";
 import ProcessAgreements from "./ProcessAgreements/ProcessAgreements.js";
 import $ from "jquery";
 class Agreements extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      cover: {
-        backgroundImg: "heroImageAgreements",
-        title: "AVTAL",
-        subtitle:
-          "Det finns olika avtal beroende på vilket land du vill studera i. De olika avtalen finns listade nedan. Det går att söka med hur många olika avtal man vill."
-      },
-      //buttonToggled: false,
-      //expandButtonClicked: false,
-      //closeButtonClicked: false
-    };
+    this.state = {}
   }
   /*toggleProcess = () => {
     this.setState(
@@ -49,6 +40,7 @@ class Agreements extends Component {
   }
 
   render() {
+    const coverContent = getCoverContent("agreementsCover");
     let linkCountries = "https://www.umu.se/student/studera-utomlands/utbytesstudier/utbytesstudier-utanfor-europa/vart-kan-du-aka/";
     let linkDates = "https://www.umu.se/student/studera-utomlands/utbytesstudier/utbytesstudier-utanfor-europa/#info3";
     let linkDemands = "https://www.umu.se/student/studera-utomlands/utbytesstudier/utbytesstudier-utanfor-europa/#info2";
@@ -58,7 +50,7 @@ class Agreements extends Component {
     let linkOnlineApplication = "https://ioportal.db.umu.se/forms/cent/";
     return (
       <div className="agreements">
-        <Cover content={this.state.cover} />
+        <Cover content={coverContent.cover} />
         <div className="info-content">
         <div className="info-top">
           <h2>CENTRALA AVTALEN</h2>
@@ -102,5 +94,4 @@ class Agreements extends Component {
     );
   }
 }
-
 export default Agreements;

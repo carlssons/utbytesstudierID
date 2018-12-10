@@ -106,27 +106,6 @@ $font-h-2-font-family: Raleway;
 }
 
 /* h3 font style */
-$font-h-3-font-size: 18px;
-$font-h-3-line-height: normal;
-$font-h-3-text-align: left;
-$font-h-3-color: #0f1833;
-$font-h-3-letter-spacing: 1.6px;
-$font-h-3-font-style: normal;
-$font-h-3-font-weight: 500;
-$font-h-3-font-family: Roboto;
-
-@mixin font-h-3() {
-  font-size: $font-h-3-font-size;
-  line-height: $font-h-3-line-height;
-  text-align: $font-h-3-text-align;
-  color: $font-h-3-color;
-  letter-spacing: $font-h-3-letter-spacing;
-  font-style: $font-h-3-font-style;
-  font-weight: $font-h-3-font-weight;
-  font-family: $font-h-3-font-family;
-}
-
-/* profile-cover heading */
 $profile-cover-h1-size: 23px;
 $profile-cover-h1-height: normal;
 $profile-cover-h1-text-align: center;
@@ -137,7 +116,7 @@ $profile-cover-h1-font-weight: 500;
 $profile-cover-h1-font-family: Roboto;
 $profile-cover-h1-margin: 0;
 
-@mixin profile-cover-h1() {
+@mixin font-h-3() {
   font-size: $profile-cover-h1-size;
   line-height: $profile-cover-h1-height;
   text-align: $profile-cover-h1-text-align;
@@ -147,6 +126,26 @@ $profile-cover-h1-margin: 0;
   font-weight: $profile-cover-h1-font-weight;
   font-family: $profile-cover-h1-font-family;
   margin: $profile-cover-h1-margin;
+}
+/* h4 font style */
+$font-h-3-font-size: 18px;
+$font-h-3-line-height: normal;
+$font-h-3-text-align: left;
+$font-h-3-color: #0f1833;
+$font-h-3-letter-spacing: 1.1px;
+$font-h-3-font-style: normal;
+$font-h-3-font-weight: 500;
+$font-h-3-font-family: Roboto;
+
+@mixin font-h-4() {
+  font-size: $font-h-3-font-size;
+  line-height: $font-h-3-line-height;
+  text-align: $font-h-3-text-align;
+  color: $font-h-3-color;
+  letter-spacing: $font-h-3-letter-spacing;
+  font-style: $font-h-3-font-style;
+  font-weight: $font-h-3-font-weight;
+  font-family: $font-h-3-font-family;
 }
 
 /* IconText font style */
@@ -278,7 +277,6 @@ $font-subtitle-margin-bottom: 50px;
 $font-regular-font-size: 16px;
 $font-regular-color: $color-text-white;
 $font-regular-line-height: 1.4;
-//$font-regular-letter-spacing: 1.6px;
 $font-regular-font-style: normal;
 $font-regular-font-weight: 400;
 $font-regular-font-family: Roboto;
@@ -287,7 +285,6 @@ $font-regular-font-family: Roboto;
   font-size: $font-regular-font-size;
   color: $font-regular-color;
   line-height: $font-regular-line-height;
-  //letter-spacing: $font-regular-letter-spacing;
   font-style: $font-regular-font-style;
   font-weight: $font-regular-font-weight;
   font-family: $font-regular-font-family;
@@ -342,30 +339,30 @@ $font-in-text-link-font-family: Roboto;
 
 @mixin flex-direction($direction) {
   -webkit-flex-direction: $direction;
-     -moz-flex-direction: $direction;
-      -ms-flex-direction: $direction;
-          flex-direction: $direction;
+  -moz-flex-direction: $direction;
+  -ms-flex-direction: $direction;
+  flex-direction: $direction;
 }
 
 @mixin flex-wrap($wrap) {
   -webkit-flex-wrap: $wrap;
-     -moz-flex-wrap: $wrap;
-      -ms-flex-wrap: $wrap;
-          flex-wrap: $wrap;
+  -moz-flex-wrap: $wrap;
+  -ms-flex-wrap: $wrap;
+  flex-wrap: $wrap;
 }
 
 @mixin justify-content($justify) {
   -webkit-justify-content: $justify;
-     -moz-justify-content: $justify;
-      -ms-justify-content: $justify;
-          justify-content: $justify;
-            -ms-flex-pack: $justify;
+  -moz-justify-content: $justify;
+  -ms-justify-content: $justify;
+  justify-content: $justify;
+  -ms-flex-pack: $justify;
 }
 @mixin align-items($align) {
   -webkit-align-items: $align;
-     -moz-align-items: $align;
-      -ms-align-items: $align;
-          align-items: $align;
+  -moz-align-items: $align;
+  -ms-align-items: $align;
+  align-items: $align;
 }
 
 /* media query */

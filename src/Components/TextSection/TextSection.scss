@@ -31,5 +31,6 @@
   @media screen and( max-width: $break-small + 145 ) {
     @include flex-direction(column);
     margin: 0;
+    width: 90%;
   }
 }

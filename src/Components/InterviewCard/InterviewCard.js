@@ -6,30 +6,35 @@ class InterviewCard extends Component {
   state = {};
 
   render() {
-    
-
-      return (
-        <div className="card">
-          <div className="card-top">
-            <img className="card-top-img"
-                 src={"./images/" + this.props.content.avatar}
-                 alt="profile"/>
-            <div className="card-top-text">
-              <h3>{this.props.content.title}</h3>
-              <p>{this.props.content.subtitle}</p>
-            </div>
-          </div>
-          <div className="card-middle" style={{ backgroundImage: `url(/images/bannerImages/${this.props.content.imgBanner}.jpg)` }}>
-
-          </div>
-          <div className="card-bottom">
-            <p className="school">{this.props.content.school}</p>
-            <p className="semester">{this.props.content.semester}</p>
-              <Link to={"/intervjuer/" + this.props.content.id} className="button">
-                Läs intervju
-              </Link>
+    return (
+      <div className="card">
+        <div className="card-top">
+          <img
+            className="card-top-img"
+            src={"./images/" + this.props.content.avatar}
+            alt="profile"
+          />
+          <div className="card-top-text">
+            {this.props.content.title}
+            {this.props.content.subtitle}
           </div>
         </div>
+        <div
+          className="card-middle"
+          style={{
+            backgroundImage: `url(/images/bannerImages/${
+              this.props.content.imgBanner
+            }.jpg)`
+          }}
+        />
+        <div className="card-bottom">
+          {this.props.content.school}
+          {this.props.content.semester}
+          <Link to={"/intervjuer/" + this.props.content.id} className="button">
+            Läs intervju
+          </Link>
+        </div>
+      </div>
     );
   }
 }

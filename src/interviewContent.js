@@ -12,9 +12,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Alfred Ödling"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "macau1.jpg",
+      img2: "macau2.jpg",
+      img3: "macau3.jpg"
     },
     interviewText: [
       {
@@ -164,9 +164,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Amine Balta"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "sydkoreaAmine1.jpg",
+      img2: "sydkoreaAmine2.jpg",
+      img3: "sydkoreaAmine3.jpg"
     },
     interviewText: [
       {
@@ -394,9 +394,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Aron Nisbel"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "EdmontonCanada1.jpg",
+      img2: "EdmontonCanada2.jpg",
+      img3: "EdmontonCanada3.jpg"
     },
     interviewText: [
       {
@@ -600,9 +600,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Charlotte Ristiniemi"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "sydkoreaCharlotte1.jpg",
+      img2: "sydkoreaCharlotte2.jpg",
+      img3: "sydkoreaCharlotte3.jpg"
     },
     interviewText: [
       {
@@ -826,9 +826,9 @@ export const getInterviewContent = (id, color) => {
       name: "- David Hellman"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "tokyo2.jpeg",
+      img2: "tokyo1.jpeg",
+      img3: "tokyo3.jpg"
     },
     interviewText: [
       {
@@ -1109,9 +1109,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Emma Fahlman"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "australia1.jpg",
+      img2: "australia2.jpg",
+      img3: "australia3.jpg"
     },
     interviewText: [
       {
@@ -1323,9 +1323,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Linus Lagerhjelm"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "prague1.jpg",
+      img2: "prague2.jpg",
+      img3: "prague3.jpg"
     },
     interviewText: [
       {
@@ -1617,9 +1617,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Magnus Emanuelsson"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "tyskland1.jpg",
+      img2: "tyskland2.jpg",
+      img3: "tyskland3.jpg"
     },
     interviewText: [
       {
@@ -1826,9 +1826,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Marc Conquand"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "afrika1.jpg",
+      img2: "afrika2.jpg",
+      img3: "afrika3.jpg"
     },
     interviewText: [
       {

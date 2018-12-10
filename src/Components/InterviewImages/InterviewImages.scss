@@ -21,7 +21,11 @@
     }
     @media screen and( max-width: $break-small + 145 ) {
       height: auto;
-      width: 290px;
+      width: 330px;
+    }
+    @media screen and( max-width: $break-small - 99 ) {
+      height: auto;
+      width: 310px;
     }
   }
 
@@ -42,7 +46,11 @@
       }
       @media screen and( max-width: $break-small + 145 ) {
         height: auto;
-        width: 290px;
+        width: 330px;
+      }
+      @media screen and( max-width: $break-small - 99 ) {
+        height: auto;
+        width: 310px;
       }
     }
     .image-3 {
@@ -58,12 +66,17 @@
       }
       @media screen and( max-width: $break-small + 145 ) {
         height: auto;
-        width: 290px;
+        width: 330px;
+      }
+      @media screen and( max-width: $break-small - 99 ) {
+        height: auto;
+        width: 310px;
       }
     }
   }
   @media screen and( max-width: $break-medium ) {
-    flex-wrap: nowrap;
-    flex-direction: column;
+    margin: 80px 0px;
+    @include flex-wrap(nowrap);
+    @include flex-direction(column);
   }
 }

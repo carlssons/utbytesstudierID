@@ -1,8 +1,8 @@
 @import "../../main";
 
 .profile-cover {
-  display: flex;
-  flex-wrap: wrap;
+  @include flexbox;
+  @include flex-wrap(wrap);
   z-index: 100;
   max-width: 80%;
   margin-top: 50px;
@@ -22,20 +22,20 @@
   .profile-cover-text {
     height: 220px;
     width: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include align-items(center);
     text-align: center;
     border-radius: 0 10px 10px 0;
     box-sizing: border-box;
     padding: 30px;
 
     #profile-title {
-      @include profile-cover-h1();
+      @include font-h-3();
 
       @media screen and( max-width: $break-medium ) {
-        @include font-h-3();
+        @include font-h-4();
         text-align: center;
       }
     }
@@ -54,13 +54,13 @@
     @media screen and( max-width: $break-medium ) {
       width: 100%;
       padding: 0 20px;
-      justify-content: initial;
+      @include justify-content(initial);
       margin-top: 30px;
     }
   }
   @media screen and( max-width: $break-medium ) {
     width: 280px;
     height: 300px;
-    justify-content: center;
+    @include justify-content(center);
   }
 }

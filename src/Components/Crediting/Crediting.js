@@ -1,23 +1,18 @@
 import React, { Component } from "react";
 import Cover from "../Cover/Cover.js";
 import "./Crediting.scss";
+import { getCoverContent } from "../../coverContent";
 
 class Crediting extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      cover: {
-        backgroundImg: "heroImageCrediting",
-        title: "TILLGODORÄKNANDE",
-        subtitle:
-          "De kurser som du läser utomlands behöver tillgodoräknas in i dina studier på ID-programmet. På den här sidan finner du en lista på kurser som ID-studenter har läst vid olika partneruniversitet under deras utlandsstudier. Du finner även information om vilka kategorier kurserna har tillgodoräknats i."
-      }
-    };
+    this.state = {};
   }
   render() {
+    const coverContent = getCoverContent("creditingCover");
     return (
       <div>
-        <Cover content={this.state.cover} />
+        <Cover content={coverContent.cover} />
       </div>
     );
   }
