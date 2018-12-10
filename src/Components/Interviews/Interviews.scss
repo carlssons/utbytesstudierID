@@ -1,13 +1,12 @@
 @import "../../main";
 
-body {
-  background-color: $color-background-white;
-
   .content {
     margin-bottom: 70px;
+    background-color: $color-blue;
 
     .card-section {
-      margin-top: 80px;
+      padding-top: 80px;
+      box-sizing: border-box;
       @include flexbox;
       @include flex-direction(column);
       @include align-items(center);
@@ -16,6 +15,7 @@ body {
       .card-h2 {
         @include font-h-2;
         margin-bottom: 50px;
+        color: $color-text-white;
       }
       .card-container {
         width: 80%;
@@ -29,4 +29,3 @@ body {
       }
     }
   }
-}

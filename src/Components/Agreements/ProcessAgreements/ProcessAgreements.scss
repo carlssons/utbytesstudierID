@@ -1,0 +1,10 @@
+@import "../../../main.scss";
+
+.text-process-container{
+    width: 100%;
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(column);
+    @include align-items(center);
+    margin-bottom: 100px;
+}

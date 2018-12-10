@@ -15,7 +15,7 @@ export default class Interview extends React.Component {
   };
 
   render() {
-    const interview = getInterviewContent(this.props.params.id);
+    const interview = getInterviewContent(this.props.params.id, "#11120e");
     return (
       <div className="interview">
         <div
@@ -33,7 +33,7 @@ export default class Interview extends React.Component {
         </div>
         <div className="text-interview-container">
           {interview.interviewText.map((element, index) => {
-            return <TextSection key={index} text={element.text} />;
+            return <TextSection key={index} text={element.text} color="#11120e"/>;
           })}
         </div>
       </div>

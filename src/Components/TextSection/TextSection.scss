@@ -6,9 +6,9 @@
   width: 70%;
   margin: 30px 0;
 
-  .interview-question {
+  .info-heading {
     @include font-regular-text;
-    color: black;
+    //color: black;
     font-weight: bold;
     width: 30%;
     box-sizing: border-box;
@@ -16,14 +16,17 @@
       width: 100%;
     }
   }
-  .interview-answer {
+  .info-body-text {
     @include font-regular-text;
-    color: black;
+    //color: black;
     width: 60%;
     box-sizing: border-box;
     @media screen and( max-width: $break-small + 145 ) {
       width: 100%;
     }
+  }
+  .info-body-link{
+    @include font-text-link;
   }
   @media screen and( max-width: $break-small + 145 ) {
     @include flex-direction(column);
