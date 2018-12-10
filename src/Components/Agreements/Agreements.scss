@@ -1,25 +1,26 @@
 @import "../../main.scss";
 
-.agreements{
+.agreements {
   background-color: $color-blue;
   p{
     @include font-regular-text;
   }
-  .info-content{
+
+  .info-content {
+
     @include flexbox;
-    @include flex-direction(column); 
+    @include flex-direction(column);
     @include align-items(center);
     @include justify-content(center);
-    .info-top{
+    .info-top {
       @include flexbox;
       @include flex-direction(column);
       @include justify-content(flex-start);
       width: 70%;
-      h2{
+      h2 {
         @include font-h-2;
-        color:$color-text-white;
+        color: $color-text-white;
         margin-top: 100px;
-        
       }
       p{
         a{
@@ -39,42 +40,38 @@
             @include font-text-link;
             text-decoration: none;
           }
-  
         }
-
       }
     }
-    .open-button{
+    .open-button {
       @include flexbox;
       @include flex-direction(column);
       @include align-items(center);
       @include justify-content(center);
-      img{
+      img {
         width: 50px;
       }
-      p{
+      p {
         @include font-regular-text;
       }
-      &.no-show{
+      &.no-show {
         display: none;
       }
     }
-    .content-process{
-      //width: 100%;
+
+    .content-process {
       display: none;
       padding: 100px 0 20px 0;
       background-color: $color-background-light-blue;
-      .close-button{
+      .close-button {
         width: 50px;
         transform: rotate(180deg);
       }
-      &.open{
+      &.open {
         @include flexbox;
         @include flex-direction(column);
         @include justify-content(center);
         @include align-items(center);
-        
-        
       }
       .text-process-container{
         width: 100%;

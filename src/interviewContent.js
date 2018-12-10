@@ -1986,9 +1986,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Matilda Nilsson"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "barca1.jpg",
+      img2: "barca2.jpeg",
+      img3: "barca3.jpeg"
     },
     interviewText: [
       {
@@ -2200,9 +2200,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Måns Hellgren"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "nederlanderna1.jpg",
+      img2: "nederlanderna2.jpg",
+      img3: "nederlanderna3.jpg"
     },
     interviewText: [
       {
@@ -2439,9 +2439,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Oskar Olausson"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "danmarkOskar1.jpg",
+      img2: "danmarkOskar2.jpg",
+      img3: "danmarkOskar3.jpg"
     },
     interviewText: [
       {
@@ -2593,9 +2593,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Simon Asp"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "danmarkSimon1.jpg",
+      img2: "danmarkSimon2.jpg",
+      img3: "danmarkSimon3.jpg"
     },
     interviewText: [
       {
@@ -2821,9 +2821,9 @@ export const getInterviewContent = (id, color) => {
       name: "- Tonje Lindmark"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "KanadaTonje1.jpg",
+      img2: "KanadaTonje2.jpg",
+      img3: "KanadaTonje3.jpg"
     },
     interviewText: [
       {
@@ -3048,8 +3048,8 @@ export const getInterviewContent = (id, color) => {
     },
     images: {
       img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img2: "WinnipegCanada3.jpg",
+      img3: "WinnipegCanada1.jpg"
     },
     interviewText: [
       {

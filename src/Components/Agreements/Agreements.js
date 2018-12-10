@@ -5,16 +5,18 @@ import "./Agreements.scss";
 import TextSection from '../TextSection/TextSection.js';
 import { getProcessAgreementContent  } from "../../processAgreementsContent.js";
 import $ from "jquery";
+
 class Agreements extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
   }
+
   slideDownProcess = () =>{
     $(".open-button").addClass("no-show");
     $(".content-process").addClass("open");
-  }
-  slideUpProcess = () =>{
+  };
+  slideUpProcess = () => {
     $(".open-button").removeClass("no-show");
     $(".content-process").removeClass("open");
   }
@@ -37,6 +39,7 @@ class Agreements extends Component {
       <div className="agreements">
         <Cover content={coverContent.cover} />
         <div className="info-content">
+
         <div className="info-top">
           <h2>CENTRALA AVTALEN</h2>
           <p>Alla partneruniversitet som ingår i de centrala avtalen ligger i länder utanför Europa. 
@@ -119,7 +122,6 @@ class Agreements extends Component {
         </div>
         </div>*/}
       </div>
-
     );
   }
 }

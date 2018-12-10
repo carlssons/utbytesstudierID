@@ -21,11 +21,14 @@
     //color: black;
     width: 60%;
     box-sizing: border-box;
+    a {
+      @include font-in-text-link;
+    }
     @media screen and( max-width: $break-small + 145 ) {
       width: 100%;
     }
   }
-  .info-body-link{
+  .info-body-link {
     @include font-text-link;
   }
   @media screen and( max-width: $break-small + 145 ) {
