@@ -24,14 +24,14 @@
     .instagram-heading {
       @include font-h-2;
       background-color: $color-background-white;
-      margin-top: -30px;
-      width: 40%;
+      margin-top: -24px;
       text-align: center;
-      @media screen and(max-width: 900px) {
-        width: 60%;
+      padding: 0 20px 0 20px;
+      @media screen and(max-width: $break-medium){
+        margin-top: -19px;
       }
-      @media screen and(max-width: 640px) {
-        width: 90%;
+      @media screen and(max-width: $break-small){
+        margin-top: -17px;
       }
     }
     .instagram-hashtag-box {

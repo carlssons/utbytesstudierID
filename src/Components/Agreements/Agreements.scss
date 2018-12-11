@@ -2,74 +2,84 @@
 
 .agreements{
   background-color: $color-blue;
-  .info-content{
+  @include flexbox;
+  @include flex-direction(column);
+  @include align-items(center);
+  @include justify-content(center);
+
+  .section-1{
+    border-bottom:1px solid $color-background-light-blue;
+  }
+  .section-2{
+    border-bottom:1px solid $color-background-light-blue;
+  }
+  .section-3{
     @include flexbox;
-    @include flex-direction(column); 
     @include align-items(center);
+    @include flex-direction(column);
     @include justify-content(center);
-    .info-top{
+    padding: 50px 0 50px 0;
+    width: 100%;
+    background-color: $color-blue;
+    .heading-div{
+      width: 80%;
       @include flexbox;
-      @include flex-direction(column);
+      @include align-items(flex-start);
       @include justify-content(flex-start);
-      width: 70%;
       h2{
         @include font-h-2;
-        color:$color-text-white;
-        margin-top: 100px;
-        
+        color: $color-text-white;
       }
-      p{
-        @include font-regular-text;
-        a{
-          @include font-in-text-link;
-        }
-      }
-      ul{
-        list-style-type: none;
-        margin:0;
-        padding:0;
-        li{
-          margin:10px 0 10px 0;
-        }
-        a{
-          @include font-text-link;
-          text-decoration: none;
-        }
-
-      }
-
     }
-    .open-button{
+    .box-div{
+      width: 80%;
       @include flexbox;
-      @include flex-direction(column);
-      @include align-items(center);
+      @include align-items(flex-start);
       @include justify-content(center);
-      img{
-        width: 50px;
+      padding-top: 30px;
+      @media screen and(max-width: $break-medium + 256){
+        @include flex-wrap(wrap);
       }
-      p{
-        @include font-regular-text;
+      @media screen and(max-width: $break-small + 256){
+        width: 90%;
+        margin: 20px 0 20px 0;
       }
+    }
+  }
+  .button{
+    @include flexbox;
+    @include flex-direction(column);
+    @include align-items(center);
+    @include justify-content(center);
+    @include font-regular-text;
+    color: $color-text-white;
+    cursor: pointer;
+    .arrow{
+      width: 40px;
+    }
+    &.arrow-up{
+      transform: rotate(180deg);
+      padding-bottom:50px;
+    }
+    &.arrow-down{
+      padding-bottom: 50px;
       &.no-show{
         display: none;
       }
     }
-    .content-process{
-      display: none;
-      margin-top: 100px;
-      background-color: $color-background-light-blue;
-      .close-button{
-        width: 50px;
-        transform: rotate(180deg);
-      }
-      &.open{
-        @include flexbox;
-        @include flex-direction(column);
-        @include justify-content(center);
-        @include align-items(center);
-        
-        
-      }
+  }
+  .process-section{
+    width: 100%;
+    background-color: $color-background-light-blue;
+    display: none;
+    padding: 40px 0 30px 0;
+
+    &.open{
+      @include flexbox;
+      @include flex-direction(column);
+      @include align-items(center);
+      @include justify-content(center);
     }
+
   }
 }

@@ -1,0 +1,50 @@
+@import "../../main.scss";
+
+.agreement-box{
+    width: 300px;
+    height: 260px;
+    margin: 20px;
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(flex-start);
+    @include align-items(center);
+    border: 4px solid $color-text-white;
+    border-radius: 10px;
+
+    .heading{
+        @include font-h-3;
+        background-color: $color-blue;
+        z-index:1;
+        margin-top: -15px;
+        padding: 0 10px 6px 10px;
+        color: $color-text-white;
+        @media screen and(max-width: $break-small){
+            margin-top: -12px;
+        }
+    }
+
+    .text-link-box{
+        padding: 0 18px 18px 18px;
+    
+    .info{
+        @include font-regular-text;
+        color: $color-text-white;
+    }
+
+    .link-box{
+        .list{
+            padding:0;
+            list-style: none;
+            .list-item{
+                padding:0;
+                margin: 0;
+                a{
+                    @include font-text-link;
+                }
+                
+            }
+        }
+        
+    }
+    }
+}
