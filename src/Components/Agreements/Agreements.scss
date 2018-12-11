@@ -1,6 +1,6 @@
 @import "../../main.scss";
 
-.agreements{
+.agreements {
   background-color: $color-blue;
   @include flexbox;
   @include flex-direction(column);

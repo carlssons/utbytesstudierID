@@ -8,11 +8,12 @@ import $ from "jquery";
 import AgreementText from '../AgreementText/AgreementText';
 import AgreementBox from '../AgreementBox/AgreementBox.js';
 
+
 class Agreements extends Component {
   
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
   }
 
   slideDownProcess = (e) =>{
@@ -35,6 +36,7 @@ class Agreements extends Component {
       $('#erasmus').removeClass("open");
     }
   }
+  
 
   render() {
     
