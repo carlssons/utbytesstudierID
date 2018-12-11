@@ -11,23 +11,27 @@ class Home extends Component {
     this.state = {
       quotes: [
         {
+          id: "linus",
           img: "Linus.jpg",
           quote:
             "“Många spännande och intressanta kurser man inte får möjlighet att läsa i Umeå”",
           info: "- Linus Lagerhjelm, Prag Tjeckien"
         },
         {
-          img: "Hanna.jpg",
+          id: "lovisa",
+          img: "lovisa.jpg",
           quote:
-            "“Under utlandsstudierna får man många nya kontakter och får prata engelska dagligen vilket är väldigt meriterande”",
-          info: "- Hanna Andersson, Singapore"
+            "“ Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest lärorika och utmanande perioder i mitt liv.”",
+          info: "- Lovisa Carlsson, Singapore"
         },
         {
+          id: "viktor",
           img: "Viktor.jpg",
           quote: "“Tiden i Kanada är nog den tid jag växt mest som person”",
           info: "- Viktor Ålund, Winnipeg Kanada"
         },
         {
+          id: "amine",
           img: "Amine.jpg",
           quote:
             "”Att uppleva nya kulturer är så berikande i både erfarenheter och perspektivet man har på livet”",

@@ -97,7 +97,25 @@ export const getInterviewCardContent = id => {
           </p>
         ),
         link: "/intervjuer"
-      }
+      },
+      {
+        id: "lovisa",
+        avatar: "lovisa.jpg",
+        title: <h4 className="card-h4">Singapore</h4>,
+        subtitle: <p className="card-p">Lovisa Carlsson</p>,
+        imgBanner: "lovisaBanner",
+        school: (
+          <p id="school" className="card-p">
+            Nanyang Technological University
+          </p>
+        ),
+        semester: (
+          <p id="semester" className="card-p">
+            HT-17
+          </p>
+        ),
+        link: "/intervjuer"
+      },
     ]
   };
 

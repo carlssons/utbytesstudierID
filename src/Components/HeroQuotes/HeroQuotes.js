@@ -15,7 +15,7 @@ class HeroQuotes extends Component {
         <div className="quote-text">
           <p id="quote">{this.props.content.quote}</p>
           <p id="quote-info">{this.props.content.info}</p>
-          <Link to="/intervjuer" id="interview-link">
+          <Link to={"/intervjuer/" + this.props.content.id} id="interview-link">
             Läs intervju
           </Link>
         </div>

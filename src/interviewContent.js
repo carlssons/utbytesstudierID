@@ -1490,17 +1490,18 @@ export const getInterviewContent = (id, color) => {
   };
   const lovisa = {
     profileCover: {
-      img: "Viktor.jpg",
+      img: "lovisa.jpg",
+      backgroundImg: "lovisaBanner.jpg",
       title: "Nanyang Technological University, Singapore",
       subtitle: "Lovisa Carlsson | HT-17 | Centrala avtalen",
       quote:
-        "“Under utlandsstudierna får man många nya kontakter och får prata engelska dagligen vilket är väldigt meriterande”",
+        "“Min utbytestermin kommer jag alltid att minnas som en av de roligaste och mest utmanande perioder i mitt liv”",
       name: "- Lovisa Carlsson"
     },
     images: {
-      img1: "WinnipegCanada2.png",
-      img2: "WinnipegCanada3.JPG",
-      img3: "WinnipegCanada1.JPG"
+      img1: "singapore3.jpg",
+      img2: "singapore1.jpg",
+      img3: "singapore2.jpg"
     },
     interviewText: [
       {
@@ -1510,7 +1511,30 @@ export const getInterviewContent = (id, color) => {
               Vad var det bästa med att åka utomlands?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          När jag skulle bestämma mig för vilket land och universitet jag ville åka till skrev jag en lista 
+          på vad jag ville göra under mitt utbyte. Jag ville bli bättre på engelska i tal och skrift, jag ville 
+          åka till ett land med mycket sol och värme, jag ville resa till olika länder, jag ville läsa roliga 
+          kurser och träffa nya människor från olika delar av världen. Det bästa med att åka utomlands var 
+          att jag fick uppfylla allt som jag ville göra under mitt utbyte. <br/><br/> I singapore är modersmålet engelska 
+          även kallat  “Singlish” (Singaporianer har sin egen dialekt och en del egna ord). Detta innebar att 
+          det var lätt att förbättra mina kunskaper i engelska. Dessutom läste jag en kurs där vi var 7 studenter 
+          varav alla var från USA, inklusive professorn. I denna kurs fick jag utmana mig själv och vi hade varje 
+          vecka diskussioner på engelska om ämnen relaterade till konst och musik.<br/><br/> Singapore är ett VÄLDIGT 
+          varmt land med hög luftfuktighet, känndes mycket ovant men kroppen mådde superbra av all D-vitamin! Det 
+          fanns en pool på campus där vi hängde mycket och kunde svalka oss.<br/><br/>Under min termin hann jag resa 
+          väldigt mycket, Singapore ligger nära många spännande länder och flygbiljetter kan man få tag på 
+          billigt. Jag hade kurser i skolan tisdagar-torsdagar och kunde därför resa fredag-måndag. Följande 
+          länder hann jag besöka; Malaysia, Thailand, Bali och Japan. Inte nog med att man hinner resa mycket 
+          under terminen, man har också god tid på sig att resa efter terminsslut. Läser man kurser utan tentor 
+          slutar terminen i början av November.<br/><br/> Kurserna jag läste i Singapore var roliga och givande. Jag 
+          läste 3 designkurser, 1 kurs med design och programmering samt 1 sångkurs. Professorerna var väldigt 
+          duktiga och de la ner tid och energi på att se till att vi utvecklades och blev bättre. Eleverna var 
+          väldigt drivna och även dem bidrog med kunskap och hjälp.<br/><br/> Sist men inte minst så fick jag superfina 
+          vänner i Singapore. Vi var ett tjejgäng från olika delar av Europa som alla bodde i samma korridor. 
+          Vi höll ihop under terminen och gjorde allt tillsammans!
+
+          </p>
         }
       },
       {
@@ -1520,7 +1544,12 @@ export const getInterviewContent = (id, color) => {
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Jag fick utmana mig själv en hel del under terminen, exempelvis bo i korridor och dela 
+          toalett och dusch andra. Luftfuktigheten var också ganska påfrestande, man svettas mycket 
+          och fick dricka kopiösa mängder vatten. Det fanns en del kryp på campus och jag lärde mig att 
+          jag inte gillar kryp, ormar, möss osv… 
+          </p>
         }
       },
       {
@@ -1530,18 +1559,42 @@ export const getInterviewContent = (id, color) => {
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          På NTU räknas hp som AU. De flesta kurser ligger på  4 AU som motsvarar 7.5 hp eller 3 AU 
+              som motsvarar 5.7 hp. Jag läste 1 kurs på 4AU och 4 kurser på 3 AU, detta motsvarar alltså 
+              30.3 hp. Jag kunde tillgodoräkna alla mina kurser när jag kom hem. En kurs fick jag 
+              tillgodoräknad under kategorin “Teknik för interaktion, yrkesförberedande” och resterande 
+              under kategorin “Fria kurser”.<br/><br/> Jag läste som tidigare nämnt alla mina kurser på “Scool Of 
+              Art Design and Media”, det är den del av NTU som erbjuder designkurser. Det går att läsa 
+              kurser på andra delar av NTU, exempelvis “School of Computer Science and Engineering”. Jag 
+              valde att läsa designkurser då jag ville bredda mina kunskaper inom UI och UX design. En 
+              fördel med att läsa på designskolan är att man inte har några tentor och därmed slutar man 
+              skolan 2 veckor tidigare än alla andra. Istället för tentor har man projektredovisningar.<br/><br/>
+              När man blir antagen till NTU har man möjlighet att i förväg ansöka om vilka kurser man vill 
+              läsa. Man är dock inte garanterad att få läsa dessa kurser. När man kommer till universitetet har man under 2 
+              veckor något som kallas för Add/Drop period. Under dessa veckor kan man gå på valfria föreläsningar 
+              och lägga till kurser och ta bort kurser i sitt schema. Det är först till kvar på kurserna så det är 
+              lite som “hunger games” i början av terminen, lite stressigt och rörigt. Därför är det bra att i förväg 
+              kolla upp vad det finns för kurser och ta reda på vilka som du har möjlighet att läsa. Jag hade tur och 
+              blev antagen på alla de kurser jag ansökte till innan terminen började. Jag bytte sedan ut två av 
+              kurserna under Add/Drop period. Det var även här jag optimerade mitt schema och såg till att jag 
+              läste kurser tisdag-torsdag.<br/><br/> Generellt vad som är positivt är att NTU har ett brett utbud av roliga kurser!
+              Jag läste följande kurser: “Game design”, “Sound for interactive media”, “Graphical 
+              communication”, “Digital painting” och “Magic of the voice in a world of a singer”.
+          </p>
         }
       },
       {
         text: {
           heading: (
             <p className="info-heading" style={{color: color}}>
-              Finns det något du hade velat veta innan du åkte på utlandsstudier
+            Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Tror inte det! Jag såg till att kolla upp allt med försäkring, CSN, Vaccin osv efter att jag hade blivit antagen. 
+          </p>
         }
       },
       {
@@ -1552,7 +1605,9 @@ export const getInterviewContent = (id, color) => {
               ett annat?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Jag hade helt klart valt Singapore! Värmen, resorna, skolan och vännerna gjorde min vistelse i Singapore till en av de bästa perioderna i mitt liv! :) 
+          </p>
         }
       },
 
@@ -1563,7 +1618,14 @@ export const getInterviewContent = (id, color) => {
               Vad ska man tänka på om man vill åka till Singapore och NTU?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Förbered dig på en termin av extrem värme och luftfuktighet! Det kan vara mer påfrestande än vad man tror. Om du är vegetarian är det bra att vara förberedd på att campus inte erbjuder många vegetariska måltider tyvärr… Singaporianer älskar socker och friterat och mycket av maten som serveras på campus är inte den nyttigaste. Därför är det bra att köpa bestick och tallrik när man kommer till campus så att man kan göra en sallad då och då.<br/><br/> 
+
+Bra att läsa på om är hur lagar fungerar i Singapore, de har en del strikta regler. Man får inte dricka eller äta i kollektivtrafiken och man får inte slänga skräp på gatorna. Detta kan resultera i höga böter. I princip alla platser i Singapore är kameraövervakade, detta tyckte jag dock var bra då jag kände mig trygg hela tiden.<br/><br/>
+
+Som tidigare nämnt kan det vara bra att kolla upp hur Add/Drop period ser ut på NTU, för att minimera stressen de två första veckorna. 
+
+          </p>
         }
       },
       {
@@ -1571,7 +1633,14 @@ export const getInterviewContent = (id, color) => {
           heading: (
             <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Man kan antingen ansöka om boende på Campus eller gå ihop några stycken och hyra en lägenhet. Man är ej garanterad boende på Campus men alla jag känner som ansökt om boende har fått det. Boende i Singapore är extremt dyrt, speciellt om man vill bo i de centrala delarna. Boende på Campus är väldigt billigt och därför väljer många som vill resa under terminen detta alternativ.<br/><br/>
+
+På Campus kan man ansöka om att få bo i ett eget rum eller dela rum med en person (man har ej möjlighet att önska vem man vill bo med). Man kan även ansöka om rum med eller utan AC (AC är starkt rekommenderat i den extrema värmen). Jag bodde i ett delat rum med en tjej från Frankrike, inte det lyxigaste boendet men det funkade under en en termin. Vi delade dusch och toaletter med de andra i korridoren, vilket var väldigt ovant. Dock har de personal som städar duschrummen varje dag. Vi hade även tillgång till tvättmaskiner, de gjorde knappt kläderna rena och därför är ett tips att inte ta med sig kläder som man är rädd om. <br/><br/>
+
+En fördel med att bo på campus är att man har nära till skollokalerna. Bor man i de centrala delarna av Singapore tar det ca 45 minuter att ta sig till campus med kollektivtrafiken. Bor man på campus köper man alla måltider i någon av foodcourten som det finns gott om. Finns även Starbucks, MCdonalds och andra snabbmatsrestauranger på campus.
+
+          </p>
         }
       },
       {
@@ -1582,7 +1651,9 @@ export const getInterviewContent = (id, color) => {
               tog dem?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Jag behövde ansöka om CSN, kolla upp vilka försäkringar jag behövde, vaccinera mig, ansöka om boende på campus, ansöka om studentvisum, söka stipendier och boka flygbiljett. Ansöka om boende och studentvisum gör man då man blivit antagen till NTU. Man får då tillgång till deras portal där man får anvisningar om hur man ska gå till väga. Detta tog inte allt för lång tid. Man behöver ej åka till ambassad eller liknande för att få sitt Visum, det får man när man är på plats i Singapore. 
+          </p>
         }
       },
       {
@@ -1592,7 +1663,9 @@ export const getInterviewContent = (id, color) => {
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Rent ekonomiskt klara man sig bra i Singapore. Det beror helt på hur man väljer att bo och hur mycket man reser runt. Utelivet och alkohol är väldigt dyrt i Singapore, om man är tjej finns det något som heter “Ladies night”, under dessa kvällar är inträde till nattklubbar och alkohol gratis för kvinnor. Ett tips är att söka stipendier för att täcka tråkiga kostnader som försäkring och vaccin. Jag sökte 3 och fick 1, tog inte allt för lång tid. 
+          </p>
         }
       },
       {
@@ -1602,7 +1675,9 @@ export const getInterviewContent = (id, color) => {
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
-          info: <p className="info-body-text" />
+          info: <p className="info-body-text" style={{color: color}}>
+          Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer jag alltid att minnas som en av de roligaste och mest utmanande perioder i mitt liv. Gör en lista på vad du vill få ut av din utbytestermin och sök till ett land/universitet som passar dig!
+          </p>
         }
       }
     ]
