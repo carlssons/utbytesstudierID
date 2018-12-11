@@ -1,1 +1,48 @@
 @import "../../main";
+
+.crediting-container {
+  @include flexbox;
+  @include flex-direction(column);
+  @include align-items(center);
+  background-color: $color-blue;
+  width: 100%;
+  .crediting-info-container {
+    width: 70%;
+    padding: 70px 0 100px 0;
+    .h2-crediting {
+      @include font-h-2;
+      color: $color-text-white;
+    }
+    .p-crediting {
+      @include font-regular-text;
+    }
+    .info-body-link {
+      @include font-in-text-link;
+    }
+  }
+  .category-container {
+    @include flexbox;
+    @include flex-direction(column);
+    @include align-items(center);
+    width: 100%;
+    padding: 50px 0;
+    background-color: $color-background-light-blue;
+    .category-box {
+      width: 70%;
+      padding: 50px 0;
+      .h2-crediting {
+        @include font-h-2;
+        color: $color-text-white;
+      }
+      .h3-crediting {
+        @include font-h-3;
+        color: $color-text-white;
+        text-align: left;
+        padding-top: 20px;
+      }
+      .p-crediting {
+        @include font-regular-text;
+      }
+    }
+  }
+}
