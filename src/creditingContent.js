@@ -26,7 +26,11 @@ export const getCreditingContent = id => {
           förhindra att ditt CSN blir påverkat bör det göras så fort som
           möjligt. Examensenheten gör en bedömning av innehåll och nivån av det
           kurser som lästs och tar sedan ett beslut om kursen ska få
-          tillgodoräknas under den önskade kategorin eller inte. <br />
+          tillgodoräknas under den önskade kategorin eller inte. För att
+          bedömningen ska bli så riktig som möjligt är det viktigt att du samlar
+          på dig så mycket information som möjligt om kurserna i form av
+          kursplaner, kurslitteratur, obligatoriska uppgifter och annat som kan
+          vara relevant. <br />
           <br /> Vanligtvis läggs utlandskurserna in under kategorin ”Fria
           kurser”. Ett tips är dock att när du ansöker om tillgodoräknande
           försöka fylla andra kategorier än fria kurser. Om din ansökan blir

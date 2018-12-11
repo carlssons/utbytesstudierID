@@ -1,0 +1,36 @@
+@import "../../main";
+
+.faq-container {
+  @include flexbox;
+  @include flex-direction(column);
+  @include align-items(center);
+  background-color: $color-blue;
+  padding: 70px 0 100px 0;
+  width: 100%;
+
+  .heading-box {
+    width: 80%;
+    .h2-faq {
+      @include font-h-2();
+      color: $color-text-white;
+    }
+  }
+
+  .faq-box {
+    border-bottom: solid 2px $color-background-light-blue;
+    box-sizing: border-box;
+    padding: 50px 40px;
+    @include flexbox;
+    @include flex-direction(column);
+    @include align-items(left);
+    width: 80%;
+    .h4-question {
+      @include font-h-4();
+      color: $color-text-white;
+    }
+
+    .p-answer {
+      @include font-regular-text;
+    }
+  }
+}

@@ -59,11 +59,25 @@ export const getCoverContent = id => {
     }
   };
 
+  const faqCover = {
+    cover: {
+      backgroundImg: "heroImageFaq",
+      title: <p id="cover-title">FAQ</p>,
+      subtitle: (
+        <p id="cover-subtitle">
+          Här hittar du vanligt förekommande frågor bland studenter samt
+          kontaktuppgifter till programansvariga och studievägledare.
+        </p>
+      )
+    }
+  };
+
   const content = {
     agreementsCover,
     interviewCover,
     beforeTripCover,
-    creditingCover
+    creditingCover,
+    faqCover
   };
   return content[id];
 };

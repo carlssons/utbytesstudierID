@@ -4,6 +4,7 @@ import HeroSection from "../HeroSection/HeroSection.js";
 import HeroQuotes from "../HeroQuotes/HeroQuotes.js";
 import InstagramSection from "../InstagramSection/InstagramSection.js";
 import TravelProcess from "../TravelProcess/TravelProcess.js";
+import { animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
   constructor(props) {
@@ -65,6 +66,12 @@ class Home extends Component {
       ]
     };
   }
+
+  componentDidMount = () => {
+    scroll.scrollToTop({
+      duration: 0
+    });
+  };
 
   render() {
     return (
