@@ -4,6 +4,7 @@ footer {
   background-color: $color-blue;
   @include flexbox;
   @include justify-content(center);
+  border-top:1px solid $color-background-light-blue;
 }
 .p-footer {
   @include font-footer-text;

@@ -103,49 +103,62 @@ $font-h-2-font-family: Raleway;
   font-style: $font-h-2-font-style;
   font-weight: $font-h-2-font-weight;
   font-family: $font-h-2-font-family;
+  @media screen and(max-width: $break-small) {
+    font-size: 20px;
+  }
+  @media screen and(max-width: $break-medium){
+    font-size: 26px;
+  }
+    
 }
 
 /* h3 font style */
-$profile-cover-h1-size: 23px;
-$profile-cover-h1-height: normal;
-$profile-cover-h1-text-align: center;
-$profile-cover-h1-color: #0f1833;
-$profile-cover-h1-letter-spacing: 1.6px;
-$profile-cover-h1-font-style: normal;
-$profile-cover-h1-font-weight: 500;
-$profile-cover-h1-font-family: Roboto;
-$profile-cover-h1-margin: 0;
+$profile-h-3-size: 23px;
+$profile-h-3-height: normal;
+$profile-h-3-text-align: center;
+$profile-h-3-color: #0f1833;
+$profile-h-3-letter-spacing: 1.6px;
+$profile-h-3-font-style: normal;
+$profile-h-3-font-weight: 500;
+$profile-h-3-font-family: Roboto;
+$profile-h-3-margin: 0;
 
 @mixin font-h-3() {
-  font-size: $profile-cover-h1-size;
-  line-height: $profile-cover-h1-height;
-  text-align: $profile-cover-h1-text-align;
-  color: $profile-cover-h1-color;
-  letter-spacing: $profile-cover-h1-letter-spacing;
-  font-style: $profile-cover-h1-font-style;
-  font-weight: $profile-cover-h1-font-weight;
-  font-family: $profile-cover-h1-font-family;
-  margin: $profile-cover-h1-margin;
+  font-size: $profile-h-3-size;
+  line-height: $profile-h-3-height;
+  text-align: $profile-h-3-text-align;
+  color: $profile-h-3-color;
+  letter-spacing: $profile-h-3-letter-spacing;
+  font-style: $profile-h-3-font-style;
+  font-weight: $profile-h-3-font-weight;
+  font-family: $profile-h-3-font-family;
+  margin: $profile-h-3-margin;
+  @media screen and(max-width: $break-medium){
+    font-size: 20px;
+  }
+  @media screen and(max-width: $break-small){
+    font-size: 18px;
+  }
 }
 /* h4 font style */
-$font-h-3-font-size: 18px;
-$font-h-3-line-height: normal;
-$font-h-3-text-align: left;
-$font-h-3-color: #0f1833;
-$font-h-3-letter-spacing: 1.1px;
-$font-h-3-font-style: normal;
-$font-h-3-font-weight: 500;
-$font-h-3-font-family: Roboto;
+$font-h-4-font-size: 18px;
+$font-h-4-line-height: normal;
+$font-h-4-text-align: left;
+$font-h-4-color: #0f1833;
+$font-h-4-letter-spacing: 1.1px;
+$font-h-4-font-style: normal;
+$font-h-4-font-weight: 500;
+$font-h-4-font-family: Roboto;
 
 @mixin font-h-4() {
-  font-size: $font-h-3-font-size;
-  line-height: $font-h-3-line-height;
-  text-align: $font-h-3-text-align;
-  color: $font-h-3-color;
-  letter-spacing: $font-h-3-letter-spacing;
-  font-style: $font-h-3-font-style;
-  font-weight: $font-h-3-font-weight;
-  font-family: $font-h-3-font-family;
+  font-size: $font-h-4-font-size;
+  line-height: $font-h-4-line-height;
+  text-align: $font-h-4-text-align;
+  color: $font-h-4-color;
+  letter-spacing: $font-h-4-letter-spacing;
+  font-style: $font-h-4-font-style;
+  font-weight: $font-h-4-font-weight;
+  font-family: $font-h-4-font-family;
 }
 
 /* IconText font style */
