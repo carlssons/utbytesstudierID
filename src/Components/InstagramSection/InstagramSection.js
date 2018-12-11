@@ -34,7 +34,7 @@ class InstagramSection extends Component {
     return (
       <div className="instagram-section">
         <div className="instagram-box">
-          <h2 className="instagram-heading">INSTAGRAM</h2>
+          <h2 className="instagram-heading">Instagram</h2>
           <div className="instagram-hashtag-box">
             <a href={instagramLink} target="blank_">
               <img

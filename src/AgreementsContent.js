@@ -17,7 +17,7 @@ export const getAgreementsContent = id => {
         text:{
           heading: (
             <h2 className="heading">
-              CENTRALA AVTALEN
+              Centrala avtalen
             </h2>
           ),
           info: (
@@ -163,7 +163,7 @@ export const getAgreementsContent = id => {
         text:{
           heading: (
             <h2 className="heading">
-              ERASMUS AVTALEN
+              Erasmus avtalen
             </h2>
           ),
           info: (
@@ -258,7 +258,7 @@ export const getAgreementsContent = id => {
         text:{
           heading: (
             <h3 className="heading">
-              NORDLYS
+              Nordlys
             </h3>
           ),
           info: (
@@ -283,7 +283,7 @@ export const getAgreementsContent = id => {
         text:{
           heading: (
             <h3 className="heading">
-              NORTH2NORTH 
+              North2North 
             </h3>
           ),
           info: (
@@ -309,7 +309,7 @@ export const getAgreementsContent = id => {
         text:{
           heading: (
             <h3 className="heading">
-              FREEMOVER
+              Freemover
             </h3>
           ),
           info: (

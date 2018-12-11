@@ -82,7 +82,7 @@ class Agreements extends Component {
         </div>
         <div className="section-3">
           <div className="heading-div">
-            <h2>ÖVRIGA AVTAL</h2>
+            <h2>Övriga avtal</h2>
           </div>
           <div className="box-div">
             <AgreementBox content={nordlysAgreement.agreementText}/>

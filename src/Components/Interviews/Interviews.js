@@ -36,7 +36,7 @@ class Interviews extends Component {
         </div>
         <div className="content">
           <section className="card-section">
-            <h2 className="card-h2">AFRIKA</h2>
+            <h2 className="card-h2">Afrika</h2>
             <div className="card-container">
               {cardContentAfrica.interviewCard.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
@@ -44,7 +44,7 @@ class Interviews extends Component {
             </div>
           </section>
           <section className="card-section" id="asia">
-            <h2 className="card-h2">ASIEN</h2>
+            <h2 className="card-h2">Asien</h2>
             <div className="card-container">
               {cardContentAsia.interviewCard.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
@@ -52,7 +52,7 @@ class Interviews extends Component {
             </div>
           </section>
           <section className="card-section">
-            <h2 className="card-h2">AUSTRALIEN</h2>
+            <h2 className="card-h2">Australien</h2>
             <div className="card-container">
               {cardContentAustralia.interviewCard.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
@@ -60,7 +60,7 @@ class Interviews extends Component {
             </div>
           </section>
           <section className="card-section">
-            <h2 className="card-h2">EUROPA</h2>
+            <h2 className="card-h2">Europa</h2>
             <div className="card-container">
               {cardContentEurope.interviewCard.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;
@@ -68,7 +68,7 @@ class Interviews extends Component {
             </div>
           </section>
           <section className="card-section">
-            <h2 className="card-h2">NORDAMERIKA</h2>
+            <h2 className="card-h2">Nordamerika</h2>
             <div className="card-container">
               {cardContentNorthAmerica.interviewCard.map((element, index) => {
                 return <InterviewCard key={index} content={element} />;

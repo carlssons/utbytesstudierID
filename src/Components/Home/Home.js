@@ -76,7 +76,7 @@ class Home extends Component {
 
         <div className="process-container">
           <div className="process-wraper">
-            <p id="h2-process">PROCESS</p>
+            <p id="h2-process">Process</p>
             <div className="process-box">
               {this.state.process.map((element, index) => {
                 return <TravelProcess key={index} steps={element} />;
