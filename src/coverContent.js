@@ -50,11 +50,10 @@ export const getCoverContent = id => {
       title: <p id="cover-title">TILLGODORÄKNANDE</p>,
       subtitle: (
         <p id="cover-subtitle">
-          De kurser som du läser utomlands behöver tillgodoräknas in i dina
-          studier på ID-programmet. På den här sidan finner du en lista på
-          kurser som ID-studenter har läst vid olika partneruniversitet under
-          deras utlandsstudier. Du finner även information om vilka kategorier
-          kurserna har tillgodoräknats i.
+          När du kommer tillbaka från dina utbytesstudier måste du tillgodoräkna
+          dina kurser. Här får du information om hur detta går till och även
+          under vilka kategorier studenter tidigare har fått tillgodoräkna sina
+          kurser till.
         </p>
       )
     }
