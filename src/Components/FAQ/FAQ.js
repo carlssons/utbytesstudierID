@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Cover from "../Cover/Cover";
 import { getCoverContent } from "../../coverContent";
 import "./FAQ.scss";
+import { animateScroll as scroll } from "react-scroll";
 
 class FAQ extends Component {
   constructor(props) {
@@ -122,6 +123,12 @@ class FAQ extends Component {
       ]
     };
   }
+
+  componentDidMount = () => {
+    scroll.scrollToTop({
+      duration: 0
+    });
+  };
 
   render() {
     const coverContent = getCoverContent("faqCover");
