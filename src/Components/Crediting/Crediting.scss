@@ -9,6 +9,9 @@
   .crediting-info-container {
     width: 80%;
     padding: 70px 0 100px 0;
+    @media screen and(max-width: $break-small){
+      width: 88%;
+    }
     .h2-crediting {
       @include font-h-2;
       color: $color-text-white;
@@ -27,9 +30,13 @@
     width: 100%;
     padding: 50px 0;
     background-color: $color-background-light-blue;
+    
     .category-box {
       width: 80%;
       padding: 50px 0;
+      @media screen and(max-width: $break-small){
+        width: 88%;
+      }
       .h2-crediting {
         @include font-h-2;
         color: $color-text-white;

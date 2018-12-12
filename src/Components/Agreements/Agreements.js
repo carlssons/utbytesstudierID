@@ -60,7 +60,7 @@ class Agreements extends Component {
             id="button-central"
             onClick={() => this.slideDownProcess("first")}
           >
-            <p>Ansökningsprocess</p>
+            <p><b>Ansökningsprocess</b></p>
             <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
           </div>
           <div className="process-section" id="central">
@@ -86,7 +86,7 @@ class Agreements extends Component {
             id="button-erasmus"
             onClick={() => this.slideDownProcess("second")}
           >
-            <p>Ansökningsprocess</p>
+            <p><b>Ansökningsprocess</b></p>
             <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
           </div>
           <div className="process-section" id="erasmus">

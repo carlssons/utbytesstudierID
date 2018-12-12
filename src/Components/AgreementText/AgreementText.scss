@@ -13,6 +13,9 @@
     @include align-items(flex-start);
     width: 80%;
     padding-bottom: 50px;
+    @media screen and(max-width: $break-small){
+      width: 88%;
+    }
 
     .link {
       @include font-in-text-link;
@@ -27,7 +30,7 @@
     }
     .link-box {
       .description {
-        @include font-h-4;
+        @include font-regular-text;
         color: $color-text-white;
       }
       .list {
