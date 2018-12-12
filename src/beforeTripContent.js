@@ -25,6 +25,21 @@ export const getBeforeTripContent = id => {
       },
       {
         text: {
+          heading: (
+            <p className="info-heading">Var ute i god tid</p>
+          ),
+          info: (
+            <p className="info-body-text">
+              Kom ihåg att att personalen på universitetet tar sommarledigt och därför
+              är det bra att fixa med underskrifter och intyg innan sommaren (speciellt om du 
+              åker på utbyte under höstterminen). Förnyelse av pass och vaccin kan också kräva att 
+              du är ute i god tid. 
+            </p>
+          )
+        }
+      },
+      {
+        text: {
           heading: <p className="info-heading">Rekommendationsbrev</p>,
           info: (
             <p className="info-body-text">
