@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Cover from "../Cover/Cover.js";
-import InterviewCard from "../InterviewCard/InterviewCard.js";
+import Cover from "../Cover/Cover";
+import InterviewCard from "../InterviewCard/InterviewCard";
 import "./Interviews.scss";
 import { animateScroll as scroll } from "react-scroll";
 import { getCoverContent } from "../../coverContent";

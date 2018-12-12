@@ -1676,7 +1676,7 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
             </p>
           ),
           info: <p className="info-body-text" style={{color: color}}>
-          Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer jag alltid att minnas som en av de roligaste och mest utmanande perioder i mitt liv. Gör en lista på vad du vill få ut av din utbytestermin och sök till ett land/universitet som passar dig!
+          Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest larorika och utmanande perioder i mitt liv. Gör en lista på vad du vill få ut av din utbytestermin och sök till ett land/universitet som passar dig!
           </p>
         }
       }

@@ -25,6 +25,11 @@
     @include flex-direction(column);
     @include align-items(left);
     width: 80%;
+
+    @media screen and(max-width: $break-small){
+      padding: 50px 20px;
+      width: 88%;
+    }
     .h4-question {
       @include font-h-4();
       color: $color-text-white;

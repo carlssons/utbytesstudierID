@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
-import DrawerToggleButton from "../SideDrawer/DrawerToggleButton.js";
+import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 
 class Navbar extends React.Component {
   state = {};
 
   render() {
     const { toggleDrawer } = this.props;
-    let arrowIcon = "/icons/arrowDown.svg";
+    //let arrowIcon = "/icons/arrowDown.svg";
 
     return (
       <nav className="Navbar">

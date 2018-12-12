@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Cover from "../Cover/Cover.js";
+import Cover from "../Cover/Cover";
 import { getCoverContent } from "../../coverContent";
 import "./Agreements.scss";
 import { getAgreementsContent } from "../../AgreementsContent";
-import TextSection from "../TextSection/TextSection.js";
+import TextSection from "../TextSection/TextSection";
 import $ from "jquery";
 import AgreementText from "../AgreementText/AgreementText";
-import AgreementBox from "../AgreementBox/AgreementBox.js";
+import AgreementBox from "../AgreementBox/AgreementBox";
 import { animateScroll as scroll } from "react-scroll";
 
 class Agreements extends Component {
@@ -60,7 +60,7 @@ class Agreements extends Component {
             id="button-central"
             onClick={() => this.slideDownProcess("first")}
           >
-            <p>Ansökningsprocess</p>
+            <p><b>Ansökningsprocess</b></p>
             <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
           </div>
           <div className="process-section" id="central">
@@ -86,7 +86,7 @@ class Agreements extends Component {
             id="button-erasmus"
             onClick={() => this.slideDownProcess("second")}
           >
-            <p>Ansökningsprocess</p>
+            <p><b>Ansökningsprocess</b></p>
             <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
           </div>
           <div className="process-section" id="erasmus">
