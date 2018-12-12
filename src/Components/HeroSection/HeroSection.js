@@ -10,9 +10,8 @@ class HeroSection extends Component {
         <div className="hero-text">
           <h1 id="hero-h1">ID UTBYTESSTUDIER</h1>
           <h2 id="hero-h2">
-            Som utbytesstudent spenderar du en termin eller ett läsår vid ett av
-            Umeå universitets partneruniversitet runt om i världen. vart vill du
-            åka?
+          Som student vid Umeå universitet har du möjlighet att spendera en eller flera terminer vid ett 
+          partneruniversitet. Det finns många universitet att välja på, i olika dela av världen. Vart vill du åka?
           </h2>
         </div>
         <form
