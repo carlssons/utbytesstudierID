@@ -100,7 +100,7 @@ class Crediting extends Component {
             })}
           </div>
         </div>
-      </div>
+        </div>
     );
   }
 }

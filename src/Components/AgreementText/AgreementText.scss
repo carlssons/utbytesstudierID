@@ -6,32 +6,30 @@
   width: 100%;
   background-color: $color-blue;
   .text {
+    max-width: 1300px;
     @include flexbox;
     @include flex-direction(column);
     width: 80%;
-    padding-bottom: 50px;
-    @media screen and(max-width: $break-small){
+    padding: 60px 0;
+    
+    @media screen and(max-width: $break-small) {
       width: 88%;
     }
-
     .link {
       @include font-in-text-link;
     }
     .heading {
       @include font-h-2;
-      color: $color-text-white;
       text-align: center;
       padding-bottom: 30px;
     }
     .info {
       @include font-regular-text;
-      color: $color-text-white;
       margin-top: 0;
     }
     .link-box {
       .description {
         @include font-regular-text;
-        color: $color-text-white;
       }
       .list {
         list-style: none;

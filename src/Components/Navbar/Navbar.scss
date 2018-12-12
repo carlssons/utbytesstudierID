@@ -1,16 +1,18 @@
 @import "../../main.scss";
 
 .Navbar {
-  max-width: 1400px;
   background-color: rgba(15, 24, 51, 0.8);
   @include flexbox;
   @include align-items(center);
-  //justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 150;
-  @media screen and(min-width: $break-medium) {
+  @media screen and(min-width: 1300px){
+    @include justify-content(center);
+    
+  }
+  @media screen and(max-width: 1300px) {
     @include justify-content(flex-end);
   }
   @media screen and(max-width: $break-medium) {

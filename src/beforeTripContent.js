@@ -227,7 +227,7 @@ export const getBeforeTripContent = id => {
           heading: <p className="info-heading">Terminer</p>,
           info: (
             <p className="info-body-text">
-              Tänk på att terminsperioderna ser olika ut på olika universitet.
+              Tänk på att terminsperioder ser olika ut på olika universitet.
               Terminerna kan både vara förskjutna eller pågå under en
               längre/kortare tid.
             </p>

@@ -9,6 +9,7 @@
     padding-bottom: 100px;
 
     .quote-box {
+      max-width: 1300px;
       @include flexbox;
       @include justify-content(center);
       width: 80%;
@@ -34,6 +35,7 @@
     }
 
     .process-wraper {
+      max-width: 1300px;
       z-index: 100;
       @include flexbox;
       @include flex-direction(column);
@@ -45,6 +47,7 @@
       align-items: center;
       #h2-process {
         @include font-h-2;
+        color: $color-blue;
       }
     }
     .process-box {

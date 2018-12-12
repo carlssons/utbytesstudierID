@@ -6,8 +6,8 @@
   @include justify-content(flex-start);
   @include align-items(center);
   width: 210px;
-  height: 250px;
-  padding: 0 20px;
+  height: auto;
+  padding: 0 20px 20px 0;
 
   #process-icon {
     height: 70px;
@@ -17,6 +17,7 @@
 
   #process-header {
     @include font-h-4;
+    color: $color-blue;
     text-align: center;
   }
   #process-info {

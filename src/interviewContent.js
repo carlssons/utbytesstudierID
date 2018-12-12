@@ -20,12 +20,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att få nya erfarenheter, nya kontakter, bredda vyerna, få bättre
               bild hur världen ser ut och lära sig om andra kulturer. I grunden
               är de precis som vi med samma humor osv. <br />
@@ -39,22 +39,22 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>Pengar kommer att dras...</p>
+          info: <p className="info-body-text">Pengar kommer att dras...</p>
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var inte direkt svårt att hitta passande kurser. Man valde när
               man kom fram och jag fick hjälp med detta. Kurserna jag valde var
               inte svåra att klara. Jag läste kurser inom ekonomi och
@@ -67,13 +67,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ja, jag hade valt samma ställe! Allt var najs. Nära till Hong Kong
               och till flygplats som gjorde det enkelt att resa runt i asien.
             </p>
@@ -83,13 +83,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Macau och University of
               Science and Technology?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ba kör! Och... spara ihop en reskassa så ni slipper låna av mamma
               och pappa så mycket.
             </p>
@@ -98,11 +98,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det fungerade bra! Fixade boendet via skolan. Det kostade 2700
               kr/månaden. Bodde i en korridor där jag delade rum med en annan.
             </p>
@@ -112,13 +110,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Behövde vaccinera mig, göra en hälsokoll, fixa visum. Sökte även
               några stipendium. Det tog sammanlagt en månad för alla
               förberedelser.
@@ -129,22 +127,22 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>Det var billigt.</p>
+          info: <p className="info-body-text">Det var billigt.</p>
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Gör det! Gör en lista på exakt vad som ska fixas och beta av den
               så blir det mindre stress.
             </p>
@@ -172,12 +170,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det bästa med att studera utomlands är möjligheten att vara och bo
               i ett land som man annars inte hade haft möjligheten till. Att
               uppleva kulturer som skiljer sig så mycket från den svenska är så
@@ -200,12 +198,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Självklart får man en släng av hemlängtan, det händer alla. Men
               när man väl får insikten att man längtar hem så är det nästan
               ingenting kvar av terminen och då får man peppa sig själv att
@@ -219,12 +217,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var inte så svårt att hitta kurser som passade programmet men
               däremot fanns det inget massivt utbud av kurser. Samt att vi har
               ju turen att vi på ID har en termin med fria kurser. <br />
@@ -239,13 +237,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag önskar jag hade förberett mig lite mer mentalt för hur det är
               att bo i ett litet korridorsrum med en annan person. Nu hade jag
               sån extrem tur med min rumskompis och vi har blivit väldigt goda
@@ -260,13 +258,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag hade valt exakt samma ställe, Seoul är en sån fantastisk stad
               och om man inte åker på utbyte här ska man definitivt åka hit och
               utforska. Jag har inget att klaga på i skolan heller, allt är
@@ -280,14 +278,14 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Sydkorea och Sogang
               University?
             </p>
           ),
 
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Läs alla mail och gör som dom säger. Gå med i Facebook-grupperna
               dom länkar, där kan man hitta resten som ska dit och man kan
               ställa frågor. Och international office i Sverige va väldigt
@@ -299,11 +297,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag bodde på ett ställe som heter Gonzaga Hall som ligger mitt på
               campus. Boendet kunde man söka via Sogang, så man fick information
               om hur man söker. Man behövde visa ett tuberkulostest för att bli
@@ -321,13 +317,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Behövde skicka in massa papper till skolan, bland annat
               tuberkulos-testet. Fixade även visum som man även måste åka och
               hämta upp i Stockholm(dom vill att du besöker ambassaden en gång),
@@ -346,12 +342,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det är definitivt dyrare att bo i Sydkorea än vad det kan vara att
               bo i andra asiatiska städer. Speciellt eftersom vi inte lagade
               egen mat så blev det lite dyrt att hela tiden behöva äta ute och
@@ -363,12 +359,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Om det finns ens en liten del av dig som vill åka så bara gör det,
               åk! Suger det är det ju bara att åka hem. En termin går så fort
               och man hinner blinka sen är halva över, så man har knappt chansen
@@ -402,12 +398,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att träffa otroligt många nya människor med olika bakgrunder. Att
               se ett annat skolsystem och hur det funkar rent praktiskt.
               Upptäcka och uppleva nya miljöer.
@@ -422,12 +418,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               En hel del pengar är det som går åt och hade en del hemlängtan.
               Kände mycket stress ibland på grund av en ovan studiemiljö och
               mycket att studera, speciellt i Kanada där man måste ta 5 kurser
@@ -440,12 +436,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var inte svårt att hitta lämpliga kurser då jag använde fria
               kurserna så kunde välja vad jag ville.
               <br />
@@ -464,13 +460,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Tempot Kanada har på studier. Är mycket mer på kortare tid så lätt
               att bli stressad. Hade jag vetat att Computer Science kurserna här
               är så lätta som dom va så skulle jag valt fler CS kurser än 1.
@@ -481,13 +477,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Hade åkt till något annat ställe. Eftersom Edmonton i slutändan
               inte är superfint även om det har väldigt många positiva saker som
               bra barer och klättergym. Men det ligger hyfsat nära bergen, ca.
@@ -502,13 +498,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Kanada och Grant MacEwan
               University?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att inte vara rädd att prata med främlingar på gatan, på gymmet
               eller i skolan. Kanadensare är mycket mer öppna än svenskar och en
               enda konversation kan leda till att du blir inbjuden till
@@ -519,11 +515,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var ett korridorsrum med eget kök och en rumskompis som man
               delar det köket med, man har eget sovrum. Fixades direkt via
               Universitetet genom online formulär och ansökan. Inte superfräscht
@@ -537,13 +531,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Fixade ett ETA via en hemsida på nätet. Skicka kopia på min
               hälsodeklaration. Fixa boende och skicka bild på mig själv för att
               användas på access-korten till skolan och boendet. <br />
@@ -557,12 +551,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Samma som i Sverige. Billigare att gå ut å äta och dricka men
               dyrare att bo. Alkohol är lika som i Sverige när man köper i
               butik.
@@ -573,12 +567,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Gör det!! Välj ett land som du genuint tycker verkar häftigt och
               intressant. Om man inte vill ha den där super kulturchocken, åk
               till Kanada. Du kan prata engelska med alla och alla är
@@ -608,12 +602,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det absolut bästa var att träffa människor från runt om i världen.
               Det som också var så himla kul med Seoul var att man fick uppleva
               en kultur som var väldigt annorlunda Sveriges. <br />
@@ -628,12 +622,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det blev ju en kulturkrock när man först kom till Seoul, det är
               inget jag vill sticka under stolen med. För det tog ett litet tag
               innan man anpassat sig och visste hur allting fungerade. Men efter
@@ -645,12 +639,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               För mig blev det inte svårt att hitta lämpliga kurser eftersom att
               jag valde att läsa alla mina fria kurser på min utbytestermin. Så
               jag tänkte bara på att läsa kurser jag tyckte lät intressanta. Jag
@@ -670,13 +664,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att det är enkelt att hitta kompisar. Jag var nervös att det
               skulle vara svårt att komma i kontakt med folk, men det var en
               helt obefogad nervositet. Direkt när jag kom till mitt boende (där
@@ -690,13 +684,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag hade valt exakt samma igen. Det finns inget jag hade bytt
               Seoul mot. Jag tycker att min upplevelse var helt fantastisk!
             </p>
@@ -707,13 +701,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Sydkorea och Hanyang
               University?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ibland kan det bli en språkbarriär då inte alla kan engelska
               utanför universitetet. Men med google translate och kroppsspråk
               gick det ändå bra. Rummen är pyttesmå, det är typ samma
@@ -734,11 +728,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag fixade mitt boende själv då skolans boende hade vissa regler.
               Till exempel så bodde tjejer och killar separat, dörrarna var
               låsta på natten och om man bröt mot reglerna så kunde man bli
@@ -756,13 +748,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Först och främst hela ansökningsprocessen som alla behöver göra.
               Till Hanyang behövde jag skicka med intyg på att jag hade pengar
               under min studietid (csn), hälsoförsäkring (denna fick jag av umu)
@@ -783,12 +775,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var väldigt billigt. Vi köpte både lunch och middag på
               restaurang varje dag vilket kostade typ en tjuga (västerländsk mat
               var snäppet dyrare). Det enda som jag spenderade mycket pengar på
@@ -801,12 +793,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Om det finns en liten nerv som rycker när du tänker på
               utbytesstudier, åk. Det är sjukt kul!!
             </p>
@@ -834,12 +826,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att åka utomlands innebar framförallt en möjlighet att träffa
               massa fantastiska människor från hela världen och att uppleva en
               kultur på ett sätt som i andra fall skulle betyda betydligt mycket
@@ -874,12 +866,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Japan följer andra läsperioder än Sverige, något som gjorde att
               deras hösttermin överlappade vår vårtermin med ungefär en månad.
               Detta innebar att lite planering krävdes och att jag behövde
@@ -900,12 +892,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var svårt att hitta passande kurser då universitetet hade
               störst fokus mot samhällskurser och biologi. Att studera i Japan
               innebär också ett krav på att ta några kurser i japanska, något
@@ -947,13 +939,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det kan finnas en del oklarheter kring praktiska saker som till
               exempel att fixa telefonabonnemang eller skaffa bankkort. Detta är
               dock saker som alltid löser sig och man får hjälp med det när man
@@ -965,13 +957,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag hade definitivt valt Japan, det är ett fantastiskt land på
               många sätt. Om jag hade haft möjligheten skulle jag eventuellt
               valt ett universitet mer inriktat mot tekniska utbildningar.
@@ -983,12 +975,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Tokyo och TMU?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Spela lite Duolingo innan du åker till Japan, det är ganska
               underhållande och det gör att du kan njuta mer av Japan när du väl
               är där. <br />
@@ -1003,11 +995,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Partneruniversitetet fixade boende åt en. Jag bodde i en av de två
               områdena där TMU hade lägenheter, kallat Chofu. Där bodde killar
               och tjejer i separata sektioner men i samma byggnad och gemensamt
@@ -1027,13 +1017,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               För att åka till Japan krävdes mycket pappersarbete. Det var flera
               olika formulär som skulle skickas bland annat till
               partneruniversitetet men även immigrationbyrån. <br />
@@ -1056,12 +1046,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att äta där var betydligt billigare än i Sverige. Lunch köper man
               billigt på skolan och det hade varit fullt möjligt att äta middag
               ute de flesta dagarna. En av de största utgifterna var förmodligen
@@ -1083,12 +1073,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Bara åk, du kommer inte ångra dig! Se också till att lägga några
               timmar på att söka stipendier. Det krävs ganska lite tid för att
               ansöka och möjligen få ganska mycket pengar.
@@ -1117,12 +1107,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Oj, allt! Ny kultur, få miljöombyte efter 4 års studier i
               MIT-huset, helt andra kurser plus att man även har tid att
               semestra!
@@ -1137,12 +1127,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Om man åker till Australien så är det bra att veta att det går åt
               mer pengar än i Sverige, då boende/mat osv är dyrare. Så kan vara
               bra att försöka spara ihop lite innan man åker.
@@ -1153,12 +1143,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               På UOW fanns det en hel del kurser inom interaktionsteknik. Men
               även rena grafiska eller fritt kreativa kurser. Kurserna var
               absolut inte svåra att klara. På UOW har de helt annan struktur på
@@ -1176,13 +1166,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               När man ansöker till kurser i Australien så öppnas de under
               “slot-tider”, dvs ett först-till-kvarn system. Där gäller det att
               man väljer ett kalenderblock under veckan per kurs, för att sedan
@@ -1197,13 +1187,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag hade definitivt valt UOW om jag hade turen att få åka till
               samma ställe en gång till! Aldrig träffat så öppna och välkomnande
               människor. Dessutom hade många av kurserna stort fokus på
@@ -1218,12 +1208,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Australien och UOW?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att spindlar finns överallt, men så länge de är stora eller håriga
               så är de troligtvis inte dödliga.
             </p>
@@ -1232,11 +1222,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Då jag reste tillsammans med min kille ansökte vi om en gemensam
               lägenhet via universitetet. UOW har ett system där man kan ganska
               enkelt ansöka om studentboenden. De är lite dyrare dock, vår hyra
@@ -1253,13 +1241,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Visum är krav för att resa in i Australien. Då jag varit där
               tidigare kunde jag inte ansöka om ett “Work and Holiday” visum,
               vilket är det vanligaste. Jag ansökte istället om ett studentvisum
@@ -1279,12 +1267,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det är generellt lite dyrare än i Sverige, men sen finns det så
               otroligt mycket att göra där också vilket gjorde att det gick åt
               lite mer pengar. Att leva snålt går absolut, men mitt tips är att
@@ -1296,12 +1284,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Do it!!! Men se till att reka innan hur kursupplägget är och vilka
               visum som behövs. Sen OM du får lägga ditt eget schema, försök
               förlänga helgen så du hinner åka på lite längre utflykter i det
@@ -1331,12 +1319,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Många spännande och intressanta kurser man inte får möjlighet att
               läsa i Umeå. Allting var väldigt billigt i Tjeckien med.
             </p>
@@ -1346,12 +1334,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Boendet var väldigt sunkigt och alla som jobbade där pratade
               endast Tjeckiska.
             </p>
@@ -1361,12 +1349,12 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var inte alls svårt att hitta kurser som passade till min
               utbildning. Däremot pluggade jag ca 70h i veckan för att klara dem
               men tror man hade kunnat läsa lite lättare kurser. Läste främst
@@ -1379,13 +1367,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Se till att fylla i Umeås learning agreement och inte bara det
               från Karlsuniversitetet.
             </p>
@@ -1395,13 +1383,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag hade nog valt samma ställe. Främst p.g.a kurserna men också
               för att Prag är väldigt fint och jag hade väldigt trevliga
               rumskompisar som jag fortfarande har god kontakt med.
@@ -1413,13 +1401,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Tjeckien och
               Karlsuniversitetet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Folk är inte överdrivet bra på engelska. Man får också vara beredd
               på mycket byråkrati.
             </p>
@@ -1428,11 +1416,9 @@ export const getInterviewContent = (id, color) => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Universitetet fixade boende som var rätt så centralt. Där delade
               jag rum med en annan person och vi delade kök+badrum med två
               andra. Kommer inte ihåg exakt hur mycket det kostade men ca 1600:-
@@ -1444,13 +1430,13 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Behövde fylla i en ansökan till Umeå, en till Tjeckien, ett
               learning agreement och göra ett språktest. Samt fixa med alla
               papper för att få hyra ut lägenheten medan jag var borta. <br />
@@ -1464,22 +1450,22 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>Det var väldigt billigt.</p>
+          info: <p className="info-body-text">Det var väldigt billigt.</p>
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Välj inte bara intressanta kurser, ta några lite lättare så du
               hinner ha roligt också.
             </p>
@@ -1507,11 +1493,11 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
+          info: <p className="info-body-text">
           När jag skulle bestämma mig för vilket land och universitet jag ville åka till skrev jag en lista 
           på vad jag ville göra under mitt utbyte. Jag ville bli bättre på engelska i tal och skrift, jag ville 
           åka till ett land med mycket sol och värme, jag ville resa till olika länder, jag ville läsa roliga 
@@ -1535,31 +1521,35 @@ export const getInterviewContent = (id, color) => {
           Vi höll ihop under terminen och gjorde allt tillsammans!
 
           </p>
+
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Jag fick utmana mig själv en hel del under terminen, exempelvis bo i korridor och dela 
-          toalett och dusch andra. Luftfuktigheten var också ganska påfrestande, man svettas mycket 
-          och fick dricka kopiösa mängder vatten. Det fanns en del kryp på campus och jag lärde mig att 
-          jag inte gillar kryp, ormar, möss osv… 
-          </p>
+          info: (
+            <p className="info-body-text">
+              Jag fick utmana mig själv en hel del under terminen, exempelvis bo
+              i korridor och dela toalett och dusch andra. Luftfuktigheten var
+              också ganska påfrestande, man svettas mycket och fick dricka
+              kopiösa mängder vatten. Det fanns en del kryp på campus och jag
+              lärde mig att jag inte gillar kryp, ormar, möss osv…
+            </p>
+          )
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
+          info: <p className="info-body-text">
           På NTU räknas hp som AU. De flesta kurser ligger på  4 AU som motsvarar 7.5 hp eller 3 AU 
               som motsvarar 5.7 hp. Jag läste 1 kurs på 4AU och 4 kurser på 3 AU, detta motsvarar alltså 
               30.3 hp. Jag kunde tillgodoräkna alla mina kurser när jag kom hem. En kurs fick jag 
@@ -1587,97 +1577,163 @@ export const getInterviewContent = (id, color) => {
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
             Finns det något du hade velat veta innan du åkte på utlandsstudier
+
               som du inte visste då?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Tror inte det! Jag såg till att kolla upp allt med försäkring, CSN, Vaccin osv efter att jag hade blivit antagen. 
-          </p>
+          info: (
+            <p className="info-body-text">
+              Tror inte det! Jag såg till att kolla upp allt med försäkring,
+              CSN, Vaccin osv efter att jag hade blivit antagen.
+            </p>
+          )
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Jag hade helt klart valt Singapore! Värmen, resorna, skolan och vännerna gjorde min vistelse i Singapore till en av de bästa perioderna i mitt liv! :) 
-          </p>
+          info: (
+            <p className="info-body-text">
+              Jag hade helt klart valt Singapore! Värmen, resorna, skolan och
+              vännerna gjorde min vistelse i Singapore till en av de bästa
+              perioderna i mitt liv! :)
+            </p>
+          )
         }
       },
 
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Singapore och NTU?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Förbered dig på en termin av extrem värme och luftfuktighet! Det kan vara mer påfrestande än vad man tror. Om du är vegetarian är det bra att vara förberedd på att campus inte erbjuder många vegetariska måltider tyvärr… Singaporianer älskar socker och friterat och mycket av maten som serveras på campus är inte den nyttigaste. Därför är det bra att köpa bestick och tallrik när man kommer till campus så att man kan göra en sallad då och då.<br/><br/> 
-
-Bra att läsa på om är hur lagar fungerar i Singapore, de har en del strikta regler. Man får inte dricka eller äta i kollektivtrafiken och man får inte slänga skräp på gatorna. Detta kan resultera i höga böter. I princip alla platser i Singapore är kameraövervakade, detta tyckte jag dock var bra då jag kände mig trygg hela tiden.<br/><br/>
-
-Som tidigare nämnt kan det vara bra att kolla upp hur Add/Drop period ser ut på NTU, för att minimera stressen de två första veckorna. 
-
-          </p>
+          info: (
+            <p className="info-body-text">
+              Förbered dig på en termin av extrem värme och luftfuktighet! Det
+              kan vara mer påfrestande än vad man tror. Om du är vegetarian är
+              det bra att vara förberedd på att campus inte erbjuder många
+              vegetariska måltider tyvärr… Singaporianer älskar socker och
+              friterat och mycket av maten som serveras på campus är inte den
+              nyttigaste. Därför är det bra att köpa bestick och tallrik när man
+              kommer till campus så att man kan göra en sallad då och då.
+              <br />
+              <br />
+              Bra att läsa på om är hur lagar fungerar i Singapore, de har en
+              del strikta regler. Man får inte dricka eller äta i
+              kollektivtrafiken och man får inte slänga skräp på gatorna. Detta
+              kan resultera i höga böter. I princip alla platser i Singapore är
+              kameraövervakade, detta tyckte jag dock var bra då jag kände mig
+              trygg hela tiden.
+              <br />
+              <br />
+              Som tidigare nämnt kan det vara bra att kolla upp hur Add/Drop
+              period ser ut på NTU, för att minimera stressen de två första
+              veckorna.
+            </p>
+          )
+        }
+      },
+      {
+        text: {
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
+          info: (
+            <p className="info-body-text">
+              Man kan antingen ansöka om boende på Campus eller gå ihop några
+              stycken och hyra en lägenhet. Man är ej garanterad boende på
+              Campus men alla jag känner som ansökt om boende har fått det.
+              Boende i Singapore är extremt dyrt, speciellt om man vill bo i de
+              centrala delarna. Boende på Campus är väldigt billigt och därför
+              väljer många som vill resa under terminen detta alternativ.
+              <br />
+              <br />
+              På Campus kan man ansöka om att få bo i ett eget rum eller dela
+              rum med en person (man har ej möjlighet att önska vem man vill bo
+              med). Man kan även ansöka om rum med eller utan AC (AC är starkt
+              rekommenderat i den extrema värmen). Jag bodde i ett delat rum med
+              en tjej från Frankrike, inte det lyxigaste boendet men det funkade
+              under en en termin. Vi delade dusch och toaletter med de andra i
+              korridoren, vilket var väldigt ovant. Dock har de personal som
+              städar duschrummen varje dag. Vi hade även tillgång till
+              tvättmaskiner, de gjorde knappt kläderna rena och därför är ett
+              tips att inte ta med sig kläder som man är rädd om. <br />
+              <br />
+              En fördel med att bo på campus är att man har nära till
+              skollokalerna. Bor man i de centrala delarna av Singapore tar det
+              ca 45 minuter att ta sig till campus med kollektivtrafiken. Bor
+              man på campus köper man alla måltider i någon av foodcourten som
+              det finns gott om. Finns även Starbucks, MCdonalds och andra
+              snabbmatsrestauranger på campus.
+            </p>
+          )
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Man kan antingen ansöka om boende på Campus eller gå ihop några stycken och hyra en lägenhet. Man är ej garanterad boende på Campus men alla jag känner som ansökt om boende har fått det. Boende i Singapore är extremt dyrt, speciellt om man vill bo i de centrala delarna. Boende på Campus är väldigt billigt och därför väljer många som vill resa under terminen detta alternativ.<br/><br/>
-
-På Campus kan man ansöka om att få bo i ett eget rum eller dela rum med en person (man har ej möjlighet att önska vem man vill bo med). Man kan även ansöka om rum med eller utan AC (AC är starkt rekommenderat i den extrema värmen). Jag bodde i ett delat rum med en tjej från Frankrike, inte det lyxigaste boendet men det funkade under en en termin. Vi delade dusch och toaletter med de andra i korridoren, vilket var väldigt ovant. Dock har de personal som städar duschrummen varje dag. Vi hade även tillgång till tvättmaskiner, de gjorde knappt kläderna rena och därför är ett tips att inte ta med sig kläder som man är rädd om. <br/><br/>
-
-En fördel med att bo på campus är att man har nära till skollokalerna. Bor man i de centrala delarna av Singapore tar det ca 45 minuter att ta sig till campus med kollektivtrafiken. Bor man på campus köper man alla måltider i någon av foodcourten som det finns gott om. Finns även Starbucks, MCdonalds och andra snabbmatsrestauranger på campus.
-
-          </p>
-        }
-      },
-      {
-        text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Jag behövde ansöka om CSN, kolla upp vilka försäkringar jag behövde, vaccinera mig, ansöka om boende på campus, ansöka om studentvisum, söka stipendier och boka flygbiljett. Ansöka om boende och studentvisum gör man då man blivit antagen till NTU. Man får då tillgång till deras portal där man får anvisningar om hur man ska gå till väga. Detta tog inte allt för lång tid. Man behöver ej åka till ambassad eller liknande för att få sitt Visum, det får man när man är på plats i Singapore. 
-          </p>
+          info: (
+            <p className="info-body-text">
+              Jag behövde ansöka om CSN, kolla upp vilka försäkringar jag
+              behövde, vaccinera mig, ansöka om boende på campus, ansöka om
+              studentvisum, söka stipendier och boka flygbiljett. Ansöka om
+              boende och studentvisum gör man då man blivit antagen till NTU.
+              Man får då tillgång till deras portal där man får anvisningar om
+              hur man ska gå till väga. Detta tog inte allt för lång tid. Man
+              behöver ej åka till ambassad eller liknande för att få sitt Visum,
+              det får man när man är på plats i Singapore.
+            </p>
+          )
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Rent ekonomiskt klara man sig bra i Singapore. Det beror helt på hur man väljer att bo och hur mycket man reser runt. Utelivet och alkohol är väldigt dyrt i Singapore, om man är tjej finns det något som heter “Ladies night”, under dessa kvällar är inträde till nattklubbar och alkohol gratis för kvinnor. Ett tips är att söka stipendier för att täcka tråkiga kostnader som försäkring och vaccin. Jag sökte 3 och fick 1, tog inte allt för lång tid. 
-          </p>
+          info: (
+            <p className="info-body-text">
+              Rent ekonomiskt klara man sig bra i Singapore. Det beror helt på
+              hur man väljer att bo och hur mycket man reser runt. Utelivet och
+              alkohol är väldigt dyrt i Singapore, om man är tjej finns det
+              något som heter “Ladies night”, under dessa kvällar är inträde
+              till nattklubbar och alkohol gratis för kvinnor. Ett tips är att
+              söka stipendier för att täcka tråkiga kostnader som försäkring och
+              vaccin. Jag sökte 3 och fick 1, tog inte allt för lång tid.
+            </p>
+          )
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>
-          Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest lärorika och utmanande perioder i mitt liv. Gör en lista på vad du vill få ut av din utbytestermin och sök till ett land/universitet som passar dig!
-          </p>
+          info: (
+            <p className="info-body-text">
+              Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer
+              jag alltid att minnas som en av de roligaste, mest larorika och
+              utmanande perioder i mitt liv. Gör en lista på vad du vill få ut
+              av din utbytestermin och sök till ett land/universitet som passar
+              dig!
+            </p>
+          )
         }
       }
     ]
@@ -1700,12 +1756,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Miljöombyte, lära sig ny kultur, lära känna folk, bättre på
               engelska, bra fotboll, nära till alperna, grymma pubar, osv.
               <br />
@@ -1719,12 +1775,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att fixa allt inför resan, hitta kurser (väldigt problematiskt i
               Tyskland), boende (näst intill omöjligt i München), Kolla upp allt
               med stipendium, väl i Tyskland så är det mycket att fixa och många
@@ -1738,12 +1794,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var svårt att hitta passande kurser, men inte för våran
               utbildning eftersom 30hp är fria men för att vi var tvungen att
               läsa på engelska vilket tog bort 99% av kurserna. Sedan hade vi
@@ -1765,13 +1821,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Vem man ska prata med, hur de fungerar med deadlines (var tydligen
               oväsentliga för oss så aldrig för sent att söka), hur svårt det
               var att hitta boende, hade gärna haft någon att prata med som
@@ -1783,13 +1839,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Skulle absolut valt samma, kulturen här och staden är fantastisk.
               Det finns mycket att göra, vädret är bra och de är nära till det
               mesta. Hade gärna kunnat tyska eftersom man blir lite exkluderad
@@ -1803,13 +1859,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Tyskland och universitet
               i München?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det är väldigt likt i Sverige, de har 3 olika typer av kurser.
               Föreläsningskurser, praktiska kurser samt seminarier kurser. Där
               de praktiska måste sökas långt innan dem andra. Var med på
@@ -1823,11 +1879,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Vi hade en kontakt som via en kontakt via ytterligare 3 kontakter
               lyckades lösa det. Var nära att vi stannade hemma för vi inte
               hitta något. Priset är omkring 18000 för en 2 rok, det får man
@@ -1841,13 +1895,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Stipendier, hyra ut lägenheten, söka kurser. Tyskland är väldigt
               likt Sverige, telefon går att ha samma som i Sverige, vårdcentral
               och dylikt är gratis. Inge vaccin och inget visum krävs. <br />
@@ -1861,12 +1915,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ungefär som hemma, generellt är mat lite dyrare på restauranger
               men tex gå på krogen är billigare.
             </p>
@@ -1876,12 +1930,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Åk gärna flera stycken, det är skönt att kunna prata svenska.
               Kolla upp staden innan, om de är möjligt att få boende, kontakta
               någon som varit iväg på utbytestermin.
@@ -1909,12 +1963,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Billigt, vackert och man kan surfa. <br />
               <br /> Det bästa minnet var på en bussresa för att besöka min
               flickvän på den tiden. På bussen träffade jag en snubbe som vi
@@ -1927,22 +1981,22 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>Blev rånad.</p>
+          info: <p className="info-body-text">Blev rånad.</p>
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var ganska svårt att hitta passande kurser, fanns computer
               vision och funktionell programmering vilket jag kan rekommendera.
               Sen fanns en fotokurs som jag också kan rekommendera. Inga
@@ -1957,13 +2011,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ja, jag hade valt samma varje gång. Sydafrika är magiskt. Finns
               inget vackrare ställe på jorden.
             </p>
@@ -1974,13 +2028,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Sydafrika och
               Stellenbosch university?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Börja i tid med visum och kolla upp säkerhetsreglerna. VAR INTE
               UTE PÅ NATTEN! Uber är svinbilligt.
             </p>
@@ -1989,11 +2043,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Lätt att fixa. Betala 3k i månaden. Se till om du går utanför
               avtalen att du ändå har kontrakt för visum.
             </p>
@@ -2003,13 +2055,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Behövde fixa visum, vaccin och hälsodeklaration. Det tog tre
               veckors intensivt arbete så börja i tid!
             </p>
@@ -2019,12 +2071,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Billigt, mat och taxi kostade ingenting.
             </p>
           )
@@ -2033,12 +2085,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Var mycket jobb med visum och tight med tid. Börja långt innan och
               titta upp kraven och fixa några av grejerna innan även om du inte
               blivit accepterad. Normalt sett måste man ha en biljett ut ur
@@ -2069,12 +2121,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Oj den här blir svår, hela min Barcelona resa är ett så stark
               minne i sig. Hela intrycket av staden, människorna jag träffade
               där, maten, nattlivet, shoppingen men sen framförallt pulsen i
@@ -2090,12 +2142,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att en del saker lätt uppfattas som röriga för man inte har 100%
               koll på allt, vilket lätt kan stressa upp en.
             </p>
@@ -2105,12 +2157,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var inte svårt att hitta passande kurser för jag pluggade på
               deras Data-institution. Enda nackdelen var att där inte fanns ett
               jättestort utbud av kurser att välja på. <br />
@@ -2137,13 +2189,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att allt löser sig tillslut ;). Nej men det hade varit skönt att
               ha en tydlig bild över vad som krävs att man gör innan avresa, en
               checklista till exempel.
@@ -2154,13 +2206,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag hade åkt tillbaka till samma ställe, är så nöjd med mitt val.
               Skolan var isåfall det enda som kändes lite som en besvikelse, men
               det var inte en av mina prioriteter med att åka på utbytesstudier.
@@ -2172,13 +2224,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Spanien och Universitat
               Politècnica de Catalunya?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Barcelona har tyvärr problem med ficktjuvar vilket gör att man
               måste vara väldigt observant med sina saker och hålla hårt i dem.
               <br />
@@ -2193,11 +2245,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Hyrde en lägenhet som ett par från Sverige ägde, och fixade denna
               via kontakter hemifrån.
             </p>
@@ -2207,13 +2257,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Behövde inte göra några förberedelser direkt. En av de största
               fördelarna med att åka till Europa, du bokar ditt flyg och packar
               din väska sen är det bara att dra. Sen så klart finns det en del
@@ -2233,12 +2283,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Generellt var det billigare än Sverige.
             </p>
           )
@@ -2247,12 +2297,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               ÅK! Bara gör det, du kommer inte ångra dig. Utan ta istället
               chansen när du väl får möjlighet att göra en sån här grej. Och en
               viktig sak, vill du åka utomlands så kommer du kunna göra det
@@ -2283,12 +2333,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Träffa nya spännande människor, få chansen att läsa andra ämnen än
               vad som erbjuds hemma i Umeå, se nya platser, möta andra kulturer
               och äta ny mat. I mitt fall var det också generellt lite
@@ -2305,12 +2355,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Om man är van vid att ens vecka består av tydliga vardagsrutiner
               och trivs i det kan det ta ett tag innan man hittar nya just pga
               allt nytt som flytta utomlands innebär.
@@ -2321,12 +2371,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               I mitt fall var det enkelt att hitta kurser då jag hade fria
               kurser kvar och inte behövde matcha något specifikt. <br />
               <br />
@@ -2351,13 +2401,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att boende som internationell student inte var jätteenkelt att få
               tag på. Med det sagt hittade jag ändå ett toppenboende till slut.
             </p>
@@ -2367,13 +2417,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag sökte Humber college i Kanada, men kom inte in där. Hade jag
               gjort det hade jag mest troligt åkt dit.
             </p>
@@ -2384,13 +2434,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Nederländerna och
               University of Twente?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Man bör leta boende i tid. Många studentboenden bestämmer själva
               vilka de tar in utifrån de som anmält intresse, och många tar
               därför endast in de som pratar holländska. De flesta
@@ -2417,11 +2467,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag registrerade mig på den huvudsakliga bostadsförmedlaren
               Roomspot, men där svarade nästan alla boenden att de endast söker
               folk som pratar Holländska. Med längre kötid kan dock chansen öka
@@ -2445,13 +2493,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Stipendier är man garanterad som Erasmus-student. Den processen
               var väldigt tydlig från Umeå universitets sida, men krävde lite
               påskrifter av dokument. Representanten från Twente var dock ganska
@@ -2468,12 +2516,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Generellt billigare. Om din matbudget är ca 2500 hemma är den ca
               1500-2000 här nere. Det i kombination med extra CSN och stipendium
               gör att du inte behöver tänka jättemycket på hur du spenderar dina
@@ -2487,12 +2535,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Go for it! Man kan tycka att man är borta lång tid, men tiden går
               alldeles för fort när man väl är där skulle jag säga. Och vill man
               passa på att besöka ställen man inte varit på i Europa är Erasmus
@@ -2522,12 +2570,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det bästa med att åka utomlands och studera var att träffa nytt
               spännande folk och ta del av deras erfarenheter. Läste även
               väldigt roliga kurser när jag var iväg. Det bästa minnet var
@@ -2539,12 +2587,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ansökan dit tyckte jag var krånglig samt att boendet var svindyrt.
             </p>
           )
@@ -2553,12 +2601,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var skönt att jag inte hade några krav på vilka kurser jag
               behövde läsa så det var inte så svårt att hitta kurser som passar
               in på ID. Jag läste kurser inom Matte, data och speldesign. Alla
@@ -2570,13 +2618,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att man kan få CSN i förskott om man har något dyrt att betala i
               början på terminen.
             </p>
@@ -2586,13 +2634,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Samma ställe två gånger känns tråkigt. Kanske hade valt något
               utanför Europa.
             </p>
@@ -2603,13 +2651,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Danmark och DTU?
             </p>
           ),
 
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Boendet som de tillhandahåller är sjukt dyrt. 24000 i deposition
               som man inte får tillbaka innan vistelsen slut. Prata med Lennart
               Johansson om du är intresserad, skicka ett till mail om folk inte
@@ -2621,13 +2669,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Svårt att säga hur lång tid det tog det var många små saker på
               lång tid. Jag behövde fixa någon försäkrings grej och anmälde mig
               till stipendium.
@@ -2638,21 +2686,21 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>Dyrt</p>
+          info: <p className="info-body-text">Dyrt</p>
         }
       },
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
-          info: <p className="info-body-text" style={{color: color}}>Gört!!</p>
+          info: <p className="info-body-text">Gört!!</p>
         }
       }
     ]
@@ -2676,12 +2724,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Att få se annat, tänka på nya sätt och komma ur bubblan lite
               grann. Det känns som man får tänka mycket på sig själv och det kan
               vara bra, att man inte bara tänker/gör som alla andra i sin klass
@@ -2701,12 +2749,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Just mitt universitet passade mig inte jättebra, jag kollade inte
               så mycket på kurserna eller ”profilen” på universitetet, utan såg
               bara att det fanns lite kurser jag kunde ta, och åkte dit. Sen
@@ -2719,12 +2767,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var svårt att hitta kurser som passade. Det är väldigt
               teoretiskt och matematiskt. Bra om man verkligen vill gräva djupt
               i datavetenskap, men jag kände att jag inte riktigt ville göra
@@ -2750,13 +2798,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Mer om universitetet. Jag gjorde dock min ansökan i sista sekund
               vilket inte var så smart, bara tog något som lät OK, men borde ha
               spenderat mer tid att faktiskt kolla vart jag ville åka. Man borde
@@ -2768,13 +2816,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Danmark hade varit ok igen, men isåfall hade jag velat komma in på
               en designskola eller liknande. I Danmark är skolorna väldigt
               separerade till skillnad från typ Umeå där man kan läsa både
@@ -2789,13 +2837,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Danmark och Köpenhamns
               universitet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var lätt att ansöka, till skillnad från Sydkorea, det var lite
               mer process. Men ha koll på deadlines bara och snacka med de som
               har hand om ditt utbyte. Lennart på TFE som hade hand om Danmark
@@ -2810,11 +2858,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Boende i Köpenhamn är ganska svårt. Universitetet är väldigt
               centralt beläget, och där är det dyrt med boende. Jag valde att
               hitta boende privat, för det skolan kan erbjuda tyckte jag vara
@@ -2834,13 +2880,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Behövde inte så mycket förberedelser, lite papper att fylla i, det
               var lätt att få hjälp från Umu. Allt som allt tog det ungefär en
               månad.
@@ -2851,12 +2897,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Dyrt, svenska kronan är svag mot danska så allt blir nästan 50%
               dyrare. Men det ordnade sig ganska bra ändå, en termin är inte så
               långt. Har man SU så klarar man sig nog kanonbra!
@@ -2867,12 +2913,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Kolla upp skolan innan, så du hamnar i en kontext du tycker om.
               Och ta en plats du är intresserad av bara. Jag tror man kan känna
               sig lite utanför på vilken plats som helst om man är i fel
@@ -2904,12 +2950,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               För det första var det väldigt roligt! Vi läser ju tio terminer på
               ID, och att få spendera en av dom på en annan plats än vid Umeå
               Universitet var ganska befriande. Men det bästa var såklart alla
@@ -2929,12 +2975,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Man saknar sina nära och kära! Vidrig känsla att säga hejdå på
               flygplatsen. Men sen finns ju Skype och Facetime och sådär, man
               överlever absolut.
@@ -2945,12 +2991,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var svårt att hitta kurser som gick ihop med ID-utbildningen
               och jag hade valt några kurser som jag inte fick läsa. Men det
               gjorde inte så mycket att det inte blev helt rätt från början.
@@ -2979,13 +3025,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Saker löser sig! Man behöver inte oroa sig över kurser eller
               liknande!
             </p>
@@ -2995,13 +3041,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Kanada var enkelt att leva i för att det inte var så många
               kulturella skillnader, lite svagare kaffe typ. Men idag skulle jag
               vilja åka till ett land med en helt annan kultur för att få
@@ -3014,13 +3060,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Kanada och Western
               university?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var väldigt varmt när jag åkte till Kanada (var i den
               sydligaste delen) men snö i december när jag åkte hem. Så man får
               packa för två årstider. Western University är också väldigt stort,
@@ -3042,11 +3088,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag bodde på ”rez” som är studentbostäder. Det var obehagligt
               dyrt, 6 tusen i månaden och man var tvungen att betala alla fyra
               månadshyror innan man kom dit. Men de matchar rumskompisar sjukt
@@ -3063,13 +3107,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Man behöver bara ansöka om ETA om man ska vara där mindre än 6
               mån. Tar 5 minuter att fylla i på webben. Jag kan inte uppskatta
               exakt hur lång tid det tog men i mitt fall var det verkligen inte
@@ -3081,12 +3125,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det är ungefär samma som i Sverige.
             </p>
           )
@@ -3095,12 +3139,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Fråga någon som varit på stället du vill åka till för att få en
               bättre uppfattning om hur platsen och universitetet kommer passa
               dig. Även praktiska frågor! Det brukar underlätta väldigt mycket
@@ -3130,12 +3174,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad var det bästa med att åka utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Tiden i Kanada är nog den tid jag växte mest som person. Att vara
               själv utomlands får en att “växa upp” vilket var sjukt nyttigt!
               Sen får man ju blanda resande, plugg och språkresa. Började på
@@ -3164,12 +3208,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det något som var mindre bra med att studera utomlands?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Kommer faktiskt inte på något. Det är klart man saknar alla
               människor man har hemma men man hamnar som i sin egen bubbla och
               glömmer lätt bort allt sånt.
@@ -3180,12 +3224,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Hur fungerade det med dina kurser som du läste?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var lite svårt att hitta kurser som skulle passa in på
               utbildningen faktiskt. Lyckades hitta en designkurs inom linjen
               som jag valde, annars var det lite knapert. Till exempel,
@@ -3212,13 +3256,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Finns det något du hade velat veta innan du åkte på utlandsstudier
               som du inte visste då?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Planera i tid. Det blir onödigt stressigt om man, som jag, väntar
               med att fixa kurser, köpa ESTA osv. till sista dagarna innan
               flyget går. Ju snabbare allt är fixat desto mindre nervöst och
@@ -3232,13 +3276,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Om du skulle åka på utbyte idag, hade du valt samma ställe eller
               ett annat?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Jag var fast besluten att jag ville åka till Kanada och tog första
               bästa plats jag fick. Jag kollade inte var Winnipeg låg eller hur
               staden såg ut, utan jag såg att det var i Kanada och valde. Jag
@@ -3262,12 +3306,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad ska man tänka på om man vill åka till Kanada och UofM?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Ta en extra stor resväska. När du kommer är det typ 30 grader
               varmt. När du drar är det -30. Kulturmässigt är Kanada väldigt
               likt Sverige, det kommer inte bli några kulturkrockar. Enda
@@ -3281,11 +3325,9 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       },
       {
         text: {
-          heading: (
-            <p className="info-heading" style={{color: color}}>Hur funkade det med boendet?</p>
-          ),
+          heading: <p className="info-heading">Hur funkade det med boendet?</p>,
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               UofM har massor av studentbostäder på campus. När du blivit
               antagen kommer du under sommaren få en tid när du kan gå in och
               välja lägenhet/rum. Om jag kommer ihåg rätt fanns det 4 olika
@@ -3312,13 +3354,13 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vilka förberedelser behövde du göra innan du åkte och hur lång tid
               tog dem?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Om du är i Kanada i mindre än 6 månader i sträck behöver du inget
               visum, då räcker det med ett ESTA(Travel Authorization). Det läggs
               elektroniskt på ditt pass så du behöver inga dokument. Tror det
@@ -3347,12 +3389,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Var det dyrt/billigt att leva i landet?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               Det var ungefär som i Sverige, kanske lite billigare.
             </p>
           )
@@ -3361,12 +3403,12 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
       {
         text: {
           heading: (
-            <p className="info-heading" style={{color: color}}>
+            <p className="info-heading">
               Vad är ditt råd till någon som vill åka på utbytestermin?
             </p>
           ),
           info: (
-            <p className="info-body-text" style={{color: color}}>
+            <p className="info-body-text">
               DO IT. Vad än din anledning är till att åka, om det är att komma
               bort från Umeå, träffa nya människor, läsa massa coola kurser
               eller bara passa på att åka utomlands är det ett sånt extremt bra

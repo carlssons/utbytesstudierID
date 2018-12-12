@@ -8,7 +8,7 @@
   @include align-items(center);
   //background-image: url("../../../public/images/heroImage.jpg");
   background-size: cover;
-  height: 550px;
+  height: 620px;
 
   .hero-text {
     @include flexbox;

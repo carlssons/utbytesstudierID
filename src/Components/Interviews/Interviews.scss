@@ -1,11 +1,11 @@
 @import "../../main";
 
 .content {
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   background-color: $color-blue;
 
   .card-section {
-    padding-top: 80px;
+    padding-top: 60px;
     box-sizing: border-box;
     @include flexbox;
     @include flex-direction(column);
@@ -15,9 +15,9 @@
     .card-h2 {
       @include font-h-2;
       padding-bottom: 30px;
-      color: $color-text-white;
     }
     .card-container {
+      max-width: 1300px;
       width: 80%;
       @include flexbox;
       @include align-items(center);

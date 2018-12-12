@@ -1,6 +1,8 @@
 @import "../../main";
 
 .text-interview-box {
+  max-width: 1300px;
+  margin:auto;
   @include flexbox;
   @include justify-content(space-between);
   width: 70%;
@@ -17,7 +19,6 @@
 
   .info-heading {
     @include font-h-4;
-    color: $color-text-white;
     width: 30%;
     box-sizing: border-box;
 

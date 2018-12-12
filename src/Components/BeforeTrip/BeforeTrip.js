@@ -18,7 +18,7 @@ class BeforeTrip extends Component {
     const BeforeTripContent = getBeforeTripContent("beforeTripText");
 
     return (
-      <div>
+      <div className="before-trip">
         <Cover content={coverContent.cover} />
 
         <div className="text-beforeTrip-container">
