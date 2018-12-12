@@ -25,7 +25,6 @@
       @include justify-content(center);
       h2 {
         @include font-h-2;
-        color: $color-text-white;
       }
     }
     .box-div {

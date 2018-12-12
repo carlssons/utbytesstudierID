@@ -12,7 +12,6 @@
     width: 80%;
     .h2-faq {
       @include font-h-2();
-      color: $color-text-white;
       margin-bottom: 0;
     }
   }
@@ -32,7 +31,6 @@
     }
     .h4-question {
       @include font-h-4();
-      color: $color-text-white;
     }
 
     .p-answer {

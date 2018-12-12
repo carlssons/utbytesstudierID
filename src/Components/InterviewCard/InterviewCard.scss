@@ -27,9 +27,8 @@
   @media screen and(max-width: $break-small - 100) {
     width: 300px;
   }
-  h2{
+  h2 {
     @include font-h-2;
-    color: $color-text-white;
   }
 
   .card-top {
@@ -53,6 +52,7 @@
       @include justify-content(center);
       .card-h4 {
         @include font-h-4;
+        color: $color-blue;
         margin: 0;
         padding-bottom: 8px;
       }

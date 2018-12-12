@@ -32,8 +32,11 @@ export default class Interview extends React.Component {
           <InterviewImages content={interview.images} />
         </div>
         <div className="text-interview-container">
+          <h2 className="h2-interview">Intervju</h2>
           {interview.interviewText.map((element, index) => {
-            return <TextSection key={index} text={element.text} color="#11120e"/>;
+            return (
+              <TextSection key={index} text={element.text} color="#11120e" />
+            );
           })}
         </div>
       </div>

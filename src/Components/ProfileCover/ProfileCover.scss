@@ -33,6 +33,7 @@
 
     #profile-title {
       @include font-h-3();
+      color: $color-blue;
 
       @media screen and( max-width: $break-medium ) {
         @include font-h-4();

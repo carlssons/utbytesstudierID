@@ -24,6 +24,7 @@
     .instagram-heading {
       @include font-h-2;
       background-color: $color-background-white;
+      color: $color-blue;
       margin-top: -24px;
       text-align: center;
       padding: 0 20px 0 20px;
@@ -46,6 +47,7 @@
         }
         .instagram-hashtag {
           @include font-h-3;
+          color: $color-blue;
         }
       }
     }

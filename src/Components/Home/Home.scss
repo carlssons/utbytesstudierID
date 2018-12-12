@@ -45,6 +45,7 @@
       align-items: center;
       #h2-process {
         @include font-h-2;
+        color: $color-blue;
       }
     }
     .process-box {
