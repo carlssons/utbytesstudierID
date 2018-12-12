@@ -34,16 +34,12 @@ class Crediting extends Component {
             {categoryOne.categoryName}
             {categoryOne.university.map((element, index) => {
               return (
-                <React.Fragment key1={index}>
+                <div key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
-                    return (
-                      <React.Fragment key2={index}>
-                        {course.course}
-                      </React.Fragment>
-                    );
+                    return <div key={index}>{course.course}</div>;
                   })}
-                </React.Fragment>
+                </div>
               );
             })}
           </div>
@@ -52,16 +48,12 @@ class Crediting extends Component {
             {categoryTwo.categoryName}
             {categoryTwo.university.map((element, index) => {
               return (
-                <React.Fragment key3={index}>
+                <div key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
-                    return (
-                      <React.Fragment key4={index}>
-                        {course.course}
-                      </React.Fragment>
-                    );
+                    return <div key={index}>{course.course}</div>;
                   })}
-                </React.Fragment>
+                </div>
               );
             })}
           </div>
@@ -70,16 +62,12 @@ class Crediting extends Component {
             {categoryThree.categoryName}
             {categoryThree.university.map((element, index) => {
               return (
-                <React.Fragment key5={index}>
+                <div key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
-                    return (
-                      <React.Fragment key6={index}>
-                        {course.course}
-                      </React.Fragment>
-                    );
+                    return <div key={index}>{course.course}</div>;
                   })}
-                </React.Fragment>
+                </div>
               );
             })}
           </div>
@@ -88,16 +76,12 @@ class Crediting extends Component {
             {categoryFour.categoryName}
             {categoryFour.university.map((element, index) => {
               return (
-                <React.Fragment key7={index}>
+                <div key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
-                    return (
-                      <React.Fragment key8={index}>
-                        {course.course}
-                      </React.Fragment>
-                    );
+                    return <div key={index}>{course.course}</div>;
                   })}
-                </React.Fragment>
+                </div>
               );
             })}
           </div>
@@ -106,16 +90,12 @@ class Crediting extends Component {
             {categoryFive.categoryName}
             {categoryFive.university.map((element, index) => {
               return (
-                <React.Fragment key9={index}>
+                <div key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
-                    return (
-                      <React.Fragment key10={index}>
-                        {course.course}
-                      </React.Fragment>
-                    );
+                    return <div key={index}>{course.course}</div>;
                   })}
-                </React.Fragment>
+                </div>
               );
             })}
           </div>
