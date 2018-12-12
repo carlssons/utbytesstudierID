@@ -76,6 +76,13 @@ export const getCreditingContent = id => {
                 DD9009 Design Thinking, 5,6 hp, grundläggande nivå
               </p>
             )
+          },
+          {
+            course: (
+              <p className="p-crediting">
+                DM3011 Sound for Interactive Media, 7,5 hp, grundläggande nivå
+              </p>
+            )
           }
         ]
       },
