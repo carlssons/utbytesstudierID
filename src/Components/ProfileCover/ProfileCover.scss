@@ -37,6 +37,7 @@
 
       @media screen and( max-width: $break-medium ) {
         @include font-h-4();
+        color: $color-blue;
         text-align: center;
       }
     }
