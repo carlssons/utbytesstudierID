@@ -11,7 +11,7 @@ class HeroSection extends Component {
           <h1 id="hero-h1">ID UTBYTESSTUDIER</h1>
           <h2 id="hero-h2">
           Som student vid Umeå universitet har du möjlighet att spendera en eller flera terminer vid ett 
-          partneruniversitet. Det finns många universitet att välja på, i olika dela av världen. Vart vill du åka?
+          partneruniversitet. Det finns många universitet och avtal att välja mellan, runt om i världen. Vart vill du åka?
           </h2>
         </div>
         <form

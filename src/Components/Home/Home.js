@@ -44,18 +44,18 @@ class Home extends Component {
         {
           icon: "pin.svg",
           processHead: "1. Välj destination",
-          info: "Umeå universitet erbjuder utbytesstudier runt om i världen."
+          info: "Umeå universitet har olika avtal med partneruniversitet runt om i världen."
         },
         {
           icon: "diploma.svg",
           processHead: "2. Bli nominerad",
-          info: "Ansök till Umeå universitet om att bli tilldelad en plats."
+          info: "Ansök till Umeå universitet om att bli tilldelad en plats vid ett partneruniversitet."
         },
         {
           icon: "letter.svg",
           processHead: "3. Bli antagen",
           info:
-            "Gör du en ansökan till värduniversitetet för ett slutgiltigt besked."
+            "Ansök till partneruniversitetet om att bli antagen och få ett slutgiltigt besked."
         },
         {
           icon: "plane.svg",

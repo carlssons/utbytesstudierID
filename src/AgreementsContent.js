@@ -28,11 +28,10 @@ export const getAgreementsContent = id => {
               Det är först efter att du har blivit nominerad av International office som du skickar 
               en ansökan till självaste partneruniversitetet.<br/><br/>
               För att bli tilldelad en plats via de centrala avtalen finns det några krav som måste 
-              uppfyllas. Se kraven <a className="link" href={linkDemands} target="blank_">här</a> (under rubriken "Inför ansökan", "Behörighet"). Efter att du har skickat in din ansökan till International 
+              uppfyllas. För att se kraven gå in under rubriken "Inför ansökan", "Behörighet" via denna <a className="link" href={linkDemands} target="blank_">länk</a>. Efter att du har skickat in din ansökan till International 
               office kommer du få ett mejl så fort de har gått igenom alla ansökningar. I mailet 
               kommer det stå om har blivit nominerad eller inte till något av de partneruniversitet 
-              som du har sökt. För att se hur urvalsprocessen går till gå in under rubriken "Vad händer om två eller fler studenter får samma poäng?", via följande <a className="link" href={linkSelection} target="blank_">länk</a>. Ansökningsprocessen kan 
-              delas in i fyra steg som finns listade nedan.
+              som du har sökt. För att se hur urvalsprocessen går till gå in under rubriken "Vad händer om två eller fler studenter får samma poäng?", via följande <a className="link" href={linkSelection} target="blank_">länk</a>.
             </p>
           ),
 
@@ -92,10 +91,9 @@ export const getAgreementsContent = id => {
             <div className="info-body-text">
               <p>
               Nästa steg är att komma på vilket land/länder och universitet du vill åka till. 
-              Det kan vara smart att inte enbart välja länder med högt söktryck även om du har 
-              mycket poäng om du verkligen vill komma iväg. Välj smart! För att se statistik på 
-              vart studenter har åkt föregående år och hur många poäng de har haft för att få 
-              platsen klicka på länken nedan. 
+              Det kan vara smart att inte enbart välja länder med högt söktryck (även om du har 
+              mycket poäng) om du verkligen vill komma iväg. Välj smart! För att se statistik på 
+              vart studenter har åkt föregående år och hur många poäng de har haft, klicka på länken nedan. 
               </p>
               <a href="https://www.umu.se/student/studera-utomlands/utbytesstudier/utbytesstudier-utanfor-europa/statistik/" target="blank_" className="info-body-link">
               Statistik
@@ -118,7 +116,7 @@ export const getAgreementsContent = id => {
               Skicka in ansökan om nominering till International office. Du kan söka till högst 4 
               stycken partneruniversitet. I ansökan ska du ange minst fyra stycken kurser som erbjuds 
               på varje universitet och som du vill läsa. Detta gör du för att International office 
-              vill vara säkra på att univeriteten du har sökt till erbjuder kurser som du kan läsa. 
+              vill vara säkra på att universiteten du har sökt till erbjuder kurser som du kan läsa. 
               De kommer även vilja att du motiverar varför du vill åka till de universitet du söker till. 
               Detta ska du göra för att visa att du är seriös med din ansökan. Länken nedan tar dig till 
               ansökan.
@@ -145,9 +143,9 @@ export const getAgreementsContent = id => {
               Skriv ut webbansökan och sätt dit ett foto på dig själv (tips är att sätta in 
               fotot digitalt innan du skriver ut). Glöm inte att skriva under din ansökan 
               och kom ihåg att du även måste få en underskrift av studievägledaren. Lägg 
-              ner ansökan i ett kuvert tillsammans med dina gymnasiebtyg eller engelskatest 
+              ner ansökan i ett kuvert tillsammans med dina gymnasiebetyg eller engelskatest 
               och eventuellt ett buddycertifikat. På kuvertet ska du skriva ”international 
-              office outgoing” och lämna in det på Info center innan deadline för ansökan.
+              office outgoing” och lämna in det på Infocenter innan deadline för ansökan.
               </p>
             </div>
           ),
@@ -177,9 +175,8 @@ export const getAgreementsContent = id => {
               kan du alltid höra av dig till kontaktpersonen för att undersöka möjligheten om via 
               deras avtal. Ingenting är omöjligt, speciellt inte om du planerar att läsa fria kurser 
               under din utbytestermin. Nomeneringen som sker via Erasmus har ingen utsatt deadline. 
-              Kontakta ansvarig för de universitet som du vill åka till för att få mer infomation 
-              gällande ansökningstider. Ansökningsprocessen kan delas in i tre steg som finns listade 
-              nedan.
+              Kontakta den som är ansvarig för de universitet som du vill åka till för att få mer infomation 
+              gällande ansökningstider.
             </p>
           ),
 
@@ -243,7 +240,7 @@ export const getAgreementsContent = id => {
           info: (
             <div className="info-body-text">
               <p>
-                Ta kontakt med ansvarig för institutionsavtalet med det universitet du vill åka till. Skicka ett mejl där du motiverar varför du vill åka till just det partneruniversitet. 
+                Ta kontakt med den som är ansvarig för det institutionsavtal som tillhandahåller det universitet du vill åka till. Skicka ett mejl där du motiverar varför du vill åka till just det partneruniversitet. 
               </p>
             </div>
           ),
@@ -314,7 +311,7 @@ export const getAgreementsContent = id => {
           ),
           info: (
             <p className="info">Du kan även planera din resa på egen hand och inte åka via ett avtal. 
-            Gå in på länken för att få tips på hur du kan gå tillväga.
+            Gå in på länken nedan för att få tips på hur du kan gå tillväga.
             </p>
           ),
 

@@ -31,7 +31,7 @@ export const getCreditingContent = id => {
           på dig så mycket information som möjligt om kurserna i form av
           kursplaner, kurslitteratur, obligatoriska uppgifter och annat som kan
           vara relevant. <br />
-          <br /> Vanligtvis läggs utlandskurserna in under kategorin ”Fria
+          <br /> Vanligtvis läggs de kurser man läser utomlands in under kategorin ”Fria
           kurser”. Ett tips är dock att när du ansöker om tillgodoräknande
           försöka fylla andra kategorier än fria kurser. Om din ansökan blir
           nekad till att fylla en annan kategori kan du alltid ändra din ansökan

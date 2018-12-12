@@ -7,10 +7,7 @@ export const getCoverContent = id => {
       title: <p id="cover-title">INTERVJUER</p>,
       subtitle: (
         <p id="cover-subtitle">
-          ID-studenter har varit på utbytesstudier på flera olika
-          partneruniversitet runt om i världen. Intervjuerna innehåller allt
-          ifrån tips till praktiska grejer inför resan från några IDare som har
-          varit iväg.
+          ID-studenter har varit på utbytesstudier vid olika partneruniversitet runt om i världen, via olika avtal. Här har vi samlat intervjuer med några av studenterna. Intervjuerna innehåller allt från inspiration och tips till praktisk information om saker man bör ta reda på innan avresa.
         </p>
       )
     }
@@ -22,9 +19,7 @@ export const getCoverContent = id => {
       title: <p id="cover-title">AVTAL</p>,
       subtitle: (
         <p id="cover-subtitle">
-          Det finns olika avtal beroende på vilket land du vill studera i. De
-          olika avtalen finns listade nedan. Det går att söka med hur många
-          olika avtal man vill.
+          När du  ansöker om att bli nominerad till ett partneruniversitet kan du ansöka via olika avtal. Här kan du läsa om de olika avtalen, vilka partneruniversitet  som ingår i dem och hur du går tillväga för att ansöka.
         </p>
       )
     }
@@ -36,9 +31,7 @@ export const getCoverContent = id => {
       title: <p id="cover-title">INFÖR RESAN</p>,
       subtitle: (
         <p id="cover-subtitle">
-          Efter att du har blivit nominerad till ett partneruniversitet måste du
-          förbereda dig för att åka. På den här sidan finns det listat olika
-          saker du bör tänka på och ordna innan du åker iväg.
+          Efter att du har blivit nominerad till ett partneruniversitet måste du förbereda dig inför din termin utomlands. På den här sidan finns det listat olika saker du bör tänka på och ordna med innan du åker iväg.
         </p>
       )
     }
@@ -50,10 +43,7 @@ export const getCoverContent = id => {
       title: <p id="cover-title">TILLGODORÄKNANDE</p>,
       subtitle: (
         <p id="cover-subtitle">
-          När du kommer tillbaka från dina utbytesstudier måste du tillgodoräkna
-          dina kurser. Här får du information om hur detta går till och även
-          under vilka kategorier studenter tidigare har fått tillgodoräkna sina
-          kurser till.
+          När du kommer tillbaka från dina utbytesstudier måste du tillgodoräkna dina kurser. Här får du information om hur du går tillväga. Du kan även se under vilka kategorier andra studenters kurser har blivit tillgodoräknade. 
         </p>
       )
     }

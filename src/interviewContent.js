@@ -58,7 +58,7 @@ export const getInterviewContent = (id, color) => {
               Det var inte direkt svårt att hitta passande kurser. Man valde när
               man kom fram och jag fick hjälp med detta. Kurserna jag valde var
               inte svåra att klara. Jag läste kurser inom ekonomi och
-              marknadsföring. Alla kurser tillgodoräknades som fria kurser sen
+              marknadsföring. Alla kurser kunde tillgodoräknas som fria kurser
               när jag kom hem.
             </p>
           )
@@ -1065,7 +1065,7 @@ export const getInterviewContent = (id, color) => {
               Att äta där var betydligt billigare än i Sverige. Lunch köper man
               billigt på skolan och det hade varit fullt möjligt att äta middag
               ute de flesta dagarna. En av de största utgifterna var förmodligen
-              transporten som krävdes till och från skolan varje dag och för de
+              de transporter som krävdes till och från skolan varje dag och för de
               egna utflykterna. I övrigt skiljer sig inte priserna allt för
               mycket jämfört med Sverige. <br />
               <br />
@@ -1074,7 +1074,7 @@ export const getInterviewContent = (id, color) => {
               med deras snabbtåg. För att uppleva så mycket som möjligt
               rekommenderar jag verkligen att söka stipendier. Man kan få ganska
               många tusen på bara ett par timmars arbete. Sök högt och lågt, jag
-              lyckades till exempel få ett stipendie för att jag är född i en
+              lyckades till exempel få ett stipendium för att jag är född i en
               grannkommun till Göteborg. Det värsta man kan få är ett nej.
             </p>
           )
@@ -1168,7 +1168,7 @@ export const getInterviewContent = (id, color) => {
               uppgifter som skulle göras utanför föreläsningstiderna.
               <br />
               <br /> Jag läste kurser inom fotografi, teater, kreativ historia
-              och film/mediakunskap. Alla kurser var fria kurser.
+              och film/mediekunskap. Alla kurser var fria kurser.
             </p>
           )
         }
@@ -1316,7 +1316,7 @@ export const getInterviewContent = (id, color) => {
     profileCover: {
       img: "linus.jpg",
       backgroundImg: "linusBanner.jpg",
-      title: "University of Manitoba, Winnipeg i Kanada",
+      title: "Karlsuniversitetet, Prag i Tjeckien",
       subtitle: "Linus Lagerhjelm | HT-17 | Erasmus",
       quote:
         "“Många spännande och intressanta kurser man inte får möjlighet att läsa i Umeå”",
@@ -1521,7 +1521,7 @@ export const getInterviewContent = (id, color) => {
           det var lätt att förbättra mina kunskaper i engelska. Dessutom läste jag en kurs där vi var 7 studenter 
           varav alla var från USA, inklusive professorn. I denna kurs fick jag utmana mig själv och vi hade varje 
           vecka diskussioner på engelska om ämnen relaterade till konst och musik.<br/><br/> Singapore är ett VÄLDIGT 
-          varmt land med hög luftfuktighet, känndes mycket ovant men kroppen mådde superbra av all D-vitamin! Det 
+          varmt land med hög luftfuktighet, kändes ovant men kroppen mådde superbra av all D-vitamin! Det 
           fanns en pool på campus där vi hängde mycket och kunde svalka oss.<br/><br/>Under min termin hann jag resa 
           väldigt mycket, Singapore ligger nära många spännande länder och flygbiljetter kan man få tag på 
           billigt. Jag hade kurser i skolan tisdagar-torsdagar och kunde därför resa fredag-måndag. Följande 
@@ -1564,7 +1564,7 @@ export const getInterviewContent = (id, color) => {
               som motsvarar 5.7 hp. Jag läste 1 kurs på 4AU och 4 kurser på 3 AU, detta motsvarar alltså 
               30.3 hp. Jag kunde tillgodoräkna alla mina kurser när jag kom hem. En kurs fick jag 
               tillgodoräknad under kategorin “Teknik för interaktion, yrkesförberedande” och resterande 
-              under kategorin “Fria kurser”.<br/><br/> Jag läste som tidigare nämnt alla mina kurser på “Scool Of 
+              under kategorin “Fria kurser”.<br/><br/> Jag läste som tidigare nämnt alla mina kurser på “School Of 
               Art Design and Media”, det är den del av NTU som erbjuder designkurser. Det går att läsa 
               kurser på andra delar av NTU, exempelvis “School of Computer Science and Engineering”. Jag 
               valde att läsa designkurser då jag ville bredda mina kunskaper inom UI och UX design. En 
@@ -1676,7 +1676,7 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
             </p>
           ),
           info: <p className="info-body-text" style={{color: color}}>
-          Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest larorika och utmanande perioder i mitt liv. Gör en lista på vad du vill få ut av din utbytestermin och sök till ett land/universitet som passar dig!
+          Åk! Tveka inte! Ingenting är omöjligt! Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest lärorika och utmanande perioder i mitt liv. Gör en lista på vad du vill få ut av din utbytestermin och sök till ett land/universitet som passar dig!
           </p>
         }
       }
@@ -1707,7 +1707,7 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
           info: (
             <p className="info-body-text" style={{color: color}}>
               Miljöombyte, lära sig ny kultur, lära känna folk, bättre på
-              engelska, bra fotboll, nära till alperna, grymt publiv, osv.
+              engelska, bra fotboll, nära till alperna, grymma pubar, osv.
               <br />
               <br />
               Oktoberfest måste upplevas om man åker till Tyskland, även alperna
@@ -2437,7 +2437,7 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
               lägenhetstyp på ca 417 euro har jag fått reda på(kan dock
               variera). Lägenheten är en studio med eget kök, badrum och extra
               bred säng (160 cm verkar vara standard i byggnaden). finns även
-              gemensamma utrymmen med Foosball, biljard, takterass och biorum.
+              gemensamma utrymmen med Foosball, biljard, takterrass och biorum.
             </p>
           )
         }
@@ -3251,7 +3251,7 @@ En fördel med att bo på campus är att man har nära till skollokalerna. Bor m
               <br /> Jag ångrar inte att jag åkte dit, men skulle jag få chansen
               skulle jag nog valt att åka mer mot västkusten(Rocky Mountains).
               Om inte berg är något som är så viktigt är Winnipeg ett perfekt
-              ställe att åka till, en stor stad(600 000) i centrala Kanada med
+              ställe att åka till, en storstad(600 000) i centrala Kanada med
               ett väldigt levande Campus! Ganska bra punkt om man vill flyga
               till antingen väst eller öst.
             </p>

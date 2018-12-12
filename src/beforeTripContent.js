@@ -76,7 +76,7 @@ export const getBeforeTripContent = id => {
               landet. Processen att få visumet kan ta ganska lång tid. Du kan
               behöva åka till Stockholm för att hämta ut ditt visum på
               respektive lands ambassad. Det finns tjänster som kan hjälpa dig
-              med detta mot en avgift. Exemplevis{" "}
+              med detta mot en avgift. Exempelvis{" "}
               <a href="http://www.visumpartner.se/" target="blank_">
                 visumpartner.se
               </a>
@@ -200,8 +200,8 @@ export const getBeforeTripContent = id => {
           info: (
             <p className="info-body-text">
               När du åker på utlandsstudier kan du ansöka om att få utökat CSN.
-              Du kan även få lån för exemplevis flygbiljetter och försäkringar.
-              Kontakta CSN för att få reda på mer inforamation.
+              Du kan även få lån för exempelvis flygbiljetter och försäkringar.
+              Kontakta CSN för att få reda på mer information.
             </p>
           )
         }
@@ -217,7 +217,7 @@ export const getBeforeTripContent = id => {
               där först till kvarn gäller och det kan bli en del pusslande för
               att få ihop schemat. Oavsett process bör du ha koll på vilka
               kurser du är intresserad av och kan läsa på förhand. Kolla även
-              upp vilken process just ditt parteruniversitete har.
+              upp vilken process just ditt parteruniversitet har.
             </p>
           )
         }
