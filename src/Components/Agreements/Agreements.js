@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Cover from "../Cover/Cover.js";
+import Cover from "../Cover/Cover";
 import { getCoverContent } from "../../coverContent";
 import "./Agreements.scss";
 import { getAgreementsContent } from "../../AgreementsContent";
-import TextSection from "../TextSection/TextSection.js";
+import TextSection from "../TextSection/TextSection";
 import $ from "jquery";
 import AgreementText from "../AgreementText/AgreementText";
-import AgreementBox from "../AgreementBox/AgreementBox.js";
+import AgreementBox from "../AgreementBox/AgreementBox";
 import { animateScroll as scroll } from "react-scroll";
 
 class Agreements extends Component {

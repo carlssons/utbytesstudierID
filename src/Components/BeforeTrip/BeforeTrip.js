@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Cover from "../Cover/Cover.js";
+import Cover from "../Cover/Cover";
 import "./BeforeTrip.scss";
 import { getCoverContent } from "../../coverContent";
 import { getBeforeTripContent } from "../../beforeTripContent";

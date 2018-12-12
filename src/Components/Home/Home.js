@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./Home.scss";
-import HeroSection from "../HeroSection/HeroSection.js";
-import HeroQuotes from "../HeroQuotes/HeroQuotes.js";
-import InstagramSection from "../InstagramSection/InstagramSection.js";
-import TravelProcess from "../TravelProcess/TravelProcess.js";
+import HeroSection from "../HeroSection/HeroSection";
+import HeroQuotes from "../HeroQuotes/HeroQuotes";
+import InstagramSection from "../InstagramSection/InstagramSection";
+import TravelProcess from "../TravelProcess/TravelProcess";
 import { animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {

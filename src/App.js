@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar.js";
-import Agreements from "./Components/Agreements/Agreements.js";
-import Interviews from "./Components/Interviews/Interviews.js";
-import BeforeTrip from "./Components/BeforeTrip/BeforeTrip.js";
-import Crediting from "./Components/Crediting/Crediting.js";
-import FAQ from "./Components/FAQ/FAQ.js";
-import Interview from "./Components/Interview/Interview.js";
-import Home from "./Components/Home/Home.js";
-import SideDrawer from "./Components/SideDrawer/SideDrawer.js";
+import Navbar from "./Components/Navbar/Navbar";
+import Agreements from "./Components/Agreements/Agreements";
+import Interviews from "./Components/Interviews/Interviews";
+import BeforeTrip from "./Components/BeforeTrip/BeforeTrip";
+import Crediting from "./Components/Crediting/Crediting";
+import FAQ from "./Components/FAQ/FAQ";
+import Interview from "./Components/Interview/Interview";
+import Home from "./Components/Home/Home";
+import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import "./Components/SideDrawer/SideDrawer.scss";
-import Backdrop from "./Components/Backdrop/Backdrop.js";
-import Footer from "./Components/Footer/Footer.js";
+import Backdrop from "./Components/Backdrop/Backdrop";
+import Footer from "./Components/Footer/Footer";
 import $ from "jquery";
 
 let keys = {

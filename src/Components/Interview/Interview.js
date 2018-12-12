@@ -1,8 +1,8 @@
 import React from "react";
 import { getInterviewContent } from "../../interviewContent";
-import ProfileCover from "../ProfileCover/ProfileCover.js";
-import InterviewImages from "../InterviewImages/InterviewImages.js";
-import TextSection from "../TextSection/TextSection.js";
+import ProfileCover from "../ProfileCover/ProfileCover";
+import InterviewImages from "../InterviewImages/InterviewImages";
+import TextSection from "../TextSection/TextSection";
 import { animateScroll as scroll } from "react-scroll";
 
 import "./Interview.scss";
