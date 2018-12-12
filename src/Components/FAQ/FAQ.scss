@@ -13,13 +13,14 @@
     .h2-faq {
       @include font-h-2();
       color: $color-text-white;
+      margin-bottom: 0;
     }
   }
 
   .faq-box {
     border-bottom: solid 2px $color-background-light-blue;
     box-sizing: border-box;
-    padding: 50px 40px;
+    padding: 30px 40px;
     @include flexbox;
     @include flex-direction(column);
     @include align-items(left);
