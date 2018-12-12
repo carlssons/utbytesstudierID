@@ -53,6 +53,7 @@ class Agreements extends Component {
     return (
       <div className="agreements">
         <Cover content={coverContent.cover} />
+
         <div className="section-1">
           <AgreementText content={centralAgreement.agreementText} />
           <div
@@ -60,7 +61,9 @@ class Agreements extends Component {
             id="button-central"
             onClick={() => this.slideDownProcess("first")}
           >
-            <p><b>Ansökningsprocess</b></p>
+            <p>
+              <b>Ansökningsprocess</b>
+            </p>
             <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
           </div>
           <div className="process-section" id="central">
@@ -86,7 +89,9 @@ class Agreements extends Component {
             id="button-erasmus"
             onClick={() => this.slideDownProcess("second")}
           >
-            <p><b>Ansökningsprocess</b></p>
+            <p>
+              <b>Ansökningsprocess</b>
+            </p>
             <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
           </div>
           <div className="process-section" id="erasmus">

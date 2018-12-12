@@ -5,17 +5,18 @@
   @include flexbox;
   @include flex-direction(column);
   @include align-items(center);
+
   .section-1 {
-    border-bottom: 1px solid $color-background-light-blue;
+    border-bottom: 2px solid $color-background-light-blue;
   }
   .section-2 {
-    border-bottom: 1px solid $color-background-light-blue;
+    border-bottom: 2px solid $color-background-light-blue;
   }
   .section-3 {
     @include flexbox;
     @include align-items(center);
     @include flex-direction(column);
-    padding: 50px 0 50px 0;
+    padding: 50px 0 100px 0;
     width: 100%;
     background-color: $color-blue;
     .heading-div {
@@ -55,10 +56,10 @@
     }
     &.arrow-up {
       transform: rotate(180deg);
-      padding-bottom: 50px;
+      padding-bottom: 60px;
     }
     &.arrow-down {
-      padding-bottom: 50px;
+      padding-bottom: 60px;
       &.no-show {
         display: none;
       }
@@ -68,7 +69,7 @@
     width: 100%;
     background-color: $color-background-light-blue;
     display: none;
-    padding: 40px 0 30px 0;
+    padding: 40px 0 60px 0;
 
     &.open {
       @include flexbox;

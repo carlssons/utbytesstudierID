@@ -23,7 +23,7 @@
     @include justify-content(center);
     @include align-items(center);
     @include flex-direction(column);
-    margin-top: 60px;
+    margin-top: 50px;
     z-index: 100;
     #cover-title {
       @include font-h-1;

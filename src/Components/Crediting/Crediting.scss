@@ -8,8 +8,8 @@
   width: 100%;
   .crediting-info-container {
     width: 80%;
-    padding: 70px 0 100px 0;
-    @media screen and(max-width: $break-small){
+    padding: 60px 0 80px 0;
+    @media screen and(max-width: $break-small) {
       width: 88%;
     }
     .h2-crediting {
@@ -29,13 +29,13 @@
     @include flex-direction(column);
     @include align-items(center);
     width: 100%;
-    padding: 50px 0;
+    padding: 30px 0 70px 0;
     background-color: $color-background-light-blue;
-    
+
     .category-box {
       width: 80%;
-      padding: 50px 0;
-      @media screen and(max-width: $break-small){
+      padding: 30px 0;
+      @media screen and(max-width: $break-small) {
         width: 88%;
       }
       .h2-crediting {

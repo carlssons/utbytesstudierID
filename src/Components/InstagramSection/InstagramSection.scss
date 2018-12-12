@@ -7,7 +7,7 @@
   @include align-items(center);
   width: 100%;
   height: auto;
-  padding-top: 80px;
+  padding-top: 60px;
   background-color: $color-background-white;
 
   .instagram-box {
@@ -19,7 +19,7 @@
     border: 4px solid $color-blue;
     border-radius: 10px;
     background-color: $color-background-white;
-    margin: 150px 0;
+    margin: 100px 0;
 
     .instagram-heading {
       @include font-h-2;
@@ -27,10 +27,10 @@
       margin-top: -24px;
       text-align: center;
       padding: 0 20px 0 20px;
-      @media screen and(max-width: $break-medium){
+      @media screen and(max-width: $break-medium) {
         margin-top: -19px;
       }
-      @media screen and(max-width: $break-small){
+      @media screen and(max-width: $break-small) {
         margin-top: -17px;
       }
     }
