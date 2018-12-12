@@ -34,7 +34,7 @@ class Crediting extends Component {
             {categoryOne.categoryName}
             {categoryOne.university.map((element, index) => {
               return (
-                <div key={index}>
+                <div className="university-box" key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
                     return <div key={index}>{course.course}</div>;
@@ -48,7 +48,7 @@ class Crediting extends Component {
             {categoryTwo.categoryName}
             {categoryTwo.university.map((element, index) => {
               return (
-                <div key={index}>
+                <div className="university-box" key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
                     return <div key={index}>{course.course}</div>;
@@ -62,7 +62,7 @@ class Crediting extends Component {
             {categoryThree.categoryName}
             {categoryThree.university.map((element, index) => {
               return (
-                <div key={index}>
+                <div className="university-box" key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
                     return <div key={index}>{course.course}</div>;
@@ -76,7 +76,7 @@ class Crediting extends Component {
             {categoryFour.categoryName}
             {categoryFour.university.map((element, index) => {
               return (
-                <div key={index}>
+                <div className="university-box" key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
                     return <div key={index}>{course.course}</div>;
@@ -90,7 +90,7 @@ class Crediting extends Component {
             {categoryFive.categoryName}
             {categoryFive.university.map((element, index) => {
               return (
-                <div key={index}>
+                <div className="university-box" key={index}>
                   {element.name}
                   {element.courses.map((course, index) => {
                     return <div key={index}>{course.course}</div>;

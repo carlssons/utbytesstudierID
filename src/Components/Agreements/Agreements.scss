@@ -5,48 +5,44 @@
   @include flexbox;
   @include flex-direction(column);
   @include align-items(center);
-  @include justify-content(center);
-
-  .section-1{
-    border-bottom:1px solid $color-background-light-blue;
+  .section-1 {
+    border-bottom: 1px solid $color-background-light-blue;
   }
-  .section-2{
-    border-bottom:1px solid $color-background-light-blue;
+  .section-2 {
+    border-bottom: 1px solid $color-background-light-blue;
   }
-  .section-3{
+  .section-3 {
     @include flexbox;
     @include align-items(center);
     @include flex-direction(column);
-    @include justify-content(center);
     padding: 50px 0 50px 0;
     width: 100%;
     background-color: $color-blue;
-    .heading-div{
+    .heading-div {
       width: 80%;
       @include flexbox;
-      @include align-items(flex-start);
-      @include justify-content(flex-start);
-      h2{
+      @include justify-content(center);
+      h2 {
         @include font-h-2;
         color: $color-text-white;
       }
     }
-    .box-div{
+    .box-div {
       width: 80%;
       @include flexbox;
       @include align-items(flex-start);
       @include justify-content(center);
       padding-top: 30px;
-      @media screen and(max-width: $break-medium + 256){
+      @media screen and(max-width: $break-medium + 256) {
         @include flex-wrap(wrap);
       }
-      @media screen and(max-width: $break-small + 256){
+      @media screen and(max-width: $break-small + 256) {
         width: 90%;
         margin: 20px 0 20px 0;
       }
     }
   }
-  .button{
+  .button {
     @include flexbox;
     @include flex-direction(column);
     @include align-items(center);
@@ -54,32 +50,31 @@
     @include font-regular-text;
     color: $color-text-white;
     cursor: pointer;
-    .arrow{
+    .arrow {
       width: 40px;
     }
-    &.arrow-up{
+    &.arrow-up {
       transform: rotate(180deg);
-      padding-bottom:50px;
-    }
-    &.arrow-down{
       padding-bottom: 50px;
-      &.no-show{
+    }
+    &.arrow-down {
+      padding-bottom: 50px;
+      &.no-show {
         display: none;
       }
     }
   }
-  .process-section{
+  .process-section {
     width: 100%;
     background-color: $color-background-light-blue;
     display: none;
     padding: 40px 0 30px 0;
 
-    &.open{
+    &.open {
       @include flexbox;
       @include flex-direction(column);
       @include align-items(center);
       @include justify-content(center);
     }
-
   }
 }

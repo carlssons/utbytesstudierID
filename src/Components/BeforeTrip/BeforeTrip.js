@@ -22,6 +22,7 @@ class BeforeTrip extends Component {
         <Cover content={coverContent.cover} />
 
         <div className="text-beforeTrip-container">
+          <h2 className="h2-beforeTrip">Checklista</h2>
           {BeforeTripContent.text.map((element, index) => {
             return (
               <TextSection key={index} text={element.text} color="#dbdbdb" />

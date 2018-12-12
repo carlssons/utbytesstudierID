@@ -2,15 +2,12 @@
 .agreement-text {
   @include flexbox;
   @include flex-direction(column);
-  @include justify-content(center);
   @include align-items(center);
   width: 100%;
   background-color: $color-blue;
   .text {
     @include flexbox;
     @include flex-direction(column);
-    @include justify-content(flex-start);
-    @include align-items(flex-start);
     width: 80%;
     padding-bottom: 50px;
 
@@ -20,10 +17,13 @@
     .heading {
       @include font-h-2;
       color: $color-text-white;
+      text-align: center;
+      padding-bottom: 30px;
     }
     .info {
       @include font-regular-text;
       color: $color-text-white;
+      margin-top: 0;
     }
     .link-box {
       .description {
