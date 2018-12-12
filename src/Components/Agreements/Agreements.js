@@ -51,73 +51,82 @@ class Agreements extends Component {
     const coverContent = getCoverContent("agreementsCover");
 
     return (
-      <div className="agreements">
+      <div>
         <Cover content={coverContent.cover} />
-
-        <div className="section-1">
-          <AgreementText content={centralAgreement.agreementText} />
-          <div
-            className=" button arrow-down"
-            id="button-central"
-            onClick={() => this.slideDownProcess("first")}
-          >
-            <p>
-              <b>Ansökningsprocess</b>
-            </p>
-            <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
-          </div>
-          <div className="process-section" id="central">
-            {centralAgreement.processText.map((element, index) => {
-              return (
-                <TextSection key={index} text={element.text} color="#ff9e7b" />
-              );
-            })}
-            <div className="button arrow-up">
-              <img
-                src="./icons/arrow.svg"
-                className="arrow"
-                onClick={() => this.slideUpProcess("first")}
-                alt="arrow"
-              />
+        <div className="agreements">
+          <div className="section-1">
+            <AgreementText content={centralAgreement.agreementText} />
+            <div
+              className=" button arrow-down"
+              id="button-central"
+              onClick={() => this.slideDownProcess("first")}
+            >
+              <p>
+                <b>Ansökningsprocess</b>
+              </p>
+              <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
+            </div>
+            <div className="process-section" id="central">
+              {centralAgreement.processText.map((element, index) => {
+                return (
+                  <TextSection
+                    key={index}
+                    text={element.text}
+                    color="#ff9e7b"
+                  />
+                );
+              })}
+              <div className="button arrow-up">
+                <img
+                  src="./icons/arrow.svg"
+                  className="arrow"
+                  onClick={() => this.slideUpProcess("first")}
+                  alt="arrow"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="section-2">
-          <AgreementText content={erasmusAgreement.agreementText} />
-          <div
-            className="button arrow-down"
-            id="button-erasmus"
-            onClick={() => this.slideDownProcess("second")}
-          >
-            <p>
-              <b>Ansökningsprocess</b>
-            </p>
-            <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
-          </div>
-          <div className="process-section" id="erasmus">
-            {erasmusAgreement.processText.map((element, index) => {
-              return (
-                <TextSection key={index} text={element.text} color="#ff9e7b" />
-              );
-            })}
-            <div className="button arrow-up">
-              <img
-                src="./icons/arrow.svg"
-                className="arrow"
-                onClick={() => this.slideUpProcess("second")}
-                alt="arrow"
-              />
+          <div className="section-2">
+            <AgreementText content={erasmusAgreement.agreementText} />
+            <div
+              className="button arrow-down"
+              id="button-erasmus"
+              onClick={() => this.slideDownProcess("second")}
+            >
+              <p>
+                <b>Ansökningsprocess</b>
+              </p>
+              <img src="./icons/arrow.svg" className="arrow" alt="arrow" />
+            </div>
+            <div className="process-section" id="erasmus">
+              {erasmusAgreement.processText.map((element, index) => {
+                return (
+                  <TextSection
+                    key={index}
+                    text={element.text}
+                    color="#ff9e7b"
+                  />
+                );
+              })}
+              <div className="button arrow-up">
+                <img
+                  src="./icons/arrow.svg"
+                  className="arrow"
+                  onClick={() => this.slideUpProcess("second")}
+                  alt="arrow"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="section-3">
-          <div className="heading-div">
-            <h2>Övriga avtal</h2>
-          </div>
-          <div className="box-div">
-            <AgreementBox content={nordlysAgreement.agreementText} />
-            <AgreementBox content={north2NorthAgreement.agreementText} />
-            <AgreementBox content={freemoverAgreement.agreementText} />
+          <div className="section-3">
+            <div className="heading-div">
+              <h2>Övriga avtal</h2>
+            </div>
+            <div className="box-div">
+              <AgreementBox content={nordlysAgreement.agreementText} />
+              <AgreementBox content={north2NorthAgreement.agreementText} />
+              <AgreementBox content={freemoverAgreement.agreementText} />
+            </div>
           </div>
         </div>
       </div>

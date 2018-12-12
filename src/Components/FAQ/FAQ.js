@@ -135,7 +135,6 @@ class FAQ extends Component {
     return (
       <div className="faq">
         <Cover content={coverContent.cover} />
-
         <div className="faq-container">
           <div className="heading-box">
             <h2 className="h2-faq">Vanliga frågor</h2>

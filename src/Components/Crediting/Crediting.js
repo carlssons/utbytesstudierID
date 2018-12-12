@@ -26,81 +26,83 @@ class Crediting extends Component {
     const categoryFour = getCreditingContent("categoryFour");
     const categoryFive = getCreditingContent("categoryFive");
     return (
-      <div className="crediting-container">
+      <div>
         <Cover content={coverContent.cover} />
-        <div className="crediting-info-container">{creditingInfo.text}</div>
-        <div className="category-container">
-          <div className="category-box">
-            {categoryOne.categoryName}
-            {categoryOne.university.map((element, index) => {
-              return (
-                <div className="university-box" key={index}>
-                  {element.name}
-                  {element.courses.map((course, index) => {
-                    return <div key={index}>{course.course}</div>;
-                  })}
-                </div>
-              );
-            })}
-          </div>
+        <div className="crediting-container">
+          <div className="crediting-info-container">{creditingInfo.text}</div>
+          <div className="category-container">
+            <div className="category-box">
+              {categoryOne.categoryName}
+              {categoryOne.university.map((element, index) => {
+                return (
+                  <div className="university-box" key={index}>
+                    {element.name}
+                    {element.courses.map((course, index) => {
+                      return <div key={index}>{course.course}</div>;
+                    })}
+                  </div>
+                );
+              })}
+            </div>
 
-          <div className="category-box">
-            {categoryTwo.categoryName}
-            {categoryTwo.university.map((element, index) => {
-              return (
-                <div className="university-box" key={index}>
-                  {element.name}
-                  {element.courses.map((course, index) => {
-                    return <div key={index}>{course.course}</div>;
-                  })}
-                </div>
-              );
-            })}
-          </div>
+            <div className="category-box">
+              {categoryTwo.categoryName}
+              {categoryTwo.university.map((element, index) => {
+                return (
+                  <div className="university-box" key={index}>
+                    {element.name}
+                    {element.courses.map((course, index) => {
+                      return <div key={index}>{course.course}</div>;
+                    })}
+                  </div>
+                );
+              })}
+            </div>
 
-          <div className="category-box">
-            {categoryThree.categoryName}
-            {categoryThree.university.map((element, index) => {
-              return (
-                <div className="university-box" key={index}>
-                  {element.name}
-                  {element.courses.map((course, index) => {
-                    return <div key={index}>{course.course}</div>;
-                  })}
-                </div>
-              );
-            })}
-          </div>
+            <div className="category-box">
+              {categoryThree.categoryName}
+              {categoryThree.university.map((element, index) => {
+                return (
+                  <div className="university-box" key={index}>
+                    {element.name}
+                    {element.courses.map((course, index) => {
+                      return <div key={index}>{course.course}</div>;
+                    })}
+                  </div>
+                );
+              })}
+            </div>
 
-          <div className="category-box">
-            {categoryFour.categoryName}
-            {categoryFour.university.map((element, index) => {
-              return (
-                <div className="university-box" key={index}>
-                  {element.name}
-                  {element.courses.map((course, index) => {
-                    return <div key={index}>{course.course}</div>;
-                  })}
-                </div>
-              );
-            })}
-          </div>
+            <div className="category-box">
+              {categoryFour.categoryName}
+              {categoryFour.university.map((element, index) => {
+                return (
+                  <div className="university-box" key={index}>
+                    {element.name}
+                    {element.courses.map((course, index) => {
+                      return <div key={index}>{course.course}</div>;
+                    })}
+                  </div>
+                );
+              })}
+            </div>
 
-          <div className="category-box">
-            {categoryFive.categoryName}
-            {categoryFive.university.map((element, index) => {
-              return (
-                <div className="university-box" key={index}>
-                  {element.name}
-                  {element.courses.map((course, index) => {
-                    return <div key={index}>{course.course}</div>;
-                  })}
-                </div>
-              );
-            })}
+            <div className="category-box">
+              {categoryFive.categoryName}
+              {categoryFive.university.map((element, index) => {
+                return (
+                  <div className="university-box" key={index}>
+                    {element.name}
+                    {element.courses.map((course, index) => {
+                      return <div key={index}>{course.course}</div>;
+                    })}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
-        </div>
+      </div>
     );
   }
 }
