@@ -25,15 +25,14 @@ export const getBeforeTripContent = id => {
       },
       {
         text: {
-          heading: (
-            <p className="info-heading">Var ute i god tid</p>
-          ),
+          heading: <p className="info-heading">Var ute i god tid</p>,
           info: (
             <p className="info-body-text">
-              Kom ihåg att att personalen på Umeå universitet tar sommarledigt och därför
-              är det bra att fixa med underskrifter och intyg innan sommaren (speciellt om du 
-              åker på utbyte under höstterminen). Förnyelse av pass och vaccin kan också kräva att 
-              du är ute i god tid. 
+              Kom ihåg att att personalen på Umeå universitet tar sommarledigt
+              och därför är det bra att fixa med underskrifter och intyg innan
+              sommaren (speciellt om du åker på utbyte under höstterminen).
+              Förnyelse av pass och vaccin kan också kräva att du är ute i god
+              tid.
             </p>
           )
         }
@@ -201,7 +200,9 @@ export const getBeforeTripContent = id => {
             <p className="info-body-text">
               När du åker på utlandsstudier kan du ansöka om att få utökat CSN.
               Du kan även få lån för exempelvis flygbiljetter och försäkringar.
-              Kontakta CSN för att få reda på mer information.
+              Kontakta CSN för att få reda på mer information. CSN kan bevilja
+              din låneansökan först när ditt utbyte är registrerat i Ladok.
+              Kontakta studievägledaren om detta inte är gjort.
             </p>
           )
         }
