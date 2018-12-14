@@ -1,16 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import "./TextSection.scss";
 
-class TextSection extends Component {
-  state = {};
-  render() {
-    return (
-      <div className="text-interview-box">
-        {this.props.text.heading}
-        {this.props.text.info}
-      </div>
-    );
-  }
-}
+const TextSection = ({ text }) => {
+  return (
+    <div className="text-interview-box">
+      {text.heading}
+      {text.info}
+    </div>
+  );
+};
 
 export default TextSection;

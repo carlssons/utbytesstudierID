@@ -6,11 +6,6 @@ import { getCreditingContent } from "../../creditingContent";
 import { animateScroll as scroll } from "react-scroll";
 
 class Crediting extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   componentDidMount = () => {
     scroll.scrollToTop({
       duration: 0

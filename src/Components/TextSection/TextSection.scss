@@ -2,7 +2,7 @@
 
 .text-interview-box {
   max-width: 1300px;
-  margin:auto;
+  margin: auto;
   @include flexbox;
   @include justify-content(space-between);
   width: 70%;
