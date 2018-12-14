@@ -190,7 +190,6 @@ $font-nav-link-color: $color-text-white;
 $font-nav-link-color-hover: $color-peach;
 $font-nav-link-letter-spacing: 0.64px;
 $font-nav-link-font-style: normal;
-//$font-nav-link-font-weight: bold;
 $font-nav-link-font-family: Roboto;
 
 @mixin font-nav-link() {
@@ -206,7 +205,7 @@ $font-nav-link-font-family: Roboto;
   &:hover {
     color: $font-nav-link-color-hover;
   }
-  &:focus {
+  &.active {
     color: $font-nav-link-color-hover;
   }
   @media screen and(max-width: $break-small) {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Agreements from "./Components/Agreements/Agreements";
 import Interviews from "./Components/Interviews/Interviews";
@@ -133,16 +133,18 @@ class App extends Component {
             {drawerToggled ? <Backdrop toggleDrawer={this.toggleDrawer} /> : []}
           </header>
           <div>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/intervjuer" component={Interviews} />
-            <Route path="/avtal" component={Agreements} />
-            <Route path="/inforResa" component={BeforeTrip} />
-            <Route path="/tillgodoraknande" component={Crediting} />
-            <Route path="/faq" component={FAQ} />
-            <Route
-              path="/intervjuer/:id"
-              render={props => <Interview params={props.match.params} />}
-            />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/intervjuer" component={Interviews} />
+              <Route path="/avtal" component={Agreements} />
+              <Route path="/inforResa" component={BeforeTrip} />
+              <Route path="/tillgodoraknande" component={Crediting} />
+              <Route path="/faq" component={FAQ} />
+              <Route
+                path="/intervjuer/:id"
+                render={props => <Interview params={props.match.params} />}
+              />
+            </Switch>
           </div>
           <Footer />
         </div>

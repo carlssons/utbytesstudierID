@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 
@@ -16,34 +16,34 @@ class Navbar extends React.Component {
         <DrawerToggleButton toggleDrawer={toggleDrawer} />{" "}
         {/* The desktop menu. Is only displayed screens larger then mobile */}
         <div className="desktop-menu-options">
-          <Link className="nav-link" to="/">
+          <NavLink exact className="nav-link" to="/">
             Hem
-          </Link>
+          </NavLink>
           <div className="drop-down">
             <div className="nav-link" id="intervjuerLink">
-              <Link to="/intervjuer">Intervjuer</Link>
+              <NavLink to="/intervjuer">Intervjuer</NavLink>
               {/*<img id="arrow-down" src={arrowIcon} alt="arrow" />*/}
             </div>
             {/*<div id="dropDownContent">
-            <Link to="/intervjuer">Afrika</Link>
-            <Link to="/intervjuer">Asien</Link>
-            <Link to="/intervjuer">Europa</Link>
-            <Link to="/intervjuer">Nordamerika</Link>
-            <Link to="/intervjuer">Oceanien</Link>
+            <NavLink to="/intervjuer">Afrika</NavLink>
+            <NavLink to="/intervjuer">Asien</NavLink>
+            <NavLink to="/intervjuer">Europa</NavLink>
+            <NavLink to="/intervjuer">Nordamerika</NavLink>
+            <NavLink to="/intervjuer">Oceanien</NavLink>
           </div>*/}
           </div>
-          <Link className="nav-link" to="/avtal">
+          <NavLink className="nav-link" to="/avtal">
             Avtal
-          </Link>
-          <Link className="nav-link" to="/inforResa">
+          </NavLink>
+          <NavLink className="nav-link" to="/inforResa">
             Inför resan
-          </Link>
-          <Link className="nav-link" to="/tillgodoraknande">
+          </NavLink>
+          <NavLink className="nav-link" to="/tillgodoraknande">
             Tillgodoräknande
-          </Link>
-          <Link className="nav-link" to="/faq">
+          </NavLink>
+          <NavLink className="nav-link" to="/faq">
             FAQ
-          </Link>
+          </NavLink>
         </div>
       </nav>
     );
