@@ -1499,22 +1499,19 @@ export const getInterviewContent = (id, color) => {
           ),
           info: <p className="info-body-text">
           När jag skulle bestämma mig för vilket land och universitet jag ville åka till skrev jag en lista 
-          på vad jag ville göra under mitt utbyte. Jag ville bli bättre på engelska i tal och skrift, jag ville 
-          åka till ett land med mycket sol och värme, jag ville resa till olika länder, jag ville läsa roliga 
+          på vad jag ville göra under mitt utbyte. Jag ville; bli bättre på engelska, åka till ett land med mycket sol och värme, resa till olika länder, läsa roliga 
           kurser och träffa nya människor från olika delar av världen. Det bästa med att åka utomlands var 
-          att jag fick uppfylla allt som jag ville göra under mitt utbyte. <br/><br/> I singapore är modersmålet engelska 
+          att jag fick uppfylla allt detta. <br/><br/> I singapore är modersmålet engelska 
           även kallat  “Singlish” (Singaporianer har sin egen dialekt och en del egna ord). Detta innebar att 
-          det var lätt att förbättra mina kunskaper i engelska. Dessutom läste jag en kurs där vi var 7 studenter 
+          det var lätt att förbättra min engelska. I en av de kurserna jag läste var vi 7 studenter 
           varav alla var från USA, inklusive professorn. I denna kurs fick jag utmana mig själv och vi hade varje 
           vecka diskussioner på engelska om ämnen relaterade till konst och musik.<br/><br/> Singapore är ett VÄLDIGT 
           varmt land med hög luftfuktighet, kändes ovant men kroppen mådde superbra av all D-vitamin! Det 
           fanns en pool på campus där vi hängde mycket och kunde svalka oss.<br/><br/>Under min termin hann jag resa 
           väldigt mycket, Singapore ligger nära många spännande länder och flygbiljetter kan man få tag på 
           billigt. Jag hade kurser i skolan tisdagar-torsdagar och kunde därför resa fredag-måndag. Följande 
-          länder hann jag besöka; Malaysia, Thailand, Bali och Japan. Inte nog med att man hinner resa mycket 
-          under terminen, man har också god tid på sig att resa efter terminsslut. Läser man kurser utan tentor 
-          slutar terminen i början av November.<br/><br/> Kurserna jag läste i Singapore var roliga och givande. Jag 
-          läste 3 designkurser, 1 kurs med design och programmering samt 1 sångkurs. Professorerna var väldigt 
+          länder hann jag besöka; Malaysia, Thailand, Indonesien och Japan.<br/><br/> Kurserna jag läste i Singapore var roliga och givande. Jag 
+          läste 3 designkurser, 1 kurs i spelprogrammering samt 1 sångkurs. Professorerna var väldigt 
           duktiga och de la ner tid och energi på att se till att vi utvecklades och blev bättre. Eleverna var 
           väldigt drivna och även dem bidrog med kunskap och hjälp.<br/><br/> Sist men inte minst så fick jag superfina 
           vänner i Singapore. Vi var ett tjejgäng från olika delar av Europa som alla bodde i samma korridor. 
@@ -1534,9 +1531,9 @@ export const getInterviewContent = (id, color) => {
           info: (
             <p className="info-body-text">
               Jag fick utmana mig själv en hel del under terminen, exempelvis bo
-              i korridor och dela toalett och dusch andra. Luftfuktigheten var
+              i korridor och dela toalett och dusch med andra. Luftfuktigheten var
               också ganska påfrestande, man svettas mycket och fick dricka
-              kopiösa mängder vatten. Det fanns en del kryp på campus och jag
+              kopiösa mängder vatten. Det fanns en del kryp och "djungeldjur" på campus och jag
               lärde mig att jag inte gillar kryp, ormar, möss osv…
             </p>
           )
@@ -1554,20 +1551,20 @@ export const getInterviewContent = (id, color) => {
               som motsvarar 5.7 hp. Jag läste 1 kurs på 4AU och 4 kurser på 3 AU, detta motsvarar alltså 
               30.3 hp. Jag kunde tillgodoräkna alla mina kurser när jag kom hem. En kurs fick jag 
               tillgodoräknad under kategorin “Teknik för interaktion, yrkesförberedande” och resterande 
-              under kategorin “Fria kurser”.<br/><br/> Jag läste som tidigare nämnt alla mina kurser på “School Of 
+              under kategorin “Fria kurser”.<br/><br/> Jag läste alla mina kurser på “School Of 
               Art Design and Media”, det är den del av NTU som erbjuder designkurser. Det går att läsa 
               kurser på andra delar av NTU, exempelvis “School of Computer Science and Engineering”. Jag 
               valde att läsa designkurser då jag ville bredda mina kunskaper inom UI och UX design. En 
               fördel med att läsa på designskolan är att man inte har några tentor och därmed slutar man 
               skolan 2 veckor tidigare än alla andra. Istället för tentor har man projektredovisningar.<br/><br/>
-              När man blir antagen till NTU har man möjlighet att i förväg ansöka om vilka kurser man vill 
+              När man blir antagen till NTU har man innan terminsstart möjlighet att ansöka om vilka kurser man vill 
               läsa. Man är dock inte garanterad att få läsa dessa kurser. När man kommer till universitetet har man under 2 
               veckor något som kallas för Add/Drop period. Under dessa veckor kan man gå på valfria föreläsningar 
               och lägga till kurser och ta bort kurser i sitt schema. Det är först till kvar på kurserna så det är 
-              lite som “hunger games” i början av terminen, lite stressigt och rörigt. Därför är det bra att i förväg 
+              lite som “hunger games” i början av terminen. Därför är det bra att i förväg 
               kolla upp vad det finns för kurser och ta reda på vilka som du har möjlighet att läsa. Jag hade tur och 
               blev antagen på alla de kurser jag ansökte till innan terminen började. Jag bytte sedan ut två av 
-              kurserna under Add/Drop period. Det var även här jag optimerade mitt schema och såg till att jag 
+              kurserna under Add/Drop period. Det var även under Add/Drop som jag optimerade mitt schema och såg till att jag 
               läste kurser tisdag-torsdag.<br/><br/> Generellt vad som är positivt är att NTU har ett brett utbud av roliga kurser!
               Jag läste följande kurser: “Game design”, “Sound for interactive media”, “Graphical 
               communication”, “Digital painting” och “Magic of the voice in a world of a singer”.
@@ -1627,7 +1624,7 @@ export const getInterviewContent = (id, color) => {
               kommer till campus så att man kan göra en sallad då och då.
               <br />
               <br />
-              Bra att läsa på om är hur lagar fungerar i Singapore, de har en
+              Kan vara bra att kolla upp hur lagar fungerar i Singapore, de har en
               del strikta regler. Man får inte dricka eller äta i
               kollektivtrafiken och man får inte slänga skräp på gatorna. Detta
               kan resultera i höga böter. I princip alla platser i Singapore är
@@ -1648,7 +1645,7 @@ export const getInterviewContent = (id, color) => {
           info: (
             <p className="info-body-text">
               Man kan antingen ansöka om boende på Campus eller gå ihop några
-              stycken och hyra en lägenhet. Man är ej garanterad boende på
+              stycken och hyra en lägenhet mer centralt. Man är ej garanterad boende på
               Campus men alla jag känner som ansökt om boende har fått det.
               Boende i Singapore är extremt dyrt, speciellt om man vill bo i de
               centrala delarna. Boende på Campus är väldigt billigt och därför
