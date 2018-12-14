@@ -71,7 +71,6 @@
     background-color: $color-background-light-blue;
     display: none;
     padding: 40px 0 60px 0;
-
     &.open {
       @include flexbox;
       @include flex-direction(column);

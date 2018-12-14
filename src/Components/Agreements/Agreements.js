@@ -25,6 +25,7 @@ class Agreements extends Component {
       $("#erasmus").addClass("open");
     }
   };
+
   slideUpProcess = e => {
     if (e === "first") {
       $("#button-central").removeClass("no-show");
@@ -77,12 +78,14 @@ class Agreements extends Component {
                 );
               })}
               <div className="button arrow-up">
-                <img
-                  src="./icons/arrow.svg"
-                  className="arrow"
-                  onClick={() => this.slideUpProcess("first")}
-                  alt="arrow"
-                />
+                <a href="#button-central">
+                  <img
+                    src="./icons/arrow.svg"
+                    className="arrow"
+                    onClick={() => this.slideUpProcess("first")}
+                    alt="arrow"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -109,12 +112,14 @@ class Agreements extends Component {
                 );
               })}
               <div className="button arrow-up">
-                <img
-                  src="./icons/arrow.svg"
-                  className="arrow"
-                  onClick={() => this.slideUpProcess("second")}
-                  alt="arrow"
-                />
+                <a href="#button-erasmus">
+                  <img
+                    src="./icons/arrow.svg"
+                    className="arrow"
+                    onClick={() => this.slideUpProcess("second")}
+                    alt="arrow"
+                  />
+                </a>
               </div>
             </div>
           </div>
