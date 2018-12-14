@@ -31,14 +31,14 @@ export const getCreditingContent = id => {
           på dig så mycket information som möjligt om kurserna i form av
           kursplaner, kurslitteratur, obligatoriska uppgifter och annat som kan
           vara relevant. <br />
-          <br /> Vanligtvis läggs de kurser man läser utomlands in under kategorin ”Fria
-          kurser”. Ett tips är dock att när du ansöker om tillgodoräknande
-          försöka fylla andra kategorier än fria kurser. Om din ansökan blir
-          nekad till att fylla en annan kategori kan du alltid ändra din ansökan
-          och lägga den under fria kurser i slutändan ändå. Det går dock inte
-          att göra tvärtom. Du kan alltså inte först få den tillgodoräknad som
-          en fri kurs och sen försöka byta och få samma kurs tillgodoräknad som
-          något annat. <br />
+          <br /> Vanligtvis läggs de kurser man läser utomlands in under
+          kategorin ”Fria kurser”. Ett tips är dock att när du ansöker om
+          tillgodoräknande försöka fylla andra kategorier än fria kurser. Om din
+          ansökan blir nekad till att fylla en annan kategori kan du alltid
+          ändra din ansökan och lägga den under fria kurser i slutändan ändå.
+          Det går dock inte att göra tvärtom. Du kan alltså inte först få den
+          tillgodoräknad som en fri kurs och sen försöka byta och få samma kurs
+          tillgodoräknad som något annat. <br />
           <br /> Viktigt att veta är att om någon har fått en specifik kurs
           tillgodoräknad inom en speciell kategori tidigare kommer denna kurs
           alltid tillgodoräknas under samma kategori som tidigare beslutats. På

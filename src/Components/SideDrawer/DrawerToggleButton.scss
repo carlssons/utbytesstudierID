@@ -1,23 +1,23 @@
-@import '../../main.scss';
-.toggle-button{
+@import "../../main.scss";
+.toggle-button {
   display: none;
 
-  &:focus{
+  &:focus {
     outline: none;
   }
-  .toggle-button_line{
+  .toggle-button_line {
     width: 30px;
     height: 2px;
     background: $color-text-white;
   }
 
-  @media screen and(max-width: $break-medium){
+  @media screen and(max-width: $break-medium) {
     @include flexbox;
     @include flex-direction(column);
     @include justify-content(space-around);
     margin: 15px;
     height: 30px;
-    width:36px;
+    width: 36px;
     background: transparent;
     border: none;
     cursor: pointer;

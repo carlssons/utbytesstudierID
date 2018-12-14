@@ -1,10 +1,10 @@
-@import '../../main.scss';
-.side-drawer{
+@import "../../main.scss";
+.side-drawer {
   height: 100%;
   background-color: $color-blue;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   width: 70%;
   max-width: 400px;
   z-index: 200;
@@ -12,20 +12,20 @@
   transition: transform 0.4s ease-out;
   overflow: auto;
   touch-action: none;
-  .nav-link{
+  .nav-link {
     text-decoration: none;
     @include font-nav-link;
   }
-  .main-options{
+  .main-options {
     list-style-type: none;
     padding-left: 30px;
     padding-top: 25px;
     font-weight: 500;
-    li{
+    li {
       margin: 40px 0;
     }
 
-    .dropdown{
+    .dropdown {
       display: none;
       list-style-type: none;
       font-weight: 400;
@@ -36,11 +36,11 @@
     }
   }
 
-  @media screen and(min-width: $break-medium + 1){
+  @media screen and(min-width: $break-medium + 1) {
     display: none;
   }
 }
-.side-drawer-open{
+.side-drawer-open {
   transform: translateX(0);
-  box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
 }

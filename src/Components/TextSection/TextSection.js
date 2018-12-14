@@ -3,7 +3,7 @@ import "./TextSection.scss";
 
 const TextSection = ({ text }) => {
   return (
-    <div className="text-interview-box">
+    <div className="text-box">
       {text.heading}
       {text.info}
     </div>
