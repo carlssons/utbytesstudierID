@@ -67,8 +67,7 @@ export const getCoverContent = id => {
       title: <p id="cover-title">FAQ</p>,
       subtitle: (
         <p id="cover-subtitle">
-          Här hittar du vanligt förekommande frågor bland studenter samt
-          kontaktuppgifter till programansvariga och studievägledare.
+          Här hittar du vanligt förekommande frågor bland studenter som har åkt på utbytesstudier.
         </p>
       )
     }
