@@ -22,7 +22,7 @@ class Home extends Component {
           id: "lovisa",
           img: "lovisa.jpg",
           quote:
-            "“ Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest lärorika och utmanande perioder i mitt liv.”",
+            "“Min utbytestermin kommer jag alltid att minnas som en av de roligaste, mest lärorika och utmanande perioder i mitt liv.”",
           info: "- Lovisa Carlsson, Singapore"
         },
         {

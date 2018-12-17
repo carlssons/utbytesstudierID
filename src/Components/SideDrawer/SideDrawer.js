@@ -17,9 +17,6 @@ const SideDrawer = ({ toggleDrawer, toggleDropDown }) => {
           </NavLink>
         </li>
         <li className="navbar-tags">
-          {/*<p href="" onClick={toggleDropDown} className="nav-link">
-              Intervjuer
-            </p>*/}
           <NavLink
             onClick={e => toggleDrawer(e)}
             className="nav-link"
@@ -27,23 +24,6 @@ const SideDrawer = ({ toggleDrawer, toggleDropDown }) => {
           >
             Intervjuer
           </NavLink>
-          {/*<ul className="dropdown">
-            <li>
-              <NavLink onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Afrika</NavLink>
-            </li>
-            <li>
-              <NavLink onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Asien</NavLink>
-            </li>
-            <li>
-              <NavLink onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Europa</NavLink>
-            </li>
-            <li>
-              <NavLink onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Nordamerika</NavLink>
-            </li>
-            <li>
-              <NavLink onClick={e => toggleDrawer(e)} className="nav-link" to="/intervjuer">Oceanien</NavLink>
-            </li>
-  </ul>*/}
         </li>
         <li>
           <NavLink

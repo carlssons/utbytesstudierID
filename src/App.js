@@ -25,17 +25,14 @@ let keys = {
 class App extends Component {
   state = {
     drawerToggled: false,
-    dropdownToggled: false
   };
 
   /*Change the state for the SideDrawer (only displayed on smaller screens).
-  If the menu button is clicked the state drawerToggled will be true.
-  If the SideDrawer is dropDownOpen the scrolling will be dissabled.*/
+  If the menu button is clicked the state drawerToggled will be true.*/
   toggleDrawer = e => {
     this.setState(
       prevState => ({
         drawerToggled: !prevState.drawerToggled,
-        dropdownToggled: false
       }),
       () => {
         const { drawerToggled } = this.state;
@@ -51,37 +48,6 @@ class App extends Component {
       }
     );
   };
-
-  /*Change the state for the dropdown (only displayed on smaller screens).
-  If the "intervjuer" link is clicked the state drawerdownToggled will be true.
-  If the dropdown is open the scrolling will be enabled.*/
-  toggleDropDown = () => {
-    this.setState(
-      prevState => ({
-        dropdownToggled: !prevState.dropdownToggled
-      }),
-      () => {
-        const { dropdownToggled } = this.state;
-        if (dropdownToggled) {
-          $(".dropdown").addClass("open");
-          //this.enableScroll();
-        } else {
-          $(".dropdown").removeClass("open");
-        }
-      }
-    );
-  };
-
-  componentDidUpdate(prevProps, prevState) {
-    const { dropdownToggled } = this.state;
-    if (prevState.dropdownToggled !== dropdownToggled) {
-      if (dropdownToggled) {
-        $(".dropdown").addClass("open");
-      } else {
-        $(".dropdown").removeClass("open");
-      }
-    }
-  }
 
   preventDefault = e => {
     e = e || window.event;
@@ -128,7 +94,6 @@ class App extends Component {
             <Navbar toggleDrawer={this.toggleDrawer} />
             <SideDrawer
               toggleDrawer={this.toggleDrawer}
-              toggleDropDown={this.toggleDropDown}
             />
             {drawerToggled ? <Backdrop toggleDrawer={this.toggleDrawer} /> : []}
           </header>

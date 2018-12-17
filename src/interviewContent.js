@@ -1504,12 +1504,11 @@ export const getInterviewContent = (id, color) => {
           att jag fick uppfylla allt detta. <br/><br/> I singapore är modersmålet engelska 
           även kallat  “Singlish” (Singaporianer har sin egen dialekt och en del egna ord). Detta innebar att 
           det var lätt att förbättra min engelska. I en av de kurserna jag läste var vi 7 studenter 
-          varav alla var från USA, inklusive professorn. I denna kurs fick jag utmana mig själv och vi hade varje 
-          vecka diskussioner på engelska om ämnen relaterade till konst och musik.<br/><br/> Singapore är ett VÄLDIGT 
+          varav alla var från USA, inklusive professorn. Varje vecka skrev vi en kortare rapport och hade diskussioner på engelska om ämnen relaterade till konst och musik.<br/><br/> Singapore är ett VÄLDIGT 
           varmt land med hög luftfuktighet, kändes ovant men kroppen mådde superbra av all D-vitamin! Det 
-          fanns en pool på campus där vi hängde mycket och kunde svalka oss.<br/><br/>Under min termin hann jag resa 
-          väldigt mycket, Singapore ligger nära många spännande länder och flygbiljetter kan man få tag på 
-          billigt. Jag hade kurser i skolan tisdagar-torsdagar och kunde därför resa fredag-måndag. Följande 
+          fanns en pool på campus där vi hängde mycket och kunde svalka oss.<br/><br/>Under min termin hann jag göra många resor, 
+          Singapore ligger nära många spännande länder och flygbiljetter kan man få tag på 
+          billigt. Jag hade kurser i skolan tisdag-torsdag och kunde därför resa fredag-måndag. Följande 
           länder hann jag besöka; Malaysia, Thailand, Indonesien och Japan.<br/><br/> Kurserna jag läste i Singapore var roliga och givande. Jag 
           läste 3 designkurser, 1 kurs i spelprogrammering samt 1 sångkurs. Professorerna var väldigt 
           duktiga och de la ner tid och energi på att se till att vi utvecklades och blev bättre. Eleverna var 

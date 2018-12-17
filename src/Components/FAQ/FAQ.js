@@ -22,7 +22,7 @@ class FAQ extends Component {
         {
           question: (
             <h4 className="h4-question">
-              Varför får man inte skicka in ett utdrag från antagning.se?
+              Varför får man inte skicka in ett betygsutdrag från antagning.se?
             </h4>
           ),
           answer: (
