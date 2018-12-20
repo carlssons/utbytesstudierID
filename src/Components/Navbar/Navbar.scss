@@ -5,7 +5,6 @@
   @include flexbox;
   @include align-items(center);
   position: fixed;
-  top: 0;
   width: 100%;
   z-index: 150;
   @media screen and(min-width: 1300px) {
@@ -18,53 +17,13 @@
     @include justify-content(flex-start);
   }
   .desktop-menu-options {
+    margin: 20px 0;
     @media screen and(max-width: $break-medium) {
       display: none;
     }
-    .nav-link {
+    .navigation-link {
       @include font-nav-link;
-      a {
-        @include font-nav-link;
-      }
-      padding: 20px;
-    }
-    #intervjuerLink {
-      @include flexbox;
-      @include align-items(center);
-      #arrow-down {
-        width: 12px;
-        padding: 3px 0 0 6px;
-      }
-    }
-    .drop-down {
-      position: relative;
-      display: inline-block;
-
-      #dropDownContent {
-        display: none;
-        position: absolute;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        min-width: 160px;
-        z-index: 1;
-        background-color: rgba(15, 24, 51, 0.9);
-        border-top: 1px solid $color-blue;
-
-        a {
-          @include font-nav-link;
-          padding: 15px 20px;
-          &:hover {
-            opacity: 1;
-            background-color: rgba(255, 255, 255, 0.3);
-          }
-        }
-      }
-      &:hover {
-        #dropDownContent {
-          display: block;
-          @include flexbox;
-          @include flex-direction(column);
-        }
-      }
+      margin: 0 20px;
     }
   }
 }
